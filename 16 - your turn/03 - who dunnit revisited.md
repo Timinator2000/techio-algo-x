@@ -14,6 +14,22 @@ The [original Who Dunnit discussion](who-dunnit) focused on mutual exclusivity. 
 
 # The Power of Complex Actions
 
+| Sameness Enforced With: | Actions | me_requirements | Execution Time (ms) |
+|:------|:------:|:------:|:------:|
+| __<span style="color:red">Test Case 1: Medium</span>__ |
+|    Simple Actions | - | - | - |
+|    Complex Actions - Attempt 1 | - | - | - |
+|    Complex Actions - Attempt 2 | - | - | - |
+| __<span style="color:red">Test Case 2:</span>__ |
+|    Simple Actions | - | - | - |
+|    Complex Actions - Attempt 1 | - | - | - |
+|    Complex Actions - Attempt 2 | - | - | - |
+| __<span style="color:red">Test Case 3: Medium</span>__ |
+|    Simple Actions | - | - | - |
+|    Complex Actions - Attempt 1 | - | - | - |
+|    Complex Actions - Attempt 2 | - | - | - |
+
+
 | Test Case | Basic Algorithm X (ms) | Algorithm X With Complex Actions (ms) |
 |:---------:|:----------------------:|:--------------------------------:|
 | 1 | 0 | 0 |
