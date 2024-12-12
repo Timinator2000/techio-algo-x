@@ -45,7 +45,7 @@ If the `break` statement is removed, Algorithm X will search for all solutions. 
 print(f'{solver.solution_count=}', file=sys.stderr, flush=True)
 ```
 
-What do you see? As long as memory is properly used, Algorithm X only finds a single solution for each test case. What if you delete the memory code? Algorithm X finds 6 solutions for __Test Case 1__ and 24 solutions for __Test Case 2__. For the last 3 test cases, the [Codingame](https://www.codingame.com) time limit is hit before Algorithm X finishes searching for solutions.
+What do you see? As long as memory is properly used, Algorithm X only finds a single solution for each test case. What if you delete the memory code? Algorithm X finds 6 solutions for __Test Case 1__ and 24 solutions for __Test Case 2__. For the last 3 test cases, the [CodinGame](https://www.codingame.com) time limit is hit before Algorithm X finishes searching for solutions.
 
 # Takeaways
 
