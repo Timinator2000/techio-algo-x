@@ -14,4 +14,4 @@ I distinctly remember when I first finished the Shikaku Solver puzzle. I had jus
 
 The skill building in the last section should have given you a strong foundation with which to get started on this puzzle, but you still have some challenging work to do. Even if you successfully build a full list of possible rectangles and Algorithm X gives you solutions, determining the correct output will require some attention to detail.
 
-At the time of this writing, only 179 CodinGamers had finished this puzzle in the 5 years since it was published. I hope this playground inspires many, many more people to finish it. I believe the skills learned by this deep dive into Shikaku will serve you well as you move into some of the more complex exact cover problems still to come. 
+At the time of this writing, only 180 CodinGamers had finished this puzzle in the 5 years since it was published. I hope this playground inspires many, many more people to finish it. I believe the skills learned by this deep dive into Shikaku will serve you well as you move into some of the more complex exact cover problems still to come. 
