@@ -24,7 +24,7 @@ Let’s call “two adjacent zones” a set of neighbors and let’s rephrase th
 
 >two neighbors must never be filled with the same color
 
-Algorithm X needs to know every set of neighbor zones so it can make sure no neighbors are ever assigned the same color. And, how do we ensure something doesn’t happen? Correct! Mutual exclusivity.
+Algorithm X needs to know every set of neighbor zones so it can make sure no neighbors are ever assigned the same color. And, how do we ensure that does not happen? Correct! Mutual exclusivity.
 
 <details>
 <summary>Spoiler Alert: Python suggestions for finding neighbor zones.</summary>
@@ -51,7 +51,7 @@ If you really want to make your code “Pythonic”, try this:
 
 ```python
 # assumed data structure
-# zones : List[List[tuple]] – each zone in zones is a list if (r, c) tuples
+# zones : List[List[tuple]] – each zone in zones is a list of (r, c) tuples
 
 from itertools import combinations
 
@@ -62,9 +62,10 @@ for zone_1, zone_2 in combinations(zones, 2):
 ```
 
 The code is still very readable, but the use of `any` has shortened the code and eliminated the need to do further checking to break out of the nested `for` loops.
-</details>
 
 In the Python code above, I have intentionally left out the details needed to replace `(r1, c1, r2, c2 indicate zones are neighbors)` with code. Several CodinGamers have asked for clarification on how to determine when two zones are neighbors and when they are not neighbors. Almost every puzzle on CodinGame has a discussion tab and if you need more help determining neighbors, click [here]( https://www.codingame.com/training/medium/optimized-coloring/discuss) to open this puzzle’s discussion tab.
+
+</details>
 
 # Algorithm X Setup
 
