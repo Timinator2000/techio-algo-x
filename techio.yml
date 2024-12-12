@@ -1,0 +1,242 @@
+title: Algorithm X - Original
+cover: cover_crossword.jpeg 
+
+plan:
+  - title: Welcome
+    plan:
+      - title: Introduction
+        statement: 01 - introduction/welcome.md
+  - title: Exact Cover
+    plan:
+      - title: Exact Cover Definition
+        statement: 02 - exact_cover/01 - exact cover.md
+      - title: Mrs. Knuth
+        statement: 02 - exact_cover/02 - mrs knuth.md
+      - title: Requirements
+        statement: 02 - exact_cover/03 - requirements.md
+      - title: Actions
+        statement: 02 - exact_cover/04 - actions.md
+      - title: The Matrix
+        statement: 02 - exact_cover/05 - matrix.md
+  - title: AlgorithmXSolver
+    plan:
+      - title: The AlgorithmXSolver
+        statement: 03 - AlgorithmXSolver/01 - the AlgorithmXSolver.md
+      - title: Your Solver Subclass
+        statement: 03 - AlgorithmXSolver/02 - your solver.md
+      - title: Finding Solutions
+        statement: 03 - AlgorithmXSolver/03 - finding solutions.md
+      - title: Troubleshooting
+        statement: 03 - AlgorithmXSolver/04 - troubleshooting.md
+  - title: Your Turn
+    plan:
+      - title: Mrs. Knuth - Part I
+        statement: 04 - your turn/01 - mrs knuth part I.md
+      - title: Sudoku Solver
+        statement: 04 - your turn/02 - 9x9 sudoku.md
+      - title: Sudoku (cont.)
+        statement: 04 - your turn/025 - sudoku - cont.md
+      - title: Sudoku Challenge
+        statement: 04 - your turn/028 - sudoku challenge.md
+      - title: 16x16 Sudoku
+        statement: 04 - your turn/03 - 16x16 sudoku.md
+      - title: 25x25 Sudoku
+        statement: 04 - your turn/04 - 25x25 sudoku.md
+      - title: Mini Sudoku Solver
+        statement: 04 - your turn/05 - mini sudoku solver.md
+      - title: Constrained Latin Squares
+        statement: 04 - your turn/06 - constrained latin squares.md
+      - title: Literary Alfabet Soupe
+        statement: 04 - your turn/07 - literary alfabet soupe.md
+  - title: Skill Building - Generating Actions
+    plan:
+      - title: Finding ALL Possibile Actions
+        statement: 045 - generating actions/01 - finding all.md
+      - title: Shikaku Skill Builder
+        statement: 045 - generating actions/02 - shikaku skill builder.md
+  - title: Your Turn
+    plan:
+      - title: Shikaku Solver
+        statement: 048 - your turn/01 - shikaku solver.md
+      - title: Dominoes Solver
+        statement: 048 - your turn/02 - dominoes solver.md
+      - title: Paving with Bricks
+        statement: 048 - your turn/03 - paving with bricks.md
+  - title: Generalized Exact Cover
+    plan:
+      - title: Generalized Exact Cover Definition
+        statement: 05 - generalized exact cover/01 - generalized exact cover.md
+      - title: Eight Queens
+        statement: 05 - generalized exact cover/02 - eight queens.md
+      - title: Mutual Exclusivity
+        statement: 05 - generalized exact cover/03 - mutually exclusive actions.md
+      - title: Mrs. Knuth - Part II
+        statement: 05 - generalized exact cover/04 - mrs knuth - requirements.md
+      - title: Part I vs Part II Analysis
+        statement: 05 - generalized exact cover/05 - mrs knuth - analysis.md
+      - title: Mrs. Knuth - Part II - Actions
+        statement: 05 - generalized exact cover/06 - mrs knuth - actions.md
+      - title: Mrs. Knuth - Part II - Matrix
+        statement: 05 - generalized exact cover/07 - mrs knuth - matrix.md
+      - title: Your Solver Subclass
+        statement: 05 - generalized exact cover/08 - your solver.md
+  - title: Your Turn
+    plan:
+      - title: Mrs. Knuth - Part II
+        statement: 06 - your turn/01 - mrs knuth part II.md
+      - title: n Queens
+        statement: 06 - your turn/02 - n queens.md
+      - title: Finish the Eight Queens
+        statement: 06 - your turn/03 - finish eight queens.md
+      - title: Optimized Coloring
+        statement: 06 - your turn/04 - optimized coloring.md
+      - title: Einstein's Riddle Solver
+        statement: 06 - your turn/05 - einstein riddle.md
+      - title: Winamax Sponsored Contest
+        statement: 06 - your turn/06 - winamax.md
+      - title: Three Little Piggies
+        statement: 06 - your turn/07 - three little piggies.md
+      - title: Breaking Bifid
+        statement: 06 - your turn/08 - breaking bifid.md
+      - title: Futoshiki Solver
+        statement: 06 - your turn/09 - futoshiki solver.md
+      - title: Suguru Solver
+        statement: 06 - your turn/10 - suguru solver.md
+  - title: Multiplicity
+    plan:
+      - title: Ella Wants More Lessons!
+        statement: 07 - multiplicity/01 - multiplicity.md
+      - title: Multiplicity with Algorithm X
+        statement: 07 - multiplicity/02 - multiplicity with algorithm x.md
+      - title: Generating Solutions
+        statement: 07 - multiplicity/03 - generating solutions.md
+      - title: The Multiplicity Challenge
+        statement: 07 - multiplicity/04 - the challenge.md
+      - title: Adding Memory to Algorithm X
+        statement: 07 - multiplicity/05 - memory.md
+      - title: Solution with Memory
+        statement: 07 - multiplicity/06 - solution with memory.md
+  - title: Your Turn
+    plan:
+      - title: Mrs. Knuth - Part III
+        statement: 08 - your turn/01 - mrs knuth part III.md
+      - title: Dumbbells Solver
+        statement: 08 - your turn/02 - dumbbells solver.md
+      - title: Equation Search
+        statement: 08 - your turn/03 - equation search.md
+      - title: Hitori Solver
+        statement: 08 - your turn/04 - hitori solver.md
+      - title: There is No Spoon - Episode 2
+        statement: 08 - your turn/05 - no spoon 2.md
+      - title: There is No Spoon - Episode 2 (cont.)
+        statement: 08 - your turn/06 - no spoon 2 cont.md
+      - title: There is No Spoon - Episode 2 Wrap-Up
+        statement: 08 - your turn/07 - no spoon 2 matrix.md
+  - title: Problem-Space Reduction
+    plan:
+      - title: Problem-Space Reduction
+        statement: 09 - problem-space reduction/01 - problem-space reduction.md
+      - title: Sudoku Problem-Space Reduction
+        statement: 09 - problem-space reduction/02 - sudoku problem-space reduction.md
+      - title: Python Variables
+        statement: 09 - problem-space reduction/03 - variables are pointers.md
+      - title: Setting Up Sudoku
+        statement: 09 - problem-space reduction/04 - setting up sudoku.md
+      - title: Sudoku Challenge
+        statement: 09 - problem-space reduction/05 - sudoku challenge.md
+  - title: Your Turn
+    plan:
+      - title: Literary Alfabet Soupe (Revisited)
+        statement: 10 - your turn/002 - literary alfabet soupe.md
+      - title: 25x25 Sudoku (Revisited)
+        statement: 10 - your turn/005 - 25x25 sudoku.md
+      - title: Futoshiki Solver (Revisited)
+        statement: 10 - your turn/01 - futoshiki solver.md
+      - title: There is No Spoon - Episode 2 (Revisited)
+        statement: 10 - your turn/02 - no spoon 2.md
+      - title: Takuzu Solver
+        statement: 10 - your turn/03 - takuzu solver.md
+      - title: Suguru Solver (Revisited)
+        statement: 10 - your turn/04 - suguru solver.md
+  - title: Steering Algorithm X
+    plan:
+      - title: Backseat Driving
+        statement: 11 - steering algorithm x/01 - backseat driving.md
+      - title: High Rise Buildings
+        statement: 11 - steering algorithm x/02 - high rise buildings.md
+      - title: High Rise Buildings (cont.)
+        statement: 11 - steering algorithm x/03 - high rise buildings - cont.md
+  - title: Your Turn
+    plan:
+      - title: Killer Sudoku
+        statement: 12 - your turn/01 - killer sudoku.md
+      - title: Kakuro Solver
+        statement: 12 - your turn/02 - kakuro solver.md
+      - title: Killer Sudoku Extreme
+        statement: 12 - your turn/03 - killer sudoku extreme.md
+      - title: Tetris Floor
+        statement: 12 - your turn/04 - tetris floor.md
+  - title: Coloring Your Requirements
+    plan:
+      - title: What is Coloring?
+        statement: 13 - coloring your requirements/01 - coloring your requirements.md
+      - title: Coloring with Your Solver
+        statement: 13 - coloring your requirements/02 - constructing a word search.md
+  - title: Your Turn
+    plan:
+      - title: Ye_ An_th_r W_rd Se_rch
+        statement: 14 - your turn/01 - yet another word search.md
+      - title: Agent X, Mission 2
+        statement: 14 - your turn/02 - agent x mission 2.md
+      - title: Agent X, Mission 2 (cont.)
+        statement: 14 - your turn/03 - agent x mission 2 - cont.md
+  - title: Enforcing "Sameness"
+    plan:
+      - title: All-or-None Sets of Events
+        statement: 15 - enforcing sameness/01 - all or none.md
+      - title: All-or-None with Colors
+        statement: 15 - enforcing sameness/02 - all or none with colors.md
+      - title: Complex Actions
+        statement: 15 - enforcing sameness/03 - all or none with complex actions.md
+      - title: Test Your Skills
+        statement: 15 - enforcing sameness/04 - test your skills.md
+  - title: Your Turn
+    plan:
+      - title: Einstein's Riddle Solver (Revisited)
+        statement: 16 - your turn/01 - einstein revisited.md
+      - title: Breaking Bifid (Revisited)
+        statement: 16 - your turn/02 - breaking bifid revisited.md
+  - title: Customizing Your Solver
+    plan:
+      - title: How Does Algorithm X Work?
+        statement: 17 - customizing your solver/01 - algorithm x.md
+      - title: Dancing Links (DLX)
+        statement: 17 - customizing your solver/02 - dancing links.md
+      - title: Customizing Column Selection
+        statement: 17 - customizing your solver/03 - column selection.md
+      - title: Customizing Row Selection
+        statement: 17 - customizing your solver/04 - row selection.md
+  - title: Your Turn
+    plan:
+      - title: Harmless Rooks
+        statement: 18 - your turn/01 - harmless rooks.md
+      - title: Harmless Rooks - Algorithm X
+        statement: 18 - your turn/02 - harmless rooks cont.md
+      - title: Harmless Rooks - Problem-Space Reduction
+        statement: 18 - your turn/03 - harmless rooks cont.md
+      - title: Assorted Rectangular Pieces
+        statement: 18 - your turn/04 - assorted rectangular pieces.md
+  - title: Odds & Ends
+    plan:
+      - title: Solving With Logic Only
+        statement: 19 - odds and ends/01 - solving with logic only.md
+      - title: Afterword
+        statement: 19 - odds and ends/02 - afterword.md
+      - title: Revision History
+        statement: 19 - odds and ends/03 - revision history.md
+projects:
+  python:
+    root: /python-project
+    runner: 
+      name: python
+      version: '3'
