@@ -20,9 +20,9 @@ Harmless Rooks is a hard puzzle, but a very short Algorithm X setup can easily s
 
 # A Perfect World
 
-Rooks move along horizontal and vertical lines. On a standard 8 x 8 chessboard, there are 16 total attack lines, 8 rows and 8 columns. A rook placed on location `(r, c)` _threatens_ all locations in row  `r` and all location in column `c`. Because there is no functional difference between a row and a column, I will refer to all rows and all columns as `AttackLine`s, an uninterrupted group of 1 or more cells that, together, make a horizontal or vertical line. A rook placed on any location in the `AttackLine` threatens all other locations in the `AttackLine`.
+Rooks move along horizontal and vertical lines. On a standard 8 x 8 chessboard, there are 8 rows and 8 columns. A rook placed on location `(r, c)` _threatens_ all locations in row  `r` and all locations in column `c`. Because there is no functional difference between a row and a column, I will refer to all rows and all columns as `AttackLine`s, an uninterrupted group of 1 or more cells that, together, make a horizontal or vertical line. A rook placed on any location in the `AttackLine` threatens all other locations in the `AttackLine`.
 
-Placing a single rook on a standard 8 x 8 chessboard covers two `AttackLine`s, one horizontal and one vertical. On any `N x N` chessboard, consisting of all free squares, a maximum of `N`rooks can be placed. Each rook occupies one row and one column. Using this unobstructed chessboard, the following problem could be considered:
+Placing a single rook on a standard 8 x 8 chessboard covers two `AttackLine`s, one horizontal and one vertical. On any `N x N` chessboard, consisting of all free squares, a maximum of `N` rooks can be placed. Each rook occupies one row and one column. Using this unobstructed chessboard, the following problem could be considered:
 
 >Given an `N x N` chessboard with all free squares, how many different ways can `N` rooks be placed on the board, such that no rook threatens any other rook?
 
@@ -46,9 +46,9 @@ It is not difficult to show that for any `N x N` chessboard, there are `N` facto
 
 # Handling Occupied Spaces
 
-Harmless Rooks has some large boards with many spaces already occupied. Since rooks cannot cross occupied squares, each occupied square either shortens an `AttackLine` or divides an `AttackLine` into two separate lines. Even a single location, bordered on all sides by occupied spaces forms two `AttackLine`s, one horizontal and one vertical. Placing a rook on that isolated space occupies both `AttackLine`s.
+Harmless Rooks has some large boards with many spaces already occupied. Since rooks cannot cross occupied squares, each occupied square either shortens an `AttackLine` or divides an `AttackLine` into two separate lines. Even a single location, bordered on all sides by occupied spaces, forms two `AttackLine`s, one horizontal and one vertical. Placing a rook on that isolated space occupies both `AttackLine`s.
 
-On a board with no occupied spaces, the maximum number of rooks is always `N`. Each rook placed covers one column and one row. Said another way, each rook covers exactly two `AttackLine`s and __all__ `AttackLine`s are covered. As soon as occupied spaces show up on a board, it can get much more difficult to cover every `AttackLine`. The following diagrams shows all attack lines on a 5 x 5 board with a single edge square occupied.
+On a board with no occupied spaces, the maximum number of rooks is always `N`. Each rook placed covers one column and one row. Said another way, each rook covers exactly two `AttackLine`s and __all__ `AttackLine`s are covered. As soon as occupied spaces show up on a board, it can get much more difficult to cover every `AttackLine`. The following diagrams shows all `AttackLine`s on a 5 x 5 board with a single edge square occupied.
 
 <BR>
 
