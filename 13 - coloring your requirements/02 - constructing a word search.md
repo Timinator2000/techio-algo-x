@@ -12,7 +12,7 @@ The first set of requirements is easy. These requirements fit perfectly into the
 
 * Any location covered by 2 or more words must be colored with the same letter by each word.
 
-These non-binary stipulations do not fit into an Algorithm X matrix where everything is binary. The solution is to customize `AlgorithmXSolver`to monitor these non-binary requirements outside the Algorithm X matrix.
+These non-binary stipulations do not fit into an Algorithm X matrix where everything is binary. The solution is to customize `AlgorithmXSolver` to monitor these non-binary requirements outside the Algorithm X matrix.
 
 # Requirements
 
@@ -44,7 +44,7 @@ The pseudocode looks like this:
     def _process_row_selection(self, row):
         word and location = unpack the row
         for each letter in the word:
-            if self.location_colors[grid location] not empty and letter is inappropriate:
+            if self.location_colors[location] not empty and letter is inappropriate:
                 self.solution_is_valid = False
 
             self.location_colors[location].append(letter)
