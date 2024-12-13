@@ -1,6 +1,6 @@
 # `DLXCell`
 
-`AlgorithmXSolver`'s DLX implementation is based on [@RoboStac](https://www.codingame.com/profile/771485904355a5f6267beb29429cad302257061)'s solution to [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares) on [Codingame](https://www.codingame.com). Each instance of `DLXCell` is either a column header, a row header or a location of a `1` in the matrix. I add one key attribute that will be critical when customizing Algorithm X.
+`AlgorithmXSolver`'s DLX implementation is based on [@RoboStac](https://www.codingame.com/profile/771485904355a5f6267beb29429cad302257061)'s solution to [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares) on [CodinGame](https://www.codingame.com). Each instance of `DLXCell` is either a column header, a row header or a location of a `1` in the matrix. I add one key attribute that will be critical when customizing Algorithm X.
 
 * `self.title` - This attribute is used by the row and column headers to store the original requirement and action tuples used to set up Algorithm X.
 
