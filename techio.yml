@@ -198,7 +198,7 @@ plan:
         statement: 15 - enforcing sameness/02 - all or none with colors.md
       - title: Complex Actions
         statement: 15 - enforcing sameness/03 - all or none with complex actions.md
-      - title: Test Your Skills
+      - title: Reducing Sets of Events
         statement: 15 - enforcing sameness/04 - test your skills.md
   - title: Your Turn
     plan:
