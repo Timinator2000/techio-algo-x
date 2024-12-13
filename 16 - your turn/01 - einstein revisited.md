@@ -24,7 +24,7 @@ To build a solution using colors, you will follow the same steps used to build a
 
 # Enforcing Sameness with Complex Actions
 
-Again, building Einstein’s complex actions is almost the exact same process as described in the scavenger hunt. With complex actions, tremendous care must be taken when identifying the requirements covered by each complex action. Do not overlook the `me requirements` for each simple action that is part of the complex action.
+Again, building Einstein’s complex actions is almost the exact same process as described in the scavenger hunt. With complex actions, tremendous care must be taken when identifying the requirements covered by each complex action. Do not overlook the `me_requirements` for each simple action that is part of the complex action.
 
 # Comparison
 
