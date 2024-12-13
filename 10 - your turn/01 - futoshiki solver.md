@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Great Confidence Builder
 
 # Strategy
 
-The [first time Futoshiki was discussed](futoshiki) in this playground, a few key distinctions were made.
+The [first time Futoshiki was discussed](futoshiki-solver) in this playground, a few key distinctions were made.
 
 * Just like Sudoku, Futoshiki is a special kind of Latin Square.
 
