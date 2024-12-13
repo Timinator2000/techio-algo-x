@@ -2,7 +2,7 @@
 
 On the previous page, I indicated the Algorithm X setup could be “Very Hard or Not Too Bad, Your Choice”. In this section, I will cover the harder option.
 
-Coloring is a great fit for [Agent X, Mission 2](https://www.codingame.com/training/medium/agent-x-mission-2mysterious-cryptogram/solution). This playground has explored a significant number of puzzles well before coloring was even introduced, but sometimes, coloring is a far superior option. To really get a feel for coloring vs non-coloring, it can be powerful to solve a problem both ways.
+Coloring is a great fit for [Agent X, Mission 2](https://www.codingame.com/training/medium/agent-x-mission-2mysterious-cryptogram). This playground has explored a significant number of puzzles well before coloring was even introduced, but sometimes, coloring is a far superior option. To really get a feel for coloring vs non-coloring, it can be powerful to solve a problem both ways.
 
 The first puzzle covered in this section was building a word search. I have a few ideas in regard to how that puzzle could be approached purely with Algorithm X, but each of those ideas feels like climbing an enormous mountain. This Agent X, Mission 2 puzzle is a different story. Although the climb is strenuous, there is much to be learned by solving this puzzle with and without coloring.
 
