@@ -168,7 +168,7 @@ plan:
         statement: 11 - steering algorithm x/03 - high rise buildings - cont.md
   - title: Your Turn
     plan:
-      - title: Killer Sudoku
+      - title: Killer Sudoku Solver
         statement: 12 - your turn/01 - killer sudoku.md
       - title: Kakuro Solver
         statement: 12 - your turn/02 - kakuro solver.md
