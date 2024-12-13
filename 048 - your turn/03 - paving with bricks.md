@@ -16,6 +16,6 @@ The goal statement for this puzzle is so short, I will copy it all here:
 >
 >A paving is a way to cover all the surface with bricks (partition)
 
-Interesting! These bricks are the same `1 x 2` shape as the dominoes we just finished arranging. This puzzle asks us to count the number of possible solutions, just like we recently did in [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares).
+Interesting! These bricks are the same `1 x 2` shape as the dominoes we just finished arranging. This puzzle asks us to count the number of possible solutions, just like we recently did in [Constrained Latin Squares](constrained-latin-squares).
 
 Put your study materials away. Keep your eyes on your own work. This is a test! Start your timer. You have 60 minutes.
