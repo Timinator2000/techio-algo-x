@@ -18,7 +18,7 @@ The requirements are straightforward. Some locations on the floor are marked and
 
 >The dumbbells can touch but not cross each other.
 
-How about the actions you can take to build a solution? This puzzle looks very similar to [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) in that regard. Combine what you learned on Dominoes Solver with the skills you solidified on [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) and you should have a clear path forward. Of course, you will need to make sure you properly add precision to the requirements and actions, as was discussed in the approach to Mrs. Knuth – Part III.
+How about the actions you can take to build a solution? This puzzle looks very similar to [Dominoes Solver](dominoes-solver) in that regard. Combine what you learned on Dominoes Solver with the skills you solidified on [Shikaku Solver](shikaku-solver) and you should have a clear path forward. Of course, you will need to make sure you properly add precision to the requirements and actions, as was discussed in the approach to Mrs. Knuth – Part III.
 
 # Memory to Avoid Duplicates
 
