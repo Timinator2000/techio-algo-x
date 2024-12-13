@@ -1,6 +1,6 @@
-# Killer Sudoku
+# Killer Sudoku Solver
 
-__Puzzle:__ [Killer Sudoku](https://www.codingame.com/training/medium/killer-sudoku-solver)
+__Puzzle:__ [Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver)
 
 __Author:__ [@odaxav](https://www.codingame.com/profile/23863af73ab30aa34c1abeb77f21de4e2878884)
 
