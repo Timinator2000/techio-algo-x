@@ -48,7 +48,7 @@ __Great Candidates for Algorithm X:__
 <BR>[There Is No Spoon – Episode 2](there-is-no-spoon---episode-2) (+250 XP) 🚀🚀🚀
 <BR>[Takuzu Solver](takuzu-solver) (+50 XP)
 <BR>[High-Rise Buildings](high-rise-buildings) (+50 XP)
-<BR>[Killer Sudoku Solver](killer-sudoku) (+50 XP)
+<BR>[Killer Sudoku Solver](killer-sudoku-solver) (+50 XP)
 <BR>[Kakuro Solver](kakuro-solver) (+50 XP)
 <BR>[Killer Sudoku Extreme Challenge](killer-sudoku-extreme) (+50 XP)
 <BR>[Tetris Floor](tetris-floor) (+50 XP)
