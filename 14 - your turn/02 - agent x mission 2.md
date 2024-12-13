@@ -35,7 +35,7 @@ Although both statements above are accurate, taking a step back and looking at t
 
 After all mappings are complete, both letter-mapping requirements above are true, but during the process of placing tiles on the gameboard, each letter requirement could be covered many times. To find a proper solution, all the _colorings_ across every _covering_ must be consistent.
 
-Remember, the Algorithm X matrix is binary data. Requirements that can be covered many times do not fit into the binary mold. In the multiplicity section of this playground, we discussed a strategy for requirements that must be covered a certain number of times. Now, we have have a new category of requirements that can be covered an arbitrary number of times and the way they are covered (the color applied to the requirement) must be consistent.
+Remember, the Algorithm X matrix is binary data. Requirements that can be covered many times do not fit into the binary mold. In the multiplicity section of this playground, we discussed a strategy for requirements that must be covered a certain number of times. Now, we have a new category of requirements that can be covered an arbitrary number of times and the way they are covered (the color applied to the requirement) must be consistent.
 
 # Tiles on a Gameboard
 
