@@ -16,7 +16,7 @@ A quick Google search will surely bring you to countless implementations of [Alg
 
 __Exact Cover (Algorithm X Candidate) Puzzles Created for this Playground:__
 <BR>[Mrs. Knuth – Part I](mrs--knuth) (+50 XP)
-<BR>[Mrs. Knuth – Part II](mrs--knuth---part--ii) (+50 XP)
+<BR>[Mrs. Knuth – Part II](mrs--knuth---part-ii) (+50 XP)
 <BR>[Mrs. Knuth – Part III](ella-wants-more-lessons) (+50 XP)
 <BR>[Equation Search](equation-search) (+50 XP)
 <BR>[Ye_ An_th_r W_rd Se_rch](ye_-an_th_r-w_rd-se_rch) (+50 XP)
