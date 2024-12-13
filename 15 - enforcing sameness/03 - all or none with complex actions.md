@@ -50,7 +50,7 @@ The `AlgorithmXSolver` `_process_row_selection()` and `_process_row_deselection(
 
 In the following code snippet, notice how the list of names for each family is put into a single action. List comprehensions are used to identify _all_ requirements satisfied by the complex action.  Each student that is part of the family adds two satisfied requirements to the list.
 
-It is important that a family with only one child is still treated as a group of children. Every action, whether the family has 1, 2, 3 or more children assigns a team color to all members of the family group.
+It is important that a family with only one child is still treated as a group of children. Every action, whether the family has 1, 2, 3 or more children, assigns a team color to all members of the family group.
 
 ```python
         actions = dict()
