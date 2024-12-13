@@ -230,8 +230,8 @@ plan:
     plan:
       - title: Strategy Going Forward
         statement: 19 - 2025 and beyond/01 - overview.md
-      - title: Who Dunnit?
-        statement: 19 - 2025 and beyond/02 - who dunnit.md
+      # - title: Who Dunnit?
+      #   statement: 19 - 2025 and beyond/02 - who dunnit.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
