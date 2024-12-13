@@ -14,7 +14,7 @@ There are many ways to approach problem-space reduction. You will need to choose
 
 # One More Round of Sudoku
 
-Consider __Test Case 1: Very Easy__ from [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) on [Codingame](https://www.codingame.com). In the test cases, a `0` represents an unknown cell. The following diagram leaves the unknown cells empty.
+Consider __Test Case 1: Very Easy__ from [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) on [CodinGame](https://www.codingame.com). In the test cases, a `0` represents an unknown cell. The following diagram leaves the unknown cells empty.
 
 <BR><BR>
 ![Sudoku Test Case 1](sudoku01.png)
