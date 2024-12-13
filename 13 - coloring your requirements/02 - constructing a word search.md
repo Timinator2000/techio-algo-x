@@ -58,6 +58,8 @@ The last line above might be a little confusing. Why is the letter being added t
         for each location covered by the word:
             remove the most recent addition to self.location_colors[location]
 ```
+# Putting It All Together
+
 
 # Tremendous Power From Minimal Effort
 
