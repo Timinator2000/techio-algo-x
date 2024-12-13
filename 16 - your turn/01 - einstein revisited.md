@@ -16,7 +16,7 @@ Einstein’s Riddle Solver is extremely similar to the [scavenger hunt](all-or-n
 
 # All-Or-None Sets of Characteristics
 
-Because every characteristic must be accounted for, start with a list of sets where each set contains exactly one characteristic. Then, add another set to the list for each group of 2 characteristics that must be the same. The last step is to use the skills practiced on the [previous page](test-your-skills) to combine the all-or-none sets that overlap. In the end, you will have some sets with multiple characteristics that must be the same and several sets that still only contain a single characteristic, meaning that characteristic is not _required_ to be in the same column as any other characteristic.
+Because every characteristic must be accounted for, start with a list of sets where each set contains exactly one characteristic. Then, add another set to the list for each group of 2 characteristics that must be the same. The last step is to use the skills practiced on the [previous page](reducing-sets-of-events) to combine the all-or-none sets that overlap. In the end, you will have some sets with multiple characteristics that must be the same and several sets that still only contain a single characteristic, meaning that characteristic is not _required_ to be in the same column as any other characteristic.
 
 # Enforcing Sameness with Colors
 
