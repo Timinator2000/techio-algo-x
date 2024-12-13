@@ -67,7 +67,7 @@ If you have completed even a handful of puzzles so far using `AlgorithmXSolver` 
 
 <BR>
 
-…the next section on all-or-none sets of events contains a [detailed implementation with coloring](all-or-none-with-colors) that might help get you past any roadblocks.
+…the next section on all-or-none sets of events contains a [detailed implementation with coloring](all-or-none-with-colors) that might help.
 
 </details>
 
