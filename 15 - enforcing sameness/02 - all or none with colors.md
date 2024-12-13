@@ -1,6 +1,6 @@
 # Algorithm X Setup
 
-This toy example is a straightforward Algorithm X setup. What are the requirements? Each student must be assigned to a team color and each grade (age) must be represented on each team. What are the actions? Each action assigns a team color to one of the students. But, how do we make sure the siblings are always placed on the same team? Using colors to enforce sameness, of course! Let’s build a solution one step at a time. At the bottom is a fully funcitonal solution if you wish to experiment further. 
+This toy example is a straightforward Algorithm X setup. What are the requirements? Each student must be assigned to a team color and each grade (age) must be represented on each team. What are the actions? Each action assigns a team color to one of the students. But, how do we make sure the siblings are always placed on the same team? Using colors to enforce sameness, of course! Let’s build a solution one step at a time. At the bottom is a fully functional solution if you wish to experiment further. 
 
 
 # Building the All-or-None Sets
