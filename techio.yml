@@ -172,7 +172,7 @@ plan:
         statement: 12 - your turn/01 - killer sudoku.md
       - title: Kakuro Solver
         statement: 12 - your turn/02 - kakuro solver.md
-      - title: Killer Sudoku Extreme
+      - title: Killer Sudoku Extreme Challenge
         statement: 12 - your turn/03 - killer sudoku extreme.md
       - title: Tetris Floor
         statement: 12 - your turn/04 - tetris floor.md
