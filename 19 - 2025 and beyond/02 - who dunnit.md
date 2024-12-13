@@ -1,4 +1,4 @@
-# Who Dunnit? (Revisited)
+# Who Dunnit?
 
 __Puzzle:__ Who Dunnit? [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
 
