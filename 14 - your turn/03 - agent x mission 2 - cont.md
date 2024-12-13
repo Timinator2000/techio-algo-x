@@ -41,7 +41,7 @@ To make this process just a bit more concrete, each `me_requirement` takes the f
 ((register_letter_1, cipher_letter_1), (register_letter_2, cipher_letter_2))
 ```
 
-In other words, `register_letter_1` can be assinged to `cipher_letter_1` __OR__ `register_letter_2` can be assinged to `cipher_letter_2`, but both __MUST NOT__ happen in the same solution.
+In other words, `register_letter_1` can be assigned to `cipher_letter_1` __OR__ `register_letter_2` can be assigned to `cipher_letter_2`, but both __MUST NOT__ happen in the same solution.
 
 # Are You Kidding Me?
 
