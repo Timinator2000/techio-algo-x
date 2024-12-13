@@ -49,7 +49,7 @@ Unlike many of the puzzles covered so far, the goal statement does not give a na
 >- \X : the horizontal sum X of the cells to the right,
 >- X\Y : the vertical sum X of the cells downwards, and the horizontal sum Y of the cells to the right.
 
-Do you see the similarities between these groups and the cages you just explored in [Killer Sudoku Solver](killer-sudoku)? What are the differences?
+Do you see the similarities between these groups and the cages you just explored in [Killer Sudoku Solver](killer-sudoku-solver)? What are the differences?
 
 One difference is that in Kakuro, the groups are either a horizontal line of cells or a vertical line of cells. Although this is true, it is not meaningful. In Killer Sudoku, all cells of a cage could also be in a line vertically or horizontally.
 
@@ -59,7 +59,7 @@ __Groups in Kakuro are 100% identical to cages in Killer Sudoku.__ Hopefully you
 
 # Suggested Path Forward
 
-The big-picture structure of your code can be exactly the same as what you wrote for [High-Rise Buildings](high-rise-buildings) and [Killer Sudoku Solver](killer-sudoku).
+The big-picture structure of your code can be exactly the same as what you wrote for [High-Rise Buildings](high-rise-buildings) and [Killer Sudoku Solver](killer-sudoku-solver).
 
 * Create a dictionary of cells.
   
