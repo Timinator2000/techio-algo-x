@@ -60,6 +60,17 @@ The last line above might be a little confusing. Why is the letter being added t
 ```
 # Putting It All Together
 
+If you have completed even a handful of puzzles so far using `AlgorithmXSolver` and the code structures detailed in this playground, you have noticed the code looks very similar every time. Hopefully, creating an `AlgorithmXSolver` subclass that incorporates these minor customizations to facilitate coloring is easy and straightforward. Of course, you’ll need to implement all the pseudocode. 
+
+<details>
+<summary>If you run into any difficulty…</summary>
+
+<BR>
+
+…the next section on all-or-none sets of events contains a [detailed implementation with coloring](all-or-none-with-colors) that might help get you past any roadblocks.
+
+</details>
+
 
 # Tremendous Power From Minimal Effort
 
