@@ -1,6 +1,6 @@
 # This Will Be Important Later
 
-You may have already finished all the Sudoku puzzles without any problem-space reduction. I strongly suggest you consider following through with what I'm about to propose and the reason is because of [Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) and [Killer Sudoku Extreme](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge). 100% of any effort you put forward on this exercise will benefit you when you solve the Killer Sudoku puzzles, which begin with all the same rules as Sudoku and then add a few details you can tackle later.
+You may have already finished all the Sudoku puzzles without any problem-space reduction. I strongly suggest you consider following through with what I'm about to propose and the reason is because of [Killer Sudoku Solver](killer-sudoku) and [Killer Sudoku Extreme](killer-sudoku-extreme). 100% of any effort you put forward on this exercise will benefit you when you solve the Killer Sudoku puzzles, which begin with all the same rules as Sudoku and then add a few details you can tackle later.
 
 # Initial Challenge - Lone Singles
 
