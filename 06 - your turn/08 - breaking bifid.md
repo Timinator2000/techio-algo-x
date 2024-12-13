@@ -77,4 +77,4 @@ The first pair, (row of A, row of N), tells us where to look in the Polybius squ
 ![Toy Example - Conclusion](Toy4.png)
 <BR>
 
-We finally have some requirements more interesting than a letter needing to be put on the grid. We know that A and S must be in the same row! These two things must be the same, or in other words...they must not be different. Hopefully you did [Einstein's Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) and you remember how to turn items that must be the same into a set of mutually exclusive items. If not, it might be time to go back and finish that puzzle first! 
+We finally have some requirements more interesting than a letter needing to be put on the grid. We know that A and S must be in the same row! These two things must be the same, or in other words...they must not be different. Hopefully you did [Einstein's Riddle Solver](einsteins-riddle-solver) and you remember how to turn items that must be the same into a set of mutually exclusive items. If not, it might be time to go back and finish that puzzle first! 
