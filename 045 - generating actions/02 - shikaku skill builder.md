@@ -8,7 +8,7 @@ Published Difficulty: Easy
 
 # Visualizing the Problem
 
-Shikaku is a great place to start because the directions have a decent chance of putting you on a path that might lead to a dead end. According to the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle specification:
+Shikaku is a great place to start because the directions have a decent chance of putting you on a path that might lead to a dead end. According to the [Shikaku Solver](shikaku-solver) puzzle specification:
 
 >The objective is to divide the grid into rectangular pieces such that each piece contains exactly one number, and that number represents the area of the rectangle.
 
@@ -18,7 +18,7 @@ Algorithm X doesn’t know how to “divide” things up. Algorithm X is extreme
 
 # Skill Building
 
-In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of Shikaku Skill Builder is to practice enumerating all the possible actions. Let’s test your understanding.
+In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](shikaku-solver) puzzle. The goal of Shikaku Skill Builder is to practice enumerating all the possible actions. Let’s test your understanding.
 
 # Start Out Easy
 
