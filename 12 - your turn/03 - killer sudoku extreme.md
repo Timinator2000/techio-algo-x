@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ It Depends
 
 # Strategy
 
-In Killer Sudoku Extreme Challenge, your algorithm needs to solve up to 40 __Expert__ Killer Sudoku grids. You will need to do everything you did to solve the original [Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) puzzle and more. You must find some amount of problem-space reduction that makes each grid fairly easy for Algorithm X. When solving 40 puzzles, there is not enough time for Algorithm X to do too much backtracking.
+In Killer Sudoku Extreme Challenge, your algorithm needs to solve up to 40 __Expert__ Killer Sudoku grids. You will need to do everything you did to solve the original [Killer Sudoku Solver](killer-sudoku) puzzle and more. You must find some amount of problem-space reduction that makes each grid fairly easy for Algorithm X. When solving 40 puzzles, there is not enough time for Algorithm X to do too much backtracking.
 
 # Solving Every Grid Logically
 
