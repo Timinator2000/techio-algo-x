@@ -9,7 +9,7 @@ __Published Difficulty:__ Medium
 __Algorithm X Complexity:__ Would You Like a Bit of Everything???
 
 # Strategy
-
+ 
 Killer Sudoku seems easy enough. It is just Sudoku with one twist. The cells of the Sudoku grid are grouped into cages that must sum to a given amount. No problem, right?
 
 This puzzle is extremely interesting, especially when you look at __Test Case 4: Expert__ where the entire grid is initially empty. We know Algorithm X can easily solve a Sudoku, so how about having Algorithm X generate every possible Sudoku grid until one is generated that does not violate any of the given cage sums? There is a tiny problem with that approach. According to [Brittanica.com]( https://www.britannica.com/story/will-we-ever-run-out-of-sudoku-puzzles):
