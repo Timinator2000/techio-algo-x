@@ -63,7 +63,7 @@ The last line above might be a little confusing. Why is the letter being added t
 If you have completed even a handful of puzzles so far using `AlgorithmXSolver` and the code structures detailed in this playground, you have noticed the code looks very similar every time. Hopefully, creating an `AlgorithmXSolver` subclass that incorporates these minor customizations to facilitate coloring is easy and straightforward. Of course, you’ll need to implement all the pseudocode. 
 
 <details>
-<summary>If you run into any difficulty…</summary>
+<summary>If you run into difficulty…</summary>
 
 <BR>
 
