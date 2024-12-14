@@ -40,4 +40,4 @@ To get started, I recommend you work on setting up Algorithm X with no problem-s
 
 A hardcore Algorithm X setup will quickly solve __Test Case 3: Hard__, and you might eke out a solution for __Test Case 4: Expert__ before timing out. To solve the 4th test case in a more reasonable amount of time requires some problem-space reduction.
 
-Everything you learn on this puzzle will help you finish the next two puzzles, [Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver) and [Killer Sudoku Extreme Challenge]( https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge). If you want to get a head start on the next two puzzles, I suggest spending some time here on reducing cages. Your ability to reduce cages will be critical on both of the next two puzzles.
+Everything you learn on this puzzle will help you finish the next two puzzles, [Kakuro Solver](kakuro-solver) and [Killer Sudoku Extreme Challenge](killer-sudoku-extreme-challenge). If you want to get a head start on the next two puzzles, I suggest spending some time here on reducing cages. Your ability to reduce cages will be critical on both of the next two puzzles.
