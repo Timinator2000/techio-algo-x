@@ -50,7 +50,7 @@ __Great Candidates for Algorithm X:__
 <BR>[High-Rise Buildings](high-rise-buildings) (+50 XP)
 <BR>[Killer Sudoku Solver](killer-sudoku-solver) (+50 XP)
 <BR>[Kakuro Solver](kakuro-solver) (+50 XP)
-<BR>[Killer Sudoku Extreme Challenge](killer-sudoku-extreme) (+50 XP)
+<BR>[Killer Sudoku Extreme Challenge](killer-sudoku-extreme-challenge) (+50 XP)
 <BR>[Tetris Floor](tetris-floor) (+50 XP)
 <BR>[Agent X, Mission 2—Mysterious Cryptogram](agent-x-mission-2) (+50 XP)
 <BR>[Harmless Rooks](harmless-rooks) (+50 XP)
