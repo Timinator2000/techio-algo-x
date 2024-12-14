@@ -34,4 +34,4 @@ If you implement this approach, your solver subclass must also override the meth
 
 <BR>
 
-This is a very minimal amount of code that can provide tremendous horsepower to Algorithm X. To see how it works, let’s take a closer look at the puzzle, [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings).
+This is a very minimal amount of code that can provide tremendous horsepower to Algorithm X. To see how it works, let’s take a closer look at the puzzle, [High-Rise Buildings](high-rise-buildings).
