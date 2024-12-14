@@ -68,3 +68,9 @@ Once this loop finishes, you are left with a partial solution. Some number of li
 # Your Goal
 
 Using only problem-space reduction logic, no backtracking at all, you can solve test cases 1 – 8 and 10. To solve all the test cases with Algorithm X, you will need to use some pre-backtracking logic to shrink the size of the problem you give to Algorithm X.
+
+# Solving Logic Puzzles Logically
+
+Many __Hashiwokakero (There is No Spoon - Episode 2)__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
+
+
