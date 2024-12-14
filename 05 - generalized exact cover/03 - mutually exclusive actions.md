@@ -32,11 +32,11 @@ Unfortunately, the mutually exclusive elements are __rarely__ (*see note below) 
 ((0, 0, 4), (0, 1, 4))       # ((row, col, number), (row, col, number))
 ```
 
-What does this requirement tell us? The number `4` can be put in `(row 0, col 0)` or the number `4` can be put in `(row 0, col 1)`, but both cannot happen in the same solution. You should see that two actions will cover this one requirement. Putting a `4` in `(row 0, col 0)` covers this requirement and putting a `4` in `(row 0, col 1)` covers this requirement. Because the requirement may only be covered once, all solutions produced by Algorithm X will fall into one of 3 categories:
+What does this requirement tell us? The number `4` can be put in `(row 0, col 0)` or the number `4` can be put in `(row 0, col 1)`, but both cannot happen in the same solution. You should see that two distinct actions cover this one requirement. Putting a `4` in `(row 0, col 0)` covers this requirement. Putting a `4` in `(row 0, col 1)` covers this requirement. Because the requirement may only be covered once, all solutions produced by Algorithm X will fall into one of 3 categories:
 
-1.	The solution does not have a `4` in `(row 0, col 0)`, nor does it have a `4` in `(row 0, col 1)`.
-2.	The solution has a `4` in `(row 0, col 0)`, and some other number in `(row 0, col 1)`.
-3.	The solution has a `4` in `(row 0, col 1)`, and some other number in `(row 0, col 0)`.
+1.	The solution does not have a `4` in `(row 0, col 0)`, nor does it have a `4` in `(row 0, col 1)`
+1.	The solution has a `4` in `(row 0, col 0)`, and some other number in `(row 0, col 1)`.
+1.	The solution has a `4` in `(row 0, col 1)`, and some other number in `(row 0, col 0)`.
 
 This might seem like an excruciating amount of detail, but mastering mutual exclusivity will feel like a superpower as you solve more and more challenges with Algorithm X.
 
