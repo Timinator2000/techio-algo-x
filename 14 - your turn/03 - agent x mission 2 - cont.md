@@ -60,7 +60,7 @@ I optimized my code by only considering register words that truly could be mappe
 
 There is good news and bad news about the size of these numbers. The good news is Algorithm X and DLX chewed through the matrix data like a hot knife through butter; no significant issues at all. The bad news is setting up the actions to feed to Algorithm X required a bit of optimization. After all, the more often you filter a list of 10s of thousands of `me_requirements`, the better chance that filtering takes an unreasonable amount of time.
 
-# Conclusion
+# Observations
 
 I cannot say enough about the value you might find by solving Agent X, Mission 2 both with and without coloring. In his book, Knuth goes through the math behind how to convert any problem with coloring to a standard Algorithm X problem without coloring. I contend a deep dive into the trenches of a puzzle like this is the way to really solidify that knowledge and understanding.
 
