@@ -40,8 +40,9 @@ What does this requirement tell us? The number `4` can be put in `(row 0, col 0)
 
 This might seem like an excruciating amount of detail, but mastering mutual exclusivity will feel like a superpower as you solve more and more challenges with Algorithm X.
 
+<BR>
 
-•	Note: I intentionally avoided the word _never_. It does happen, so never rule out the simple approach!
+>Note: I intentionally avoided the word _never_. It does happen, so never rule out the simple approach!
 
 # BREAKING NEWS
 
