@@ -4,7 +4,7 @@ __Puzzle:__ [Winamax Sponsored Contest](https://www.codingame.com/training/hard/
 
 __Difficulty:__ Hard
 
-__Algorithm X Complexity:__ Requirements are Straightforward, Actions are Complex (You May Need Aspirin)
+__Algorithm X Complexity:__ Requirements are Straightforward, Actions are Not (You May Need Aspirin)
 
 # Big Payoff
 
