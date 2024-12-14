@@ -29,7 +29,7 @@ Putting bananas in a smoothie satisfies this requirement. Putting kale in a smoo
 Unfortunately, the mutually exclusive elements are __rarely__ (*see note below) as simple as `'banana'` and `'kale'`. More often, a tuple of data is needed to distinguish the mutually exclusive elements. In Japanese logic puzzles, numbers are often being placed on a grid. Consider a puzzle where cells of the grid must not have the same number as any cell with which it shares a horizontal or a vertical border. To enforce this rule requires a bunch of optional requirements to enforce mutual exclusivity. Let’s assume we have chosen to use tuples of the form `(row, col, number)`. Each new requirement takes this form:
 
 ```python
-((0, 0, 4), (0, 1, 4))
+((0, 0, 4), (0, 1, 4))       # ((row, col, number), (row, col, number))
 ```
 
 What does this requirement tell us? The number `4` can be put in `(row 0, col 0)` or the number `4` can be put in `(row 0, col 1)`, but both cannot happen in the same solution. You should see that two actions will cover this one requirement. Putting a `4` in `(row 0, col 0)` covers this requirement and putting a `4` in `(row 0, col 1)` covers this requirement. Because the requirement may only be covered once, all solutions produced by Algorithm X will fall into one of 3 categories:
