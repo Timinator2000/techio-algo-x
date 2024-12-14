@@ -57,7 +57,7 @@ while need_to_reduce:
             need_to_reduce = True
 ```
 
-Once this loop finishes, you are left with a partial solution. Some number of links have been placed between `Node`s and all those `Node`s have lowered their needed link totals. The remaining problem is a smaller, standalone version of the problem that can be solved with no knowledge of what has been accomplished with the logic above. This puzzle is a great candidate for the 3rd option I discussed many pages ago for handling preselected actions. I suggest the following:
+Once this loop finishes, you are left with a partial solution. Some number of links have been placed between `Node`s and all those `Node`s have lowered their needed link totals. The remaining problem is a smaller, standalone version of the problem that can be solved with no knowledge of what has been accomplished with the logic above. This puzzle is a great candidate for the [3rd option I discussed many pages ago](sudoku-cont-) for handling preselected actions. I suggest the following:
 
 1. Build a list of links placed with the logic above.
 
