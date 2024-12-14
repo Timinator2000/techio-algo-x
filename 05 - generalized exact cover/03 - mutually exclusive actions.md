@@ -26,7 +26,7 @@ Let’s say I need an algorithm to identify smoothie recipes that meet certain c
 
 Putting bananas in a smoothie satisfies this requirement. Putting kale in a smoothie satisfies this requirement. Because Algorithm X will only allow this requirement to be satisfied, at most, one time, there is no way for both bananas and kale to end up in the same smoothie.
 
-Unfortunately, the mutually exclusive elements are __rarely__ (*see note below) as simple as `'banana'` and `'kale'`. More often than not, a tuple of data is needed to distinguish the mutually exclusive elements. In Japanese logic puzzles, numbers are often being placed on a grid. Consider a puzzle where cells of the grid must not have the same number as any cell with which it shares a horizontal or a vertical border. To enforce this rule requires a bunch of optional requirements to enforce mutual exclusivity. Let’s assume we have chosen to use tuples of the form `(row, col, number)`. Each new requirement takes this form:
+Unfortunately, the mutually exclusive elements are __rarely__ (*see note below) as simple as `'banana'` and `'kale'`. More often, a tuple of data is needed to distinguish the mutually exclusive elements. In Japanese logic puzzles, numbers are often being placed on a grid. Consider a puzzle where cells of the grid must not have the same number as any cell with which it shares a horizontal or a vertical border. To enforce this rule requires a bunch of optional requirements to enforce mutual exclusivity. Let’s assume we have chosen to use tuples of the form `(row, col, number)`. Each new requirement takes this form:
 
 ```python
 ((0, 0, 4), (0, 1, 4))
