@@ -1,6 +1,6 @@
 # Going Forward
 
-This playground was first published in December 2024. I have no doubt that many more exact cover problems will come my way, and I look forward to seeing how well the techniques laid out here apply to each one.
+This playground was first published in December 2024. I have no doubt many more exact cover problems will come my way, and I look forward to seeing how well the techniques laid out here apply to each one.
 
 Instead of inserting new puzzles into the sections to which they might have been assigned during playground construction, those puzzles will be placed here. My hope is to provide an overview of each puzzle, but maybe a bit less guidance as to which techniques I believe fit the puzzles best.
 
