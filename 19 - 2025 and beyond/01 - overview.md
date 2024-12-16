@@ -12,7 +12,7 @@ The individual steps you can take to build a solution.
 
 # [Requirements](requirements)
 
-The necessary details you’re a solution must satisfy.
+The necessary details a solution must satisfy.
 
 # [Optional Requirements](generalized-exact-cover-definition)
 
@@ -20,7 +20,7 @@ Details a solution may or may not satisfy, but if satisfied, they must only be s
 
 # [Mutual Exclusivity](mutual-exclusivity)
 
-Using optional requirements to enforce situations where two elements must not both be part of the same solution.
+Using optional requirements to enforce situations where two elements must __not__ both be part of the same solution.
 
 # [Multiplicity](ella-wants-more-lessons)
 
@@ -28,7 +28,7 @@ Handling situations where certain requirements must be covered more than one tim
 
 # [Steering Algorithm X](backseat-driving)
 
-Keeping track of your problems state outside the Algorithm X matrix so that you can redirect Algorithm X when certain search paths are know to lead to dead ends.
+Keeping track of your problems state outside the Algorithm X matrix so you can redirect Algorithm X when certain search paths are know to lead to dead ends.
 
 # [Coloring Your Requirements](what-is-coloring)
 
@@ -49,7 +49,3 @@ Influencing the order in which Algorithm X selects columns and/or rows as it sea
 # [Problem-Space Reduction](problem-space-reduction-2)
 
 Using logic to solve part of a problem, leaving a more manageable task for Algorithm X.
-
-
-
-
