@@ -71,9 +71,7 @@ It is important that a family with only one child is still treated as a group of
 A very minor change must be made as the actions that make up a solution are unpacked. Each action now contains a group of names. That entire group of names must be added to the proper team.
 
 ```python
-    count = 0
     for solution in solver.solve():
-        count += 1
         teams = {'r':[], 'g':[], 'b':[]}
         for _, names, team_color in solution:
             teams[team_color].extend(names)
