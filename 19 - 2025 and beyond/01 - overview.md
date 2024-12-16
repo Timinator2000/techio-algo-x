@@ -6,29 +6,49 @@ Instead of inserting new puzzles into the sections to which they might have been
 
 If you find a puzzle you’d like me to consider adding to this section, please leave a comment or reach out to me in the [CodinGame Forum](https://www.codingame.com/forum). Below are links to all the major topics you may want to revisit if you get stuck. Good luck!
 
-|:------:|:------------------------------------------------|
-| [Actions](actions) |The individual steps you can take to build a solution. |
-| [Requirements](requirements) | The necessary details you’re a solution must satisfy. |
+# [Actions](actions)
+
+The individual steps you can take to build a solution.
+
+# [Requirements](requirements)
+
+The necessary details you’re a solution must satisfy.
 
 # [Optional Requirements](generalized-exact-cover-definition)
 
 Details a solution may or may not satisfy, but if satisfied, they must only be satisfied one time.
 
-[Mutual Exclusivity](mutual-exclusivity) – Using optional requirements to enforce situations where two elements must not both be part of the same solution.
+# [Mutual Exclusivity](mutual-exclusivity)
 
-[Multiplicity](ella-wants-more-lessons) – Handling situations where certain requirements must be covered more than one time.
+Using optional requirements to enforce situations where two elements must not both be part of the same solution.
 
-[Steering Algorithm X](backseat-driving) – Keeping track of your problems state outside the Algorithm X matrix so that you can redirect Algorithm X when certain search paths are know to lead to dead ends.
+# [Multiplicity](ella-wants-more-lessons)
 
-[Coloring Your Requirements](what-is-coloring) – Handling situations where certain requirements may be covered more than one time as long as they are covered by the same “color”.
+Handling situations where certain requirements must be covered more than one time.
 
-[All-or-None Sets of Events](all-or-none-sets-of-events) – Identifying situations where certain actions must happen together or certain elements must be the same.
+# [Steering Algorithm X](backseat-driving)
 
-[Enforcing Sameness with Complex Actions](complex-actions) – Bundling simple steps into a group of steps that must be added to a solution as a whole.
+Keeping track of your problems state outside the Algorithm X matrix so that you can redirect Algorithm X when certain search paths are know to lead to dead ends.
 
-[Customizing Your Solver’s Row and/or Column Selection](how-does-algorithm-x-work) – Influencing the order in which Algorithm X selects columns and/or rows as it searches the matrix for solutions.
+# [Coloring Your Requirements](what-is-coloring)
 
-[Problem-Space Reduction](problem-space-reduction-2) – Using logic to solve part of a problem, leaving a more manageable task for Algorithm X.
+Handling situations where certain requirements may be covered more than one time as long as they are covered by the same “color”.
+
+# [All-or-None Sets of Events](all-or-none-sets-of-events)
+
+Identifying situations where certain actions must happen together or certain elements must be the same.
+
+# [Enforcing Sameness with Complex Actions](complex-actions)
+
+Bundling simple steps into a group of steps that must be added to a solution as a whole.
+
+# [Customizing Your Solver’s Row and/or Column Selection](how-does-algorithm-x-work)
+
+Influencing the order in which Algorithm X selects columns and/or rows as it searches the matrix for solutions.
+
+# [Problem-Space Reduction](problem-space-reduction-2)
+
+Using logic to solve part of a problem, leaving a more manageable task for Algorithm X.
 
 
 
