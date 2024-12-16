@@ -10,7 +10,9 @@ If you find a puzzle you’d like me to consider adding to this section, please 
 | [Actions](actions) |The individual steps you can take to build a solution. |
 | [Requirements](requirements) | The necessary details you’re a solution must satisfy. |
 
-[Optional Requirements](generalized-exact-cover-definition) – Details a solution may or may not satisfy, but if satisfied, they must only be satisfied one time.
+# [Optional Requirements](generalized-exact-cover-definition)
+
+Details a solution may or may not satisfy, but if satisfied, they must only be satisfied one time.
 
 [Mutual Exclusivity](mutual-exclusivity) – Using optional requirements to enforce situations where two elements must not both be part of the same solution.
 
