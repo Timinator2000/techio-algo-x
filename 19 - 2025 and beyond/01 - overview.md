@@ -6,7 +6,7 @@ Instead of inserting new puzzles into the sections to which they might have been
 
 If you find a puzzle you’d like me to consider adding to this section, please leave a comment or reach out to me in the [CodinGame Forum](https://www.codingame.com/forum). Below are links to all the major topics you may want to revisit if you get stuck. Good luck!
 
-|:----------------------:|:--------------------|
+|:------:|:------------------------------------------------|
 | [Actions](actions) |The individual steps you can take to build a solution. |
 | [Requirements](requirements) | The necessary details you’re a solution must satisfy. |
 
