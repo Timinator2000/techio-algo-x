@@ -20,4 +20,4 @@ Whatever it is you want to accomplish, tell somebody your plan. Make sure it is 
 
 # What’s Next
 
-If you enjoyed this playground, the obvious tasks to consider next are implementing Knuth’s Algorithm M and Algorithm C. If you dive into his material, you will see many more single letter algorithms you might also explore. If you do go down those paths, please reach out to me in the [CodinGame Forum](https://www.codingame.com/forum) and I will gladly add a link here to your playground!
+If you enjoyed this playground, the obvious tasks to consider next are implementing Knuth’s Algorithm M and Algorithm C. If you dive into his material, you will see many more single letter algorithms you might also explore. If you do go down those paths, please reach out to me in the [CodinGame Forum](https://www.codingame.com/forum/u/timinator) and I will gladly add a link here to your playground!
