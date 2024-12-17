@@ -4,7 +4,7 @@ This playground was first published in December 2024. I have no doubt many more 
 
 Instead of inserting new puzzles into the sections to which they might have been assigned during playground construction, those puzzles will be placed here. My hope is to provide an overview of each puzzle, but maybe a bit less guidance as to which techniques I believe fit the puzzles best.
 
-If you find a puzzle you’d like me to consider adding to this section, please leave a comment or reach out to me in the [CodinGame Forum](https://www.codingame.com/forum). Below are links to all the major topics you may want to revisit if you get stuck. Good luck!
+If you find a puzzle you would like me to consider adding to this section, please leave a comment or reach out to me in the [CodinGame Forum](https://www.codingame.com/forum/u/timinator). Below are links to all the major topics you may want to revisit if you get stuck. Good luck!
 
 # [Actions](actions)
 
@@ -28,7 +28,7 @@ Handling situations where certain requirements must be covered more than one tim
 
 # [Steering Algorithm X](backseat-driving)
 
-Keeping track of your problems state outside the Algorithm X matrix so you can redirect Algorithm X when certain search paths are know to lead to dead ends.
+Keeping track of your problem's state outside the Algorithm X matrix so you can redirect Algorithm X when certain search paths are known to lead to dead ends.
 
 # [Coloring Your Requirements](what-is-coloring)
 
