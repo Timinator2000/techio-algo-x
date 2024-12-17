@@ -6,7 +6,7 @@ __Author:__ [@David Augusto Villa](https://www.codingame.com/profile/455d71552ae
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ 
+__Algorithm X Complexity:__ TBD
 
 # Strategy
 
