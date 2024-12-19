@@ -40,6 +40,6 @@ To solve this puzzle with the Algorithm X implementation discussed in the previo
 
 # Repeat Disclaimer
 
-__I have not properly solved this puzzle. I have two solutions that pass all test cases and all validators. One solution uses Algorithm X. The other places all rooks logically, leaving no need for Algorithm X. Both solutions will produce the wrong answer for other test cases not included in the puzzle.__
+__I have not properly solved this puzzle. I have two solutions that pass all test cases and all validators. One solution uses a combination of logic and Algorithm X. The other places all rooks logically, leaving no need for Algorithm X. Both solutions will produce the wrong answer for other test cases not included in the puzzle.__
 
 The prvious pages outline my still-flawed approach.__
