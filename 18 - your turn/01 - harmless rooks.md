@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Algorithm X is the Easy Part
 
 # State of the Union
 
-__I have not properly solved this puzzle. I have two solutions that pass all test cases and all validators. One solution uses Algorithm X. The other places all rooks logically, leaving no need for Algorithm X. Both solutions will produce the wrong answer for other test cases not included in the puzzle.__
+__I have not properly solved this puzzle. I have two solutions that pass all test cases and all validators. One solution uses a combination of logic and Algorithm X. The other places all rooks logically, leaving no need for Algorithm X. Both solutions will produce the wrong answer for other test cases not included in the puzzle.__
 
 The following pages outline my still-imperfect approach.
 
