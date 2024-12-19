@@ -18,4 +18,4 @@ Hopefully, the requirements are jumping out at you. One clue must be identified 
 
 The most important part of solving this puzzle with Algorithm X will be how you choose to model the problem as tiles on a gameboard. What are the tiles? What does the gameboard look like? Ultimately, you need to identify a culprit, but how are you placing tiles on a gameboard to get to a place where the culprit is easily identified?
 
-What do I mean by “cleverly hidden”. My tiles on a gameboard analogy went through 4 iterations before I felt like I truly understood how to best model the task at hand. That alone is another __spoiler__: if you are stuck, try to find other ways of looking at your tiles on a gameboard analogy.
+What do I mean by “cleverly hidden”? My tiles on a gameboard analogy went through 4 iterations before I felt like I truly understood how to best model the task at hand. That alone is another __spoiler__: if you are stuck, try to find other ways of looking at your tiles on a gameboard analogy.
