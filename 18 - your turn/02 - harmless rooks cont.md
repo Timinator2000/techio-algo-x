@@ -49,7 +49,3 @@ Then, because each action (row) is the placement of a rook at a particular locat
 ```
 
 We now have a fully functional solver that can finish test cases 1 and 2, but you will probably run into timeout issues after that. To solve the remaining test cases, you will need to find ways to reduce the problem space by placing rooks logically.
-
-# The Final Result
-
-In the end, my logic-based rook placement solved all test cases and validators, leaving nothing for Algorithm X to solve. I still believe using Algorithm X helped me get started and made an impact on my path to a final solution. Each time I added enough logic to reduce one of the test cases to a point where Algorithm X could solve the remainder felt like a small victory, and sometimes, a small victory is just what you need to keep pushing toward a solution on a hard puzzle like Harmless Rooks.
