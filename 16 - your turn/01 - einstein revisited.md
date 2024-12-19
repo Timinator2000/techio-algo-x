@@ -28,25 +28,29 @@ Again, building Einstein’s complex actions is almost the exact same process as
 
 # Comparison
 
-The following table compares my solvers using each of the three techniques discussed here. It is important to remember my solution with coloring is an Algorithm X solution, _adapted_ for coloring. It is not an implementation of Donald Knuth’s Algorithm C.
+The following table compares my solvers using each of the three techniques discussed here. In each case, the solver was instructed to do an exhaustive search, even after find the first solution.
 
 | Sameness Enforced With: | Actions | me_requirements | Execution Time (ms) |
 |:------|:------:|:------:|:------:|
 | __<span style="color:red">Test Case 2: 4 * 5 Medium</span>__ |
-|    Mutual Exclusivity | 80 | 152 | 2.4 |
-|    Colors | 80 | 44 | 5.5 |
-|    Complex Actions | 45 | 44 | 1.1 |
+|    Mutual Exclusivity | 80 | 152 | 3 |
+|    Colors | 80 | 44 | 6 |
+|    Complex Actions | 45 | 44 | 1 |
 | __<span style="color:red">Test Case 3: 7 * 6 Hard</span>__ |
-|    Mutual Exclusivity | 222 | 564 | 30 |
-|    Colors | 222 | 99 | 3500 |
+|    Mutual Exclusivity | 222 | 564 | 35 |
+|    Colors | 222 | 99 | 3600 |
 |    Complex Actions | 114 | 99 | 6 |
 | __<span style="color:red">Test Case 4: 5 * 5 Medium</span>__ |
-|    Mutual Exclusivity | 105 | 183 | 3.5 |
-|    Colors | 105 | 43 | 7.5 |
-|    Complex Actions | 55 | 43 | 1.5 |
+|    Mutual Exclusivity | 105 | 183 | 4 |
+|    Colors | 105 | 43 | 8 |
+|    Complex Actions | 55 | 43 | 1 |
 
 # Observations
 
-The numbers seen above tell an expected story. Enforcing sameness with mutual exclusivity requires many extra `me_requirements`, but Algorithm X is still able to chew through the matrix with relative speed. Enforcing sameness using colors requires a significant amount of color checking outside the matrix. As you can see, that adds a fair amount of time for the most difficult test case.
+The numbers seen above tell an expected story. Enforcing sameness with mutual exclusivity requires many extra `me_requirements`, but Algorithm X is still able to chew through the matrix with relative speed. Enforcing sameness using colors requires a significant amount of color checking outside the matrix. As you can see, that adds a significant amount of time for the most difficult test case.
 
 Enforcing sameness with complex actions combines the best of both worlds. The `me_requirements` are kept to the minimum necessary to enforce mutually exclusive characteristics while the actions are minimized by combining actions that must occur together. Properly constructing complex actions might take a bit of practice, but those efforts will be rewarded with very fast execution times.
+
+# A Word About Coloring and Algorithm C
+
+I performed the same tests above using a DLX-based Algorithm C solver and the results were ever slower than my Algorithm X solver, adapted for coloring. This is not an indictment of coloring or Algorithm C. It is simply an indication that coloring is not a great option for enforcing the type of sameness discussed here. In the previous section, it was crystal clear that coloring was a far superior choice for puzzles such as [Ye_ An_th_r W_rd Se_rch](ye_-an_th_r-w_rd-se_rch) and [Agent X, Mission 2 – Mysterious Cryptogram](agent-x-mission-2).
