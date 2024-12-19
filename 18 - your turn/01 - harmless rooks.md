@@ -8,6 +8,13 @@ __Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ Algorithm X is the Easy Part
 
+# State of the Union
+
+__I have not properly solved this puzzle. I have two solutions that pass all test cases and all validators. One solution uses Algorithm X. The other places all rooks logically, leaving no need for Algorithm X. Both solutions will produce the wrong answer for other test cases not included in the puzzle.__
+
+The following pages outline my still-imperfect approach.
+
+
 # Problem Statement
 
 Harmless Rooks is a hard puzzle, but a very short Algorithm X setup can easily solve the first two test cases and get you moving in a powerful direction. Although the Algorithm X setup is not terribly complex, some background is helpful. For convenience, I have copied the entire goal statement here:
