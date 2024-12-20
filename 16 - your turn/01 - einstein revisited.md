@@ -28,7 +28,7 @@ Again, building Einstein’s complex actions is almost the exact same process as
 
 # Comparison
 
-The following table compares my solvers using each of the three techniques discussed here. In each case, the solver was instructed to do an exhaustive search, even after find the first solution.
+The following table compares my solvers using each of the three techniques discussed here. In each case, the solver was instructed to do an exhaustive search, even after finding the first solution.
 
 | Sameness Enforced With: | Actions | me_requirements | Execution Time (ms) |
 |:------|:------:|:------:|:------:|
@@ -47,7 +47,7 @@ The following table compares my solvers using each of the three techniques discu
 
 # Observations
 
-The numbers seen above tell an expected story. Enforcing sameness with mutual exclusivity requires many extra `me_requirements`, but Algorithm X is still able to chew through the matrix with relative speed. Enforcing sameness using colors requires a significant amount of color checking outside the matrix. As you can see, that adds a significant amount of time for the most difficult test case.
+The numbers seen above tell an expected story. Enforcing sameness with mutual exclusivity requires many extra `me_requirements`, but Algorithm X is still able to chew through the matrix with relative speed. Enforcing sameness using colors requires a significant amount of color checking outside the matrix. As you can see, that adds a sizeable amount of time for the most difficult test case.
 
 Enforcing sameness with complex actions combines the best of both worlds. The `me_requirements` are kept to the minimum necessary to enforce mutually exclusive characteristics while the actions are minimized by combining actions that must occur together. Properly constructing complex actions might take a bit of practice, but those efforts will be rewarded with very fast execution times.
 
