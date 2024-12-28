@@ -12,7 +12,7 @@ __Algorithm X Complexity:__ Well-Hidden Exact Cover, but Straightforward Setup
 
 __Spoiler Alert:__ This puzzle is an exact cover problem. 
 
-Why did I feel the need to issue that spoiler alert? I believe the hardest part of this puzzle is figuring out that it is, indeed, an exact cover problem. The exact cover is very cleverly hidden by both the structure of the puzzle and the author’s instructions, but it is there, and once you see it, setting up Algorithm X becomes straightforward.
+Why do I feel the need to issue that spoiler alert? I believe the hardest part of this puzzle is figuring out that it is, indeed, an exact cover problem. The exact cover is very cleverly hidden by both the structure of the puzzle and the author’s instructions, but it is there, and once you see it, setting up Algorithm X becomes straightforward.
 
 Hopefully, the requirements are jumping out at you. One clue must be identified from each set of evidence. The next steps get a bit more difficult.
 
