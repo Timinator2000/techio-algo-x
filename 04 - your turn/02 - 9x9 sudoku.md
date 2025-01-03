@@ -61,7 +61,7 @@ Here is a key difference between Assaf’s code and mine. As I build the diction
         for row in range(size):
             for col in range(size):
                 box = (row // box_size) * box_size + (col // box_size) 
-                for val in self.grid[(row, col)].candidates:
+                for val in grid[(row, col)].candidates:
                     action = ('place value', row, col, val)
                     actions[action] = [('cell covered', row, col),
                                        ('value in row', row, val),
