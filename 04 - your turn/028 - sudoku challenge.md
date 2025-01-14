@@ -9,11 +9,9 @@ Between Assaf’s code, my `AlgorithmXSolver` and my suggestions, you should be 
 My challenge to you is to create a solver that works for all 4 Sudoku puzzles on CodinGame. The only difference between one Sudoku and another is the size of the grid and the values that can be put in each cell. Let me get you started:
 
 ```python
-from typing import List
-
 class SudokuSolver(AlgorithmXSolver):
 
-    def __init__(self, grid: List[List[str]], values: str):
+    def __init__(self, grid: list[list[str]], values: str):
 ```
 
 All Sudokus on CodinGame have equal width and height, so that is easy enough to determine by the width or height of the grid. It might not be possible to determine all possible values that may be used to fill the grid, so those values need to be explicitly passed in via the `values` parameter.
