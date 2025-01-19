@@ -91,7 +91,7 @@ These figures make it easier to see a 6 x 5 array of horizontal borders and a 5 
 
 Secondly, it appears the following classes might be helpful in a solution design: `PuzzlePiece`, `PicturePuzzle`, `PuzzleCell` and `Border`.  From an analysis point of view, I agree 100%. From a design perspective, there is nothing interesting about a `Border` other than the _set_ of possible values that could be placed in that location. Although I could create a separate `Border` class, Python’s `Set` class does everything I could want a `Border` class to do.
 
-It is still important to create the matrix of horizontal borders and the matrix of vertical borders to hold all the sets. These matrixes make it easy to give each cell 4 pointers, each pointing to one of its four borders.
+It is still important to create the matrix of horizontal borders and the matrix of vertical borders to hold all the `Set` instances. These matrixes make it easy to give each cell 4 pointers, each pointing to one of its four borders.
 
 # Observations
 
