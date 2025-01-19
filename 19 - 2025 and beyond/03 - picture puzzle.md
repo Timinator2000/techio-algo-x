@@ -75,11 +75,11 @@ Now move to the cell in `(row 0, column 1)`. The top border is limited to the pu
 
 I then use the exact same reducing loop, discussed many times in this playground, to loop through the rows and columns of the grid over and over until a full pass through the grid does not produce any changes.
 
-At this point, all cells will be reduced to a single candidate for __Test Cases 1 – 3 and 5 – 7__. I will leave it to you to figure out why __Test Case 4__ and __Test Case 8__ cannot be reduced all the way to a single candidate per cell (unless you add a tiny bit more logic).
+At this point, all cells are reduced to a single candidate for __Test Cases 1 – 3 and 5 – 7__. I will leave it to you to figure out why __Test Case 4__ and __Test Case 8__ cannot be reduced all the way to a single candidate per cell (unless you add a tiny bit more logic).
 
 # A Bit About Solution Design
 
-In the next diagram, I have grey out either the horizontal borders or the vertical borders.
+In the next diagram, I have greyed out either the horizontal borders or the vertical borders.
 
 <BR>
 
