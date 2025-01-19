@@ -23,7 +23,7 @@ Because I found the problem-space reduction for this puzzle so enjoyable, I am g
 Spoiler Alert: Do not click unless you have tried it yourself!
 </summary>
   
-Is this Picture Puzzle really much different than a [Sudoku](problem-space-reduction-2)? The pieces need to be properly placed on a grid of locations I will call `PuzzleCell`s. Let’s assume we have been given a 5x5 puzzle to solve. The basic puzzle grid is shown in the next figure. Just like in Sudoku, I have put space between each `PuzzleCell`. My reasons for doing this will be revealed shortly.
+Is this Picture Puzzle really much different than a [Sudoku](problem-space-reduction-2)? The pieces need to be properly placed on a grid of locations I call `PuzzleCell`s. Let’s assume we have been given a 5x5 puzzle to solve. The basic puzzle grid is shown in the next figure. Just like in Sudoku, I have put space between each `PuzzleCell`. My reasons for doing this will be revealed shortly.
 
 <BR>
 
