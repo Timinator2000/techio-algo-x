@@ -55,4 +55,16 @@ The puzzle border...
 
 <BR>
 
+<BR>
+
+![Picture Puzzle Piece Borders](PicturePuzzlePieceBorders.png)
+
+<BR>
+
+<BR>
+
+![Picture Puzzle Horizontal vs Vertical Borders](PicturePuzzleHorizontalVertical.png)
+
+<BR>
+
 </details>
