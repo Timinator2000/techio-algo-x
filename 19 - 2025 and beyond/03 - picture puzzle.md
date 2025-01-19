@@ -71,7 +71,7 @@ Why are these borders interesting? Each border has a set of possible values. Loo
 
 Consider the corner cell in the top left corner. At most, that cell has only 4 candidates: each of the four corner pieces, properly rotated to align the borders to match the left and top borders that only have one possible value. Using these four candidates, the possible values of the bottom and right borders (of cell `(0, 0)`) can be determined.
 
-Now move to the cell in `(row 0, column 1)`. The top border is limited to the puzzle border. The left border has limited possibilities that were just determined. __It is now easy to loop through the candidates for this cell `(0, 1)` and eliminate candidates that violate the border possibilities. From the remaining candidates, the 4 borders of cell `(0, 1)`.
+Now move to the cell in `(row 0, column 1)`. The top border is limited to the puzzle border. The left border has limited possibilities that were just determined. It is now easy to loop through the candidates for this cell `(0, 1)` and eliminate candidates that violate the border possibilities. From the remaining candidates, the possibilities for the 4 borders of cell `(0, 1)` may be updated appropriately.
 
 I then use the exact same reducing loop, discussed many times in this playground, to loop through the rows and columns of the grid over and over until a full pass through the grid does not produce any changes.
 
