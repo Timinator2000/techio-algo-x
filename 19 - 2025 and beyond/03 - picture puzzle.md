@@ -87,7 +87,7 @@ In the next diagram, I have greyed out either the horizontal borders or the vert
 
 <BR>
 
-These figures make it easier to see a 6 x 5 array of horizontal borders and a 5 x 6 array of vertical borders. Ultimately every cell needs to know about 4 borders, the top, bottom, left and right. Using the perspective seen in the figure above nice facilitates assigning borders to a cell based on that cell’s row and column.
+These figures make it easier to see a 6 x 5 array of horizontal borders and a 5 x 6 array of vertical borders. Ultimately every cell needs to know about 4 borders, the top, bottom, left and right. The perspective demonstrated in the figure above nicely facilitates assigning borders to a cell based on that cell’s row and column.
 
 Secondly, it appears the following classes might be helpful in a solution design: `PuzzlePiece`, `PicturePuzzle`, `PuzzleCell` and `Border`.  From an analysis point of view, I agree 100%. From a design perspective, there is nothing interesting about a `Border` other than the _set_ of possible values that could be placed in that location. Although I could create a separate `Border` class, Python’s `Set` class does everything I could want a `Border` class to do.
 
