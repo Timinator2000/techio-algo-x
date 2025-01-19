@@ -13,4 +13,4 @@ __Algorithm X Complexity:__ Being Organized is More Difficult Than The Algorithm
 <detials>
 <summary>Spoiler Alert: I have not done this yet.</summary>
 But I will...
-<\details>
+</detials>
