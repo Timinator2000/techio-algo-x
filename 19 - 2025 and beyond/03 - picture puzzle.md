@@ -69,7 +69,7 @@ These borders are interesting because they too have candidates. I have intention
 
 Why are these borders interesting? Each border has a set of possible values. Look at the edge pieces first. Each edge piece border, adjacent to the puzzle border, only has a single possible value. Keeping track of possible values for every blue border is critical to reducing the candidates for each cell.
 
-Consider the corner cell in the top left corner. At most, that cell has only 4 candidates: each of the four corner pieces, properly rotated to align the borders to match the left and top borders that only have one possible value. Using these four candidates, the possible values of the bottom and right borders can be determined.
+Consider the corner cell in the top left corner. At most, that cell has only 4 candidates: each of the four corner pieces, properly rotated to align the borders to match the left and top borders that only have one possible value. Using these four candidates, the possible values of the bottom and right borders (of cell `(0, 0)`) can be determined.
 
 Now move to the cell in `(row 0, column 1)`. The top border is limited to the puzzle border. The left border has limited possibilities that were just determined. __It is now easy to loop through the candidates for this cell `(0, 1)` and eliminate candidates that violate the border possibilities. From the remaining candidates, the 4 borders of cell `(0, 1)`.
 
