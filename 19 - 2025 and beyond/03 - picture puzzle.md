@@ -23,6 +23,36 @@ Because I found the problem-space reduction for this puzzle so enjoyable, I am g
 Spoiler Alert: Do not click unless you have tried it yourself!
 </summary>
   
-But I will...
+The grid...
+
+<BR>
+
+![Picture Puzzle Grid](PicturePuzzleGrid.png)
+
+<BR>
+
+The piece types...
+
+<BR>
+
+![Picture Puzzle Piece Types](PicturePuzzlePieceTypes.png)
+
+<BR>
+
+The cell candidates...
+
+<BR>
+
+![Picture Puzzle Cell Candidates](PicturePuzzleCellCandidates.png)
+
+<BR>
+
+The grid...
+
+<BR>
+
+![Picture Puzzle Border](PicturePuzzleBorder.png)
+
+<BR>
 
 </details>
