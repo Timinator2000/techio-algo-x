@@ -23,7 +23,7 @@ Because I found the problem-space reduction for this puzzle so enjoyable, I am g
 Spoiler Alert: Do not click unless you have tried it yourself!
 </summary>
   
-The grid...
+Is this Picture Puzzle really much different than a [Sudoku](problem-space-reduction-2)? The pieces need to be properly placed on a grid of locations I will call `PuzzleCell`s. Let’s assume we have been given a 5x5 puzzle to solve. The basic puzzle grid is shown in the next figure. Just like in Sudoku, I have put space between each `PuzzleCell`. My reasons for doing this will be revealed shortly.
 
 <BR>
 
@@ -31,7 +31,7 @@ The grid...
 
 <BR>
 
-The piece types...
+Before digging deeper into the gameboard, consider the pieces for a moment. When doing a picture puzzle on your kitchen table, you might first sort the pieces into the three groups shown below.
 
 <BR>
 
@@ -39,7 +39,7 @@ The piece types...
 
 <BR>
 
-The cell candidates...
+Corner pieces have 2 puzzle borders, non-corner edge pieces have a single puzzle border and middle pieces have no puzzle borders. This initial sorting already limits the candidates for each cell. In the following diagram, the color of each cell corresponds to the group of pieces that make up the cell’s initial candidates.
 
 <BR>
 
@@ -47,7 +47,11 @@ The cell candidates...
 
 <BR>
 
-The puzzle border...
+Does this mean there are only 4 candidates for each corner piece? Yes, it does, but that is a bit misleading. A puzzle piece alone is not enough to properly distinguish one candidate from another in the middle of the puzzle. On the corners and edges, the puzzle border limits each puzzle piece to a single possible rotation. Middle pieces are different. 
+
+In the middle of the puzzle, each piece might look different when rotated. Each unique rotation is a distinct candidate. In the 5x5 puzzle above, there are 9 middle pieces, meaning each location has up to 36 possible candidates. (Exercise for the reader: Why did I say “up to”?)
+
+In the next figure, the blue rectangles represent the puzzle border.
 
 <BR>
 
@@ -55,16 +59,42 @@ The puzzle border...
 
 <BR>
 
+These borders are interesting because they too have candidates. I have intentionally spaced out the blue rectangles to make the align with the adjacent pieces. The middle pieces of our puzzle also have interesting borders. Adding all the piece borders to the diagram results in:
+
 <BR>
 
 ![Picture Puzzle Piece Borders](PicturePuzzlePieceBorders.png)
 
 <BR>
 
+Why are these borders interesting? Each border has a set of possible values. Look at the edge pieces first. Each edge piece border only has a single possible value. Keeping track of possible values for every blue border is critical to reducing the candidates for each cell.
+
+Consider the corner cell in the top left corner. At most, that cell only has 4 candidates, each of the four corner pieces, properly rotated to align the borders to match the left and top borders that only have one possible value. Using these four candidates, the possible values of the bottom and right borders can be determined.
+
+Now move to the cell in `(row 0, column 1)`. The top border is limited to the puzzle border. The left border has limited possibilities that were just determined. __It is now easy to loop through the candidates for this cell `(0, 1)` and eliminate candidates that violate the border possibilities. From the remaining candidates, the 4 borders of cell `(0, 1)`.
+
+I then use the exact same reducing loop, discussed many times in this playground, to loop through the rows and columns of the grid over and over until a full pass through the grid does not produce any changes.
+
+At this point, all cells will be reduced to a single candidate for __Test Cases 1 – 3 and 5 – 7__. I will leave it to you to figure out why __Test Case 4__ and __Test Case 8__ cannot be reduced all the way to a single candidate per cell (unless you add a tiny bit more logic).
+
+# A Bit About Solution Design
+
+In the next diagram, I have grey out either the horizontal borders or the vertical borders.
+
 <BR>
 
 ![Picture Puzzle Horizontal vs Vertical Borders](PicturePuzzleHorizontalVertical.png)
 
 <BR>
+
+These figures make it easy to see we have a 6 x 5 array of horizontal borders and a 5 x 6 array of vertical borders. Ultimately every cell needs to know about 4 borders, the top, bottom, left and right. Using the perspective seen in the figure above makes it easy to assign borders to a cell based on that cell’s row and column.
+
+Secondly, it appears the following classes might be helpful in a solution design: `PuzzlePiece`, `PicturePuzzle`, `PuzzleCell` and `Border`.  From an analysis point of view, I agree 100%. From a design perspective, there is nothing interesting about a `Border` other than the _set_ of possible values that could be placed in that location. Although I could create a separate `Border` class, Python’s `Set` class does everything I could want a `Border` class to do.
+
+It is still important to create the matrix of horizontal borders and the matrix of vertical borders to hold all the sets. These matrixes make it easy to give each cell 4 pointers, each pointing to one of its four borders.
+
+# Observations
+
+At first glance, I would never expect this much overlap between a picture puzzle and a Sudoku. I am happy with my original solution to this puzzle, but I am thrilled with my new approach. It is no secret that I love repeatability and seeing how similar my new solution is to every solution I built for the logic puzzles covered earlier makes my new approach significantly more powerful in my eyes.
 
 </details>
