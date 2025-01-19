@@ -6,7 +6,7 @@ __Author:__ [@Teiglin](https://www.codingame.com/profile/a2479be594111a93820fb21
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ Being Organized is More Difficult Than The Algorithm X Setup
+__Algorithm X Complexity:__ Eliminating Invalid Actions Keeps Algorithm X Complexity Reasonable
 
 # Strategy
 
