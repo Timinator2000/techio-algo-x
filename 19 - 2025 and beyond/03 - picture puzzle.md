@@ -16,9 +16,13 @@ The tiles on a gameboard analogy for this puzzle is straightforward. The tiles a
 
 Although I called it a "basic" Algorithm X setup, enumerating all possible actions is challenging. Still, I believe getting Algorithm X to work as specified above is a strong approach. To solve __Test Case 2__ and __Test Case 6__ requires some problem-space reduction.
 
+Because I found the problem-space reduction for this puzzle so enjoyable, I am going to share my approach here. Before clicking, give it a try on your own. I learned a lot comparing my original approach to my new approach that has been <u>heavily</u> influenced by this playground.
+
 <details>
 <summary>
-Spoiler Alert: Because I found the problem-space reduction for this puzzle so enjoyable, I am going to share my approach here. Before clicking, give it a try on your own. I learned a lot comparing my original approach to my new approach that has been heavily influenced by this playground.
+Spoiler Alert: Do not click unless you have tried it yourself!
 </summary>
+  
 But I will...
+
 </details>
