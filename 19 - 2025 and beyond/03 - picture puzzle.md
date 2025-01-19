@@ -59,7 +59,7 @@ In the next figure, the blue rectangles represent the puzzle border.
 
 <BR>
 
-These borders are interesting because they too have candidates. I have intentionally spaced out the blue rectangles to make the align with the adjacent pieces. The middle pieces of our puzzle also have interesting borders. Adding all the piece borders to the diagram results in:
+These borders are interesting because they too have candidates. I have intentionally spaced out the blue rectangles to make them align with their adjacent pieces. The middle pieces also have interesting borders. Adding all the piece borders to the diagram results in:
 
 <BR>
 
