@@ -3,4 +3,4 @@
 |Date|Details|
 |:--------:|:----------------|
 | December 28, 2024 | Initial playground publication.|
-| TBD | [Picture Puzzle](picture-puzzle) added.|
+| January 20, 2025 | [Picture Puzzle](picture-puzzle) added.|
