@@ -95,6 +95,6 @@ It is still important to create the matrix of horizontal borders and the matrix 
 
 # Observations
 
-At first glance, I would never expect this much overlap between a picture puzzle and a Sudoku. I am happy with my original solution to this puzzle, but I am thrilled with my new approach. It is no secret that I love repeatability and seeing how similar my new solution is to every solution I built for the logic puzzles covered earlier makes my new approach significantly more powerful in my eyes.
+At first glance, I would never expect this much overlap between a picture puzzle and a Sudoku. I was happy enough with my original solution to this puzzle, but I am thrilled with my new approach. It is no secret that I love repeatability and seeing how similar my new solution is to every solution I built for the logic puzzles covered earlier makes my new approach significantly more powerful in my eyes.
 
 </details>
