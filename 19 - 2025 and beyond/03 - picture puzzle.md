@@ -89,10 +89,6 @@ In the next diagram, I have greyed out either the horizontal borders or the vert
 
 These figures make it easier to see a 6 x 5 array of horizontal borders and a 5 x 6 array of vertical borders. Ultimately every cell needs to know about 4 borders, the top, bottom, left and right. The perspective demonstrated in the figure above nicely facilitates assigning borders to a cell based on that cell’s row and column.
 
-Secondly, it appears the following classes might be helpful in a solution design: `PuzzlePiece`, `PicturePuzzle`, `PuzzleCell` and `Border`.  From an analysis point of view, I agree 100%. From a design perspective, there is nothing interesting about a `Border` other than the _set_ of possible values that could be placed in that location. Although I could create a separate `Border` class, Python’s `Set` class does everything I could want a `Border` class to do.
-
-It is still important to create the matrix of horizontal borders and the matrix of vertical borders to hold all the `Set` instances. These matrixes make it easy to give each cell 4 pointers, each pointing to one of its four borders.
-
 # Observations
 
 At first glance, I would never expect this much overlap between a picture puzzle and a Sudoku. I was happy enough with my original solution to this puzzle, but I am thrilled with my new approach. It is no secret that I love repeatability and seeing how similar my new solution is to every solution I built for the logic puzzles covered earlier makes my new approach significantly more powerful in my eyes.
