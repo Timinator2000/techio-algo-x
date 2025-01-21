@@ -1,4 +1,4 @@
-# Picture Puzzle?
+# Picture Puzzle
 
 __Puzzle:__ [Picture Puzzle](https://www.codingame.com/training/hard/picture-puzzle)
 
