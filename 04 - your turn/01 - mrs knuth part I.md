@@ -2,7 +2,7 @@
 
 You have everything you need to finish Mrs. Knuth's first puzzle and get her through the summer. Again, this puzzle can be found here:
 
-Mrs. Knuth - Part I [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+[Mrs. Knuth - Part I](https://www.codingame.com/training/medium/mrs--knuth---part-i)
 
 Here is a little pseudocode to help as you put together your full solution:
 
