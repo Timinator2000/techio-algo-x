@@ -1,6 +1,6 @@
 # Shikaku Skill Builder
 
-__Puzzle:__ Shikaku Skill Builder [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+__Puzzle:__ [Shikaku Skill Builder](https://www.codingame.com/training/easy/shikaku-skill-builder)
 
 __Author:__ [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
 
