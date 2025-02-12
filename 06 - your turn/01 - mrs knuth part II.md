@@ -1,6 +1,6 @@
 # Time to Finish Mrs. Knuth - Part II
 
-You have everything you need to finish up Mrs. Knuth - Part II [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community). Before you embark on that journey, I want to give you a bit of insight into one coding technique I use over and over when dealing with mutually exclusive (ME) requirements. I keep them separate from the other requirements until I am ready to pass them to the `AlgorithmXSolver` constructor. I do that so I can easily add the appropriate ME requirements to the list of requirements satisfied by each action. The following is a mix of Python and pseudocode that you might find helpful as you organize your subclass constructor code.
+You have everything you need to finish up [Mrs. Knuth - Part II](https://www.codingame.com/training/medium/mrs--knuth---part-ii). Before you embark on that journey, I want to give you a bit of insight into one coding technique I use over and over when dealing with mutually exclusive (ME) requirements. I keep them separate from the other requirements until I am ready to pass them to the `AlgorithmXSolver` constructor. I do that so I can easily add the appropriate ME requirements to the list of requirements satisfied by each action. The following is a mix of Python and pseudocode that you might find helpful as you organize your subclass constructor code.
 
 ```python
 class MrsKnuthPartIISolver(AlgorithmXSolver):
