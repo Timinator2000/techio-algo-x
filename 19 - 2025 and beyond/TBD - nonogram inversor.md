@@ -27,7 +27,7 @@ Using this approach, I was able to solve __Test Cases 1 and 2__, but I timed out
 
 Once you go down the road of problem-space reduction on this puzzle, it doesn’t take long to find solutions strictly using logic. With a solution in hand, you might wonder why anyone would continue banging his or her head against the wall looking for the Algorithm X solution. Maybe you just enjoy the challenge, or maybe you just embrace the pain. Either way... 
 
-__on the next page, I will go through how I built an Algorithm X solution to this puzzle.__
+__On the next page, I will go through how I built an Algorithm X solution to this puzzle.__
 
 If you like Nonograms, @5DN1L turned me on to 3 more Nonogram puzzles on [CodeWars](www.codewars.com) with increasing levels of difficulty:
 
