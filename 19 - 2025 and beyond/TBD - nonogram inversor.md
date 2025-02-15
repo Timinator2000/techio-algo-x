@@ -37,7 +37,7 @@ __Puzzle:__ [5x5 Nonogram Solver](https://www.codewars.com/kata/5a479247e6be385a
 
 __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
-__Published Difficulty:__ [4 kyu] (https://docs.codewars.com/gamification/ranks)
+__Published Difficulty:__ [4 kyu](https://docs.codewars.com/gamification/ranks)
 
 # 15x15 Nonogram Solver
 
@@ -45,7 +45,7 @@ __Puzzle:__ [15x15 Nonogram Solver](https://www.codewars.com/kata/5a5072a6145c46
 
 __Sensei:__ [@Bubbler](https://www.codewars.com/users/Bubbler)
 
-__Published Difficulty:__ [2 kyu] (https://docs.codewars.com/gamification/ranks)
+__Published Difficulty:__ [2 kyu](https://docs.codewars.com/gamification/ranks)
 
 
 # Multisize Nonogram Solver
@@ -54,7 +54,7 @@ __Puzzle:__ [Multisize Nonogram Solver](https://www.codewars.com/kata/5a55198588
 
 __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
-__Published Difficulty:__ [1 kyu] (https://docs.codewars.com/gamification/ranks)
+__Published Difficulty:__ [1 kyu](https://docs.codewars.com/gamification/ranks)
 
 
 
