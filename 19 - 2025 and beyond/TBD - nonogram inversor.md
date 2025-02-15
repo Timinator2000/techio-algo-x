@@ -25,9 +25,11 @@ Consider a 5 x 5 Nonogram. My initial thought was to have a 5 x 5 gameboard and 
 
 Using this approach, I was able to solve __Test Cases 1 and 2__, but I timed out on the remaining test cases. There can be many possible layouts for a line that has multiple groups and there can be many combinations of horizontal and vertical lines that are incompatible. I needed my solution to be significantly faster, so I turned to problem-space reduction.
 
-Once you go down the road of problem-space reduction on this puzzle, it doesn’t take long to find solutions strictly using logic. With a solution in hand, you might wonder why anyone would continue banging his or her head against the wall looking for the Algorithm X solution. Maybe you just enjoy the challenge, or maybe you really like headaches. Either way, __on the next page, I will go through how I built an Algorithm X solution to this puzzle.__
+Once you go down the road of problem-space reduction on this puzzle, it doesn’t take long to find solutions strictly using logic. With a solution in hand, you might wonder why anyone would continue banging his or her head against the wall looking for the Algorithm X solution. Maybe you just enjoy the challenge, or maybe you just embrace the pain. Either way... 
 
-If you like Nonograms, @5DN1L turned me on to 3 more Nonogram puzzles on [CodeWars](www.codewars.com):
+__on the next page, I will go through how I built an Algorithm X solution to this puzzle.__
+
+If you like Nonograms, @5DN1L turned me on to 3 more Nonogram puzzles on [CodeWars](www.codewars.com) with increasing levels of difficulty:
 
 # 5x5 Nonogram Solver
 
