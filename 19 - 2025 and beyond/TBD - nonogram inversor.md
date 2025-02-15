@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Quite Challenging
 
 # Spoiler Alert
 
-Here I go again with the preemptive spoiler alert. This puzzle might be easier to solve with logic than it is to solve with Algorithm X. However, the Algorithm X solution is wonderfully satisfying if you choose to down that fairly challenging path.
+Here I go again with a preemptive spoiler alert. This puzzle might be easier to solve with logic than it is to solve with Algorithm X. However, the Algorithm X solution is wonderfully satisfying if you choose to down that fairly challenging path.
 
 # What I (and others) Tried
 
