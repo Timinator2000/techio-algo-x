@@ -17,6 +17,7 @@ Here I go again with a preemptive spoiler alert. This puzzle might be easier to 
 From the problem statement:
 
 >In this version, we have only two colors, black and white.
+
 >You will be given the length of all black groups.
 
 For each row and each column, we are given the lengths of each _group_ of contiguous black cells in that row or column. Each group of contiguous black cells must be separated by 1 or more white cells. Because there is no difference between a row of cells and column of cells, I will use the word _line_ to generically refer to either a row or column. Each line has some number of cells and zero or more groups of contiguous black cells. 
