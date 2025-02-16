@@ -20,13 +20,13 @@ From the problem statement:
 
 >You will be given the length of all black groups.
 
-For each row and each column, we are given the lengths of each _group_ of contiguous black cells in that row or column. Each group of contiguous black cells must be separated by 1 or more white cells. Because there is no difference between a row of cells and column of cells, I will use the word _line_ to generically refer to either a row or column. Each line has some number of cells and zero or more groups of contiguous black cells. 
+For each row and each column, we are given the lengths of each _group_ of contiguous black cells in that row or column. Each group of contiguous black cells must be separated by 1 or more white cells. Because there is no difference between a row of cells and a column of cells, I will use the word _line_ to generically refer to either a row or a column. Each line has some number of cells and zero or more groups of contiguous black cells. 
 
-Consider a 5 x 5 Nonogram. My initial thought was to have a 5 x 5 gameboard and then determine all possible layouts for each line. All lines must be covered by a layout. Because horizontal lines and vertical lines will intersect, I considered using coloring or significant numbers of `me_requirements` to ensure incompatible lines were not placed in the same solution.
+Consider a 5 x 5 Nonogram. My initial thought was to have a 5 x 5 gameboard and then determine all possible layouts for each line. All lines must be covered by a pattern. The various patterns for each line are the tiles that must be placed on the gameboard. Because horizontal lines and vertical lines will intersect, I considered using coloring or significant numbers of `me_requirements` to ensure incompatible lines were not placed in the same solution.
 
-Using this approach, I was able to solve __Test Cases 1 and 2__, but I timed out on the remaining test cases. There can be many possible layouts for a line that has multiple groups and there can be many combinations of horizontal and vertical lines that are incompatible. I needed my solution to be significantly faster, so I turned to problem-space reduction.
+Using this approach, I was able to solve __Test Cases 1 and 2__, but I timed out on the remaining test cases. There can be many possible patterns for a line that has multiple groups and there can be many combinations of horizontal and vertical lines that are incompatible. I needed my solution to be significantly faster, so I turned to problem-space reduction.
 
-Once you go down the road of problem-space reduction on this puzzle, it doesn’t take long to find solutions strictly using logic. With a solution in hand, you might wonder why anyone would continue banging his or her head against the wall looking for the Algorithm X solution. Maybe you just enjoy the challenge, or maybe you just embrace the pain. Either way... 
+Once you go down the road of problem-space reduction on this puzzle, it doesn’t take long to find solutions strictly using logic. With a solution in hand, you might wonder why anyone would continue banging his or her head against the wall searching for the Algorithm X solution. Maybe you enjoy the challenge, or maybe you just embrace the pain. Either way... 
 
 __On the next page, I will go through how I built an Algorithm X solution to this puzzle.__
 
@@ -40,6 +40,8 @@ __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
 __Published Difficulty:__ [4 kyu](https://docs.codewars.com/gamification/ranks)
 
+Solving this first puzzle is slightly easier than CodinGame's Nonogram Inversor. As a doctor once said to my wife in his thick Eastern European Accent, "Don't worry, it will get worse."
+
 # 15x15 Nonogram Solver
 
 __Puzzle:__ [15x15 Nonogram Solver](https://www.codewars.com/kata/5a5072a6145c46568800004d)
@@ -48,6 +50,7 @@ __Sensei:__ [@Bubbler](https://www.codewars.com/users/Bubbler)
 
 __Published Difficulty:__ [2 kyu](https://docs.codewars.com/gamification/ranks)
 
+In this puzzle, you must solve 103 Nonograms in 12 seconds (Python). My original logic-based solution needed significant optimization to pass all the test cases without timing out.
 
 # Multisize Nonogram Solver
 
@@ -57,5 +60,9 @@ __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
 __Published Difficulty:__ [1 kyu](https://docs.codewars.com/gamification/ranks)
 
+I have not solved this puzzle yet. There are 60 random tests and I am only getting throught the first half of those tests before timing out. I definitely need a faster approach, but the following line from the problem statement makes me wonder if I will eventually need a combination of logic and Algorithm X:
 
+>I highly recommend not to try and use a brute force solution as some of the grids are very big. Also, you may not be able to solve all the grids by deduction alone so may have to guess one or two squares. :P
+
+As for a better algorithm, Donald Knuth has something to say about that! (credit again goes to @5DN1L for finding this material). Are Binary Decision Diagrams (BDDs and ZDDs) possibly what we need? I don't know but click [here to read what Ben Lynn from Standford writes about Nonograms and ZDDs](https://crypto.stanford.edu/pbc/notes/zdd/nonogram.html).
 
