@@ -14,9 +14,9 @@ __Algorithm X Complexity:__ Quite Challenging
 <details>
 <summary>Spoiler: Tiles on a Gameboard</summary>
 
-</details>
-
 Fill the entire gameboard by placing groups of black cells or 1 x 1 white space cells on the gameboard.
+
+</details>
 
 <details>
 <summary>Spoiler: Actions</summary>
