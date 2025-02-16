@@ -40,7 +40,7 @@ __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
 __Published Difficulty:__ [4 kyu](https://docs.codewars.com/gamification/ranks)
 
-Solving this first puzzle is slightly easier than CodinGame's Nonogram Inversor. As a doctor once said to my wife in his thick Eastern European Accent, "Don't worry, it will get worse."
+Solving this first puzzle is slightly easier than CodinGame's Nonogram Inversor. As a doctor once said to my wife in his thick Eastern-European Accent, "Don't worry, it will get worse."
 
 # 15x15 Nonogram Solver
 
