@@ -64,5 +64,12 @@ I have not solved this puzzle yet. There are 60 random tests and I am only getti
 
 >I highly recommend not to try and use a brute force solution as some of the grids are very big. Also, you may not be able to solve all the grids by deduction alone so may have to guess one or two squares. :P
 
-As for a better algorithm, Donald Knuth has something to say about that! (credit again goes to [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) for finding this material). Are Binary Decision Diagrams (BDDs and ZDDs) possibly what we need? I don't know for sure, but the following [material by Ben Lynn](https://crypto.stanford.edu/pbc/notes/zdd/) might be a good place to start.
+As for a better algorithm, Donald Knuth has something to say about that! (credit again goes to [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) for finding this material). Are Binary Decision Diagrams (BDDs and ZDDs) possibly what we need? I don't know the answer to that, but here are a couple of links that might lead you to some answers:
+
+[Stanford Lecture: Donald Knuth - "Fun With Binary Decision Diagrams (BDDs)" (June 5, 2008)](https://www.youtube.com/watch?v=SQE21efsf7Y)
+
+[Stanford Lecture: Donald Knuth—"Fun With Zero-Suppressed Binary Decision Diagrams (ZDDs)" (2008)](https://www.youtube.com/watch?v=-HzQYeqS9Wc)
+
+[Ben Lynn - BDDs, ZDDs, Nonograms, etc.](https://crypto.stanford.edu/pbc/notes/zdd/)
+
 
