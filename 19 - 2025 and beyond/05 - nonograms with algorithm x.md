@@ -32,7 +32,7 @@ Although I don’t use “points”, his idea of 1/2 points and full points led 
 <details>
 <summary>Hint #2: Reverse Engineering</summary>
 
-To understand how I set up my Algorithm X matrix, consider the followign debug output for __Test Case 1 - Dog__:
+To understand how I set up my Algorithm X matrix, consider the following debug output for __Test Case 1 - Dog__:
 
 ```
 len(actions)=65
