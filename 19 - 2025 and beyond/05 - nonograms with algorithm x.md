@@ -47,21 +47,22 @@ len(me_requirements)=6
 
 Fill the entire gameboard by placing groups of black cells or 1 x 1 white space cells on the gameboard.
 
-</details>
 
 <details>
-<summary>Spoiler #2: Actions</summary>
-
-* place segment
-* place white space
-
-</details>
-
-<details>
-<summary>Spoiler #3: Requirements</summary>
+<summary>Spoiler #2: Requirements</summary>
 
 * All cells must be covered horizontally.
 * All cells must be covered veritcally.
 * All segments must be placed on the gameboard.
+
+</details>
+
+</details>
+
+<details>
+<summary>Spoiler #3: Actions</summary>
+
+* place segment
+* place white space
 
 </details>
