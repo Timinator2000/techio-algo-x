@@ -21,8 +21,8 @@ As I alluded to on the previous page, I eventually gave up on placing an entire 
 In a Discord message, [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993) said to me:
 
 >My actions are:
->placing whole lines vertically/horizontally marking those spaces for half a point
->Placing empty spaces for full point
+* Placing whole lines vertically/horizontally marking those spaces for half a point.
+* Placing empty spaces for full point.
 
 Although I don’t use “points”, his idea of 1/2 points and full points led me to my eventual solution, which I think feels very elegant, __primarily__ because of his points idea.
 
