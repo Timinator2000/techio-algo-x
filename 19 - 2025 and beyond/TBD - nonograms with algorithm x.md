@@ -14,9 +14,9 @@ __Algorithm X Complexity:__ Quite Challenging
 As I alluded to on the previous page, I eventually gave up on placing an entire line of cells on the Nonogram gameboard all in a single action. I will go through my approach in steps in case just one or two hints help you with your own approach.
 
 <details>
-<summary>Hint #1: A Little Inspiration from [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993)</summary>
+<summary>Hint #1: A Little Inspiration from @VizGhar</summary>
 
-In a Discord message, @VizGhar said to me:
+In a Discord message, [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993) said to me:
 
 >My actions are:
 >placing whole lines vertically/horizontally marking those spaces for half a point
