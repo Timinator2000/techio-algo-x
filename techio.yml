@@ -234,8 +234,10 @@ plan:
         statement: 19 - 2025 and beyond/02 - who dunnit.md
       - title: Picture Puzzle
         statement: 19 - 2025 and beyond/03 - picture puzzle.md
-      # - title: Nonogram Inversor
-      #   statement: 19 - 2025 and beyond/04 - nonogram inversor.md
+      - title: Nonogram Inversor
+        statement: 19 - 2025 and beyond/04 - nonogram inversor.md
+      - title: Nonograms as an Exact Cover
+        statement: 19 - 2025 and beyond/05 - nonograms with algorithm x.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
