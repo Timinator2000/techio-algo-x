@@ -37,7 +37,7 @@ To understand how I set up my Algorithm X matrix, consider the following debug o
 ```
 len(actions)=65
 len(requirements)=63
-len(me_requirements)=6
+len(me_requirements)=4
 ```
 
 </details>
