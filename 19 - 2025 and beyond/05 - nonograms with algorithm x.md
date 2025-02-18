@@ -65,3 +65,13 @@ Fill the entire gameboard by placing groups of black cells or 1 x 1 white space 
 * place white space
 
 </details>
+
+<details>
+<summary>Spoiler #4: Mutual Exclusivity</summary>
+
+For any two contiguous segments. Each action of placing segment 1 (action 1) must be considered with each action of placing segment 2 (action 2). These actions are mutually exclusive if:
+
+1. The two segments do not overal at all.
+2. Segment 2's placement is earlier than the right end of segement 1 + two spaces.
+
+</details>
