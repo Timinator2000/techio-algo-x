@@ -1,6 +1,6 @@
 # Assorted Rectangular Pieces Puzzle
 
-__Puzzle:__ [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255)
+__Kata:__ [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255)
 
 __Sensei:__ [@docgunthrop](https://www.codewars.com/users/docgunthrop)
 
