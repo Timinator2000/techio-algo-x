@@ -30,11 +30,11 @@ Once you go down the road of problem-space reduction on this puzzle, it doesn’
 
 __On the next page, I will go through how I built an Algorithm X solution to this puzzle.__
 
-If you enjoy Nonograms, [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) turned me on to 3 more Nonogram puzzles on [CodeWars](www.codewars.com) with increasing levels of difficulty:
+If you enjoy Nonograms, [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) turned me on to 3 more Nonogram puzzles on [Codewars](www.codewars.com) with increasing levels of difficulty:
 
 # 5x5 Nonogram Solver
 
-__Puzzle:__ [5x5 Nonogram Solver](https://www.codewars.com/kata/5a479247e6be385a41000064)
+__Kata:__ [5x5 Nonogram Solver](https://www.codewars.com/kata/5a479247e6be385a41000064)
 
 __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
@@ -44,7 +44,7 @@ Solving this first puzzle is slightly easier than CodinGame's Nonogram Inversor.
 
 # 15x15 Nonogram Solver
 
-__Puzzle:__ [15x15 Nonogram Solver](https://www.codewars.com/kata/5a5072a6145c46568800004d)
+__Kata:__ [15x15 Nonogram Solver](https://www.codewars.com/kata/5a5072a6145c46568800004d)
 
 __Sensei:__ [@Bubbler](https://www.codewars.com/users/Bubbler)
 
@@ -54,7 +54,7 @@ In this puzzle, you must solve 103 Nonograms in 12 seconds (Python). My original
 
 # Multisize Nonogram Solver
 
-__Puzzle:__ [Multisize Nonogram Solver](https://www.codewars.com/kata/5a5519858803853691000069)
+__Kata:__ [Multisize Nonogram Solver](https://www.codewars.com/kata/5a5519858803853691000069)
 
 __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
