@@ -88,3 +88,12 @@ For any two contiguous segments in a single line. Each action of placing the fir
 2. Segment 2's placement is earlier than the right end of segement 1 + two spaces.
 
 </details>
+
+<details>
+<summary>Spoiler Wrap-Up</summary>
+
+When first considering this puzzle, the overlap of rows and columns seems like it might be the most challenging part of the puzzle. Breaking the covering of each cell into 2 requirements, one for the horizontal covering and one for the veritcal covering, magically makes sure all row/column conflicts are avoided and significantly simplifies the Algorithm X setup. Enumerating all possible actions and identifying mutually exclusive actions will still take significant attention to detail, but the end result is well worth it!
+
+Good luck!
+
+</details>
