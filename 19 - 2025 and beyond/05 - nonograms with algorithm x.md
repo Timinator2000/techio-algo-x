@@ -82,7 +82,7 @@ Where this really gets interesting is in the process of identifying a full list 
 <details>
 <summary>Spoiler #4: Mutual Exclusivity</summary>
 
-For any two contiguous segments in a single line. Each action of placing the first segment (segment 1) must be considered with each action of placing the second segment (segment 2). These actions are mutually exclusive if:
+For any two contiguous segments in a single line. Each action of placing the first segment (segment 1) must be considered with each action of placing the second segment (segment 2). An `me_requirement` is needed if:
 
 1. The two segments do not overlap.
 2. Segment 2's placement is earlier than the right end of segement 1 + two spaces.
