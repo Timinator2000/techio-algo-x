@@ -20,17 +20,17 @@ From the problem statement:
 
 >You will be given the length of all black groups.
 
-For each row and each column, we are given the lengths of each _group_ of contiguous black cells in that row or column. Each group of contiguous black cells must be separated by 1 or more white cells. Because there is no difference between a row of cells and a column of cells, I will use the word _line_ to generically refer to either a row or a column. Each line has some number of cells and zero or more groups of contiguous black cells. 
+For each row and each column, we are given the lengths of each _group_ of contiguous black cells in that row or column. I am going to refer to a group of 1 or more contiguous black cells as a _segment_. Each segment must be separated by 1 or more white cells. Because there is no difference between a row of cells and a column of cells, I will use the word _line_ to generically refer to either a row or a column. Each line has some number of cells and zero or more segments. 
 
 Consider a 5 x 5 Nonogram. My initial thought was to have a 5 x 5 gameboard and then determine all possible layouts for each line. All lines must be covered by a pattern. The various patterns for each line are the tiles that must be placed on the gameboard. Because horizontal lines and vertical lines will intersect, I considered using coloring or significant numbers of `me_requirements` to ensure incompatible lines were not placed in the same solution.
 
-Using this approach, I was able to solve __Test Cases 1 and 2__, but I timed out on the remaining test cases. There can be many possible patterns for a line that has multiple groups and there can be many combinations of horizontal and vertical lines that are incompatible. I needed my solution to be significantly faster, so I turned to problem-space reduction.
+Using this approach, I was able to solve __Test Cases 1 and 2__, but I timed out on the remaining test cases. There can be many possible patterns for a line that has multiple segments and there can be many combinations of horizontal and vertical lines that are incompatible. I needed my solution to be significantly faster, so I turned to problem-space reduction.
 
 Once you go down the road of problem-space reduction on this puzzle, it doesn’t take long to find solutions strictly using logic. With a solution in hand, you might wonder why anyone would continue banging his or her head against the wall searching for the Algorithm X solution. Maybe you enjoy the challenge, or maybe you just embrace the pain. Either way... 
 
 __On the next page, I will go through how I built an Algorithm X solution to this puzzle.__
 
-If you like Nonograms, @5DN1L turned me on to 3 more Nonogram puzzles on [CodeWars](www.codewars.com) with increasing levels of difficulty:
+If you enjoy Nonograms, [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) turned me on to 3 more Nonogram puzzles on [CodeWars](www.codewars.com) with increasing levels of difficulty:
 
 # 5x5 Nonogram Solver
 
@@ -64,7 +64,7 @@ I have not solved this puzzle yet. There are 60 random tests and I am only getti
 
 >I highly recommend not to try and use a brute force solution as some of the grids are very big. Also, you may not be able to solve all the grids by deduction alone so may have to guess one or two squares. :P
 
-As for a better algorithm, Donald Knuth has something to say about that! (credit again goes to [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) for finding this material). Are Binary Decision Diagrams (BDDs and ZDDs) possibly what we need? I don't know the answer to that, but here are a couple of links that might lead you to some answers:
+As for a better algorithm, Donald Knuth has something to say about that! (credit again goes to @5DN1L for finding this material). Are Binary Decision Diagrams (BDDs and ZDDs) possibly what we need? I don't know the answer to that, but here are a couple of links that might lead you to some answers:
 
 <a href="https://www.youtube.com/watch?v=SQE21efsf7Y">Stanford Lecture: Donald Knuth - "Fun With Binary Decision Diagrams (BDDs)" (June 5, 2008)</a>
 
