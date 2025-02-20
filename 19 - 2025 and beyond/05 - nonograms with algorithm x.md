@@ -75,14 +75,14 @@ I cannot take much credit for this. My actions match @VizGhar's actions exactly.
 * place segment
 * place white space
 
-Where this really gets interesting is in the process of identifying a full list of locations that are options for the placement of each segment. Based on the other segments in the line, the options are limited.
+Where this really gets interesting is in the process of identifying a full list of locations that are options for the placement of each segment. Based on the other segments in the line, the options are more limited that might think.
 
 </details>
 
 <details>
 <summary>Spoiler #4: Mutual Exclusivity</summary>
 
-For any two contiguous segments in a single line. Each action of placing the first segment (action 1) must be considered with each action of placing the second segment (action 2). These actions are mutually exclusive if:
+For any two contiguous segments in a single line. Each action of placing the first segment (segment 1) must be considered with each action of placing the second segment (segment 2). These actions are mutually exclusive if:
 
 1. The two segments do not overlap.
 2. Segment 2's placement is earlier than the right end of segement 1 + two spaces.
