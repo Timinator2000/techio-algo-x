@@ -31,8 +31,12 @@ __Output:__ You must return a `list` of `list`s, `set`s or `tuple`s with the set
 
 @[Minimize the list of all-or-none sets of events.]({"stubs": ["all_or_none.py"], "command": "python3 all_or_none_test.py"})
 
-# Might As Well Get Some XP!
+# A Few XP for Your Efforts
 
-Before tackling your next exact cover problem, apply your new skills to the following puzzle and capture a few XP for your efforts!
+Before tackling your next exact cover problem, apply your new skills to the following puzzle and capture a few XP along the way!
 
+__Puzzle:__ [Networking](https://www.codingame.com/training/medium/networking)
 
+__Author:__ [@Hermes2](https://www.codingame.com/profile/4862914f30331ebb394c6539dc1b4bde5659885)
+
+__Published Difficulty:__ Medium
