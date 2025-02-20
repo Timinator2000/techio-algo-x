@@ -11,7 +11,7 @@ __Algorithm X Complexity:__ Quite Challenging
 
 # Strategy
 
-My Algorithm X approach does not do any problem-space reduction before searching for a solution with Algorithm X. In the end, I looked at the problem in a way that did not occur to me until another CodinGamer made a comment that sent me down a path I never considered.
+My Algorithm X approach does not do any problem-space reduction before searching for a solution. In the end, I looked at the problem in a way that did not occur to me until another CodinGamer made a comment that sent me down a path I never considered.
 
 As I alluded to on the previous page, I eventually gave up on placing an entire line of cells on the Nonogram gameboard all in a single action. I will go through my approach in steps in case just one or two hints help you cross the finish line.
 
@@ -45,12 +45,17 @@ len(me_requirements)=4
 <details>
 <summary>Spoiler #1: Tiles on a Gameboard</summary>
 
-Fill the entire gameboard by placing groups of black cells or 1 x 1 white space cells on the gameboard.
+Following @VizGhar’s lead, my tiles are either `Segment`s or single white space cells. The entire Nonogram gameboard must be covered by some combination of `Segment`s and white spaces. Placing a `Segment` on the gameboard never includes any white space and placing a white space on the gameboard never covers any more than a single 1x1 cell.
 
 </details>
 
 <details>
 <summary>Spoiler #2: Requirements</summary>
+
+@VizGhar had a great idea with the 1/2 points and full points. All I did was convert that idea to language that felt closer to what I had done on all the puzzles before.
+
+<details>
+<summary>Show me the money!</summary>
 
 * All cells must be covered horizontally.
 * All cells must be covered veritcally.
@@ -58,11 +63,17 @@ Fill the entire gameboard by placing groups of black cells or 1 x 1 white space 
 
 </details>
 
+</details>
+
 <details>
 <summary>Spoiler #3: Actions</summary>
 
+I cannot take much credit for this. My actions match @VizGhar's actions exactly. It is unusual for me to have two different types of actions, but to cover the entire gameboard, it worked nicely here.
+
 * place segment
 * place white space
+
+Where this really gets interesting is in the process of identifying a full list of locations that are options for the placement of each segment. Based on the other segments in the line, the options are limited.
 
 </details>
 
