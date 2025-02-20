@@ -30,7 +30,7 @@ Once you go down the road of problem-space reduction on this puzzle, it doesn’
 
 __On the next page, I will go through how I built an Algorithm X solution to this puzzle.__
 
-If you enjoy Nonograms, [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) turned me on to 3 more Nonogram puzzles on [Codewars](www.codewars.com) with increasing levels of difficulty:
+If you enjoy Nonograms, [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) turned me on to 3 more Nonogram puzzles on [Codewars](https://www.codewars.com) with increasing levels of difficulty:
 
 # 5x5 Nonogram Solver
 
@@ -60,7 +60,7 @@ __Sensei:__ [@Avanta](https://www.codewars.com/users/Avanta)
 
 __Published Difficulty:__ [1 kyu](https://docs.codewars.com/gamification/ranks)
 
-I have not solved this puzzle yet. There are 60 random tests and I am only getting throught the first half of those tests before timing out. I definitely need a faster approach, but the following line from the problem statement makes me wonder if I will eventually need a combination of logic and Algorithm X:
+I have not solved this puzzle yet. There are 60 random tests and I am only getting through the first half of those tests before timing out. I definitely need a faster approach, but the following line from the problem statement makes me wonder if I will eventually need a combination of logic and Algorithm X:
 
 >I highly recommend not to try and use a brute force solution as some of the grids are very big. Also, you may not be able to solve all the grids by deduction alone so may have to guess one or two squares. :P
 
