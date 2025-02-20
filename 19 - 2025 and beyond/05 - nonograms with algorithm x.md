@@ -52,7 +52,7 @@ Following @VizGhar’s lead, my tiles are either `Segment`s or single white spac
 <details>
 <summary>Spoiler #2: Requirements</summary>
 
-@VizGhar had a great idea with the 1/2 points and full points. All I did was convert that idea to language that felt closer to what I had done on all the puzzles before.
+@VizGhar had a great idea with his 1/2 points and full points. All I did was convert that idea to language that felt closer to what I had done on all the puzzles before.
 
 <details>
 <summary>Show me the money!</summary>
