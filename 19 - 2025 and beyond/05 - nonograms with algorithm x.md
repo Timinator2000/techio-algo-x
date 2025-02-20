@@ -57,6 +57,7 @@ Following @VizGhar’s lead, my tiles are either `Segment`s or single white spac
 <details>
 <summary>Show me the money!</summary>
 
+<BR>
 * All cells must be covered horizontally.
 * All cells must be covered veritcally.
 * All segments must be placed on the gameboard.
