@@ -70,10 +70,4 @@ As for a better algorithm, Donald Knuth has something to say about that! (credit
 
 <a href="https://www.youtube.com/watch?v=-HzQYeqS9Wc">Stanford Lecture: Donald Knuth—"Fun With Zero-Suppressed Binary Decision Diagrams (ZDDs)" (2008)</a>
 
-[Stanford Lecture: Donald Knuth - "Fun With Binary Decision Diagrams (BDDs)" (June 5, 2008)](https://www.youtube.com/watch?v=SQE21efsf7Y)
-
-[Stanford Lecture: Donald Knuth—"Fun With Zero-Suppressed Binary Decision Diagrams (ZDDs)" (2008)](https://www.youtube.com/watch?v=-HzQYeqS9Wc)
-
 [Ben Lynn - BDDs, ZDDs, Nonograms, etc.](https://crypto.stanford.edu/pbc/notes/zdd/)
-
-
