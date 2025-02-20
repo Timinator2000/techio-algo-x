@@ -75,7 +75,7 @@ I cannot take much credit for this. My actions match @VizGhar's actions exactly.
 * place segment
 * place white space
 
-Where this really gets interesting is in the process of identifying a full list of locations that are options for the placement of each segment. Based on the other segments in the line, the options are more limited that might think.
+Where this really gets interesting is in the process of identifying a full list of locations that are options for the placement of each segment. Based on the other segments in the line, the options are more limited than you might think.
 
 </details>
 
