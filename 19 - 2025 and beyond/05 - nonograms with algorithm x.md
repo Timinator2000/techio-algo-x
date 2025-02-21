@@ -87,7 +87,7 @@ For any two contiguous segments in a single line, each action of placing the fir
 * The two segments do not overlap and...
 * Segment 2's placement is earlier than the right end of segment 1 + two spaces.
 
-Quiz: Why is an `me_requirement` not needed if the segments overlap?
+__Quiz:__ Why is an `me_requirement` not needed if the segments overlap?
 
 </details>
 
