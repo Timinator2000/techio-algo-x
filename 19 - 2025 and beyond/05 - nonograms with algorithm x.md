@@ -60,7 +60,7 @@ Following @VizGhar’s lead, my tiles are either segments or single white space 
 <BR>
 
 * All cells must be covered horizontally.
-* All cells must be covered veritcally.
+* All cells must be covered vertically.
 * All segments must be placed on the gameboard.
 
 </details>
@@ -82,17 +82,17 @@ Where this really gets interesting is in the process of identifying a full list 
 <details>
 <summary>Spoiler #4: Mutual Exclusivity</summary>
 
-For any two contiguous segments in a single line. Each action of placing the first segment (segment 1) must be considered with each action of placing the second segment (segment 2). An `me_requirement` is needed if:
+For any two contiguous segments in a single line, each action of placing the first segment (segment 1) must be considered with each action of placing the second segment (segment 2). An `me_requirement` is needed if:
 
 * The two segments do not overlap and...
-* Segment 2's placement is earlier than the right end of segement 1 + two spaces.
+* Segment 2's placement is earlier than the right end of segment 1 + two spaces.
 
 </details>
 
 <details>
 <summary>Spoiler Wrap-Up</summary>
 
-When first considering this puzzle, the overlap of rows and columns seems like it might be the most challenging part. Breaking the covering of each cell into 2 requirements, one for the horizontal covering and one for the veritcal covering, magically makes sure all row/column conflicts are avoided and simplifies the Algorithm X setup. Enumerating all possible actions and identifying mutually exclusive actions will still take significant attention to detail, but the end result is well worth it!
+When first considering this puzzle, the overlap of rows and columns seems like it might be the most challenging part. Breaking the covering of each cell into 2 requirements, one for the horizontal covering and one for the vertical covering, magically makes sure all row/column conflicts are avoided and simplifies the Algorithm X setup. Enumerating all possible actions and identifying mutually exclusive actions will still take significant attention to detail, but the end result is well worth it!
 
 Good luck!
 
