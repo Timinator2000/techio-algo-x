@@ -98,4 +98,11 @@ When first considering this puzzle, the overlap of rows and columns seems like i
 
 Good luck!
 
+<details>
+<summary>Quiz Answer:</summary>
+
+A pair of actions that try to place overlapping segments are already mutually exclusive because each action covers 1 or more of the same primary requirements.
+
+</details>
+
 </details>
