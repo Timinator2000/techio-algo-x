@@ -24,4 +24,4 @@ In my introduction to this playground, I made a handful of promises, including:
 >* You will find [puzzles] significantly easier than [they] would have been otherwise.
 >* You will have a lot of fun.
 
-My hope is that this benchmarking exercise demonstrates why I originally made those promises.
+My hope is that this benchmarking exercise demonstrates why I made those promises.
