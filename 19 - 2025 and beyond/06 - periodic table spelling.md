@@ -6,7 +6,7 @@ __Author:__ [@Edjy](https://www.codingame.com/profile/674fbda5df945919eb37269de9
 
 __Published Difficulty:__ Easy
 
-__Algorithm X Complexity:__ Bencharmarking Opportunity
+__Algorithm X Complexity:__ A Benchmarking Opportunity
 
 # Strategy
 
