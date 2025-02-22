@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ A Benchmarking Opportunity
 
 # Strategy
 
-It is not often an opportunity to comes along to test your skills on an exact-cover puzzle classified as “easy”. If you have completed a reasonable portion of this playground, you should be able to fly through this puzzle. I suggest you take this opportunity to test your knowledge and benchmark your learning. Use the following questions to reflect on your results:
+It is not often an opportunity comes along to test your skills on an exact-cover puzzle classified as “easy”. If you have completed a reasonable portion of this playground, you should be able to fly through this puzzle. I suggest you take this opportunity to test your knowledge and benchmark your learning. Use the following questions to reflect on your results:
 
 * How much of your solver code were you able to write from memory?
 * How many syntax errors did you need to correct?
