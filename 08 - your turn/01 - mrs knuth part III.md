@@ -1,6 +1,7 @@
 # Solving Mrs. Knuth Part III
 
-__Puzzle:__ Mrs. Knuth Part III [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+__Puzzle:__ [Mrs. Knuth - Part III](https://www.codingame.com/training/hard/mrs--knuth---part-iii)
+
 
 You already have everything you need to instruct Algorithm X to find scheduling options for Mrs. Knuth. The last thing to cover is the process of evaluating the options and determining which one is best. I’m going to leave all the score calculations to you, but I do want to show you how to make your `AlgorithmXSolver` subclass handle some of the details for you.
 
