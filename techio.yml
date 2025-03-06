@@ -242,8 +242,8 @@ plan:
         statement: 19 - 2025 and beyond/06 - periodic table spelling.md
       - title: Polyominoes
         statement: 19 - 2025 and beyond/07 - polyominoes.md
-      - title: Tetrasticks
-        statement: 19 - 2025 and beyond/08 - tetrasticks.md
+      # - title: Tetrasticks
+      #   statement: 19 - 2025 and beyond/08 - tetrasticks.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
