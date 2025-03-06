@@ -4,7 +4,7 @@ __Puzzle:__ [Polyominoes](https://www.codingame.com/training/medium/polyominoes)
 
 __Author:__ [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993)
 
-__Published Difficulty:__ Easy
+__Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Textbook Exact Cover
 
