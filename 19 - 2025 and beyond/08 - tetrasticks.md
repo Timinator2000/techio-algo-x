@@ -1,4 +1,4 @@
-# Polyominoes
+# Tetrasticks
 
 __Puzzle:__ Tetrasticks - COMING SOON
 
