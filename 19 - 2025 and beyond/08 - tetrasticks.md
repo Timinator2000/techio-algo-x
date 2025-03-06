@@ -11,5 +11,5 @@ __Algorithm X Complexity:__ Textbook _Generalized_ Exact Cover
 # Strategy
 
 <BR><BR>
-![Tetrasticks Grid](Tetrasticks 1 - Grid.png)
+![Tetrasticks Grid](Tetrasticks1-Grid.png)
 <BR>
