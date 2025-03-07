@@ -16,7 +16,7 @@ Rather than rehashing Knuth’s material, I will cover an alternate approach to 
 
 Consider a 5x5 gameboard. The tetrasticks need to cover all the cell edges. These edges include a 6x5 matrix of horizontal edges and a 5x6 matrix of vertical edges. Just as I suggested in [Picture Puzzle](picture-puzzle), it appears separate data structures might be necessary to organize the horizontal edges and the vertical edges.
 
-Tetrasticks is an edge-based puzzle while Polyominoes is a cell-based puzzle. Convertint tetrasticks to cell-based requires a finer level of detail and to capture more detail requires a larger 2-dimensional array. To illustrate this concept, first consider the following 5x5 grid that needs to be covered with tetrasticks.
+Tetrasticks is an edge-based puzzle while Polyominoes is a cell-based puzzle. Converting tetrasticks to cell-based requires a finer level of detail and to capture more detail requires a larger 2-dimensional array. To illustrate this concept, first consider the following 5x5 grid that needs to be covered with tetrasticks.
 
 <BR><BR>
 ![Tetrasticks Grid](Tetrasticks1-Grid.png)
