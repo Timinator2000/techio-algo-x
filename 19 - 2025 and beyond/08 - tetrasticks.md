@@ -28,7 +28,7 @@ Each edge of the grid is important. In the next diagram, I have placed a orange 
 ![Tetrasticks Grid Edges](Tetrasticks2-GridEdges.png)
 <BR>
 
-The interior intersections of the grid also important in that no two tetrasticks can cross each other at these locations. In the following diagram, I have added blue dots on all interior intersections, each of which could be an integral part of a proper solution.
+The interior intersections of the grid are also important in that no two tetrasticks can cross each other at these locations. In the following diagram, I have added blue dots on all interior intersections, each of which could be an integral part of a proper solution.
 
 <BR><BR>
 ![Tetrasticks Edges and Intersections](Tetrasticks3-GridEdgesAndInternalIntersections.png)
