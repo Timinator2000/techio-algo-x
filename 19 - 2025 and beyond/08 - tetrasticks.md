@@ -32,7 +32,7 @@ Edge intersections are sometimes important because no two tetrasticks can cross 
 ![Tetrasticks Edges and Intersections](Tetrasticks3-GridEdgesIntersections.png)
 <BR>
 
-The cells themselves are never important to a tetrasticks solution, but adding a dot on each cell perfectly fills in teh 2-dimensional matrix. In the next diagram, I have covered each cell with a grey dot.
+The cells themselves are never important to a tetrasticks solution, but adding a dot on each cell perfectly fills in the 2-dimensional matrix. In the next diagram, I have covered each cell with a grey dot.
 
 <BR><BR>
 ![Tetrasticks Edges, Cells and Intersections ](Tetrasticks4-11x11.png)
