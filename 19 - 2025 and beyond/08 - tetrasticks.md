@@ -14,6 +14,8 @@ In the previous [polyominoes](polyominoes) discussion, I mentioned Donald Knuthâ
 
 Rather than rehashing Knuthâ€™s material, I will cover an alternate approach, translating a 5x5 tetrasticks puzzle into an _almost_ equivalent 11x11 polyominoes puzzle. Polyominoes is easily represented with a 2-dimensional array where piece rotations and placement options are not overly complicated. A proper translation is challenging, but you should be able to reuse your polyominoes code with minimal changes.
 
+# Hey Google, Translate My Puzzle
+
 Tetrasticks are made of connected edges of a grid. Polyominoes are made of connected cells of a grid. To represent tetrasticks as polyominoes, we need a finer resolution that captures every original edge as a cell unit. Consider the following 5x5 tetrasticks gameboard.
 
 <BR><BR>
@@ -54,4 +56,6 @@ In the following diagram, I have put an `F` in the upper left corner, a `T`in th
 ![Tetrasticks Translation with Placed Pieces](Tetrasticks6-PlacedPieces.png)
 <BR>
 
-Final part...
+# Final Steps
+
+Wrap it up...
