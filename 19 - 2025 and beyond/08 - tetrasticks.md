@@ -46,7 +46,7 @@ In the following diagram, I have replaced each dot with a cell in a 2-dimmension
 ![Tetrasticks Full Translation ](Tetrasticks5-FullTranslation.png)
 <BR>
 
-Each cell with an `X`empty neighbors, the cell’s original 4 edges that need to be covered by a tetrastick. With this new resolution, the puzzle becomes finding a way to exactly cover the white cells, but what do the translated tetrasticks look like now?
+Each cell with an `X` has 4 empty neighbors, the cell’s original 4 edges that need to be covered by a tetrastick. With this new resolution, the puzzle becomes finding a way to exactly cover the white cells, but what do the translated tetrasticks look like now?
 
 In the following diagram, I have put an `F` in the upper left corner, a `T`in the upper right corner, a `U` in the bottom left corner and a `P` in the bottom right corner. Each tetrastick is now a group of cells in the translated grid.
 
