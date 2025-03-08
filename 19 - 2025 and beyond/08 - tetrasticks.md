@@ -58,4 +58,10 @@ In the following diagram, I have put an `F` in the upper left corner, a `T`in th
 
 # Final Steps
 
-Wrap it up...
+The grid translation has taken shape, but you still need to translate the tetrasticks. During the puzzle creation process, I saw @VizGhar use the word _bounding box_, referring to the minimum rectangle that completely contains each tetrastick. Translating each bounding box is the key to a proper translation of each tetrastick to an equivalent polyominoe. Of course, you also need to create a way to identify tetrastick joints that could be problematic.
+
+I began working on this puzzle before finishing polyominoes which allowed me to put some thought into writing code that could be used by both puzzles. Other than my translation code, I only had to add two lines of code to my `PolyominoesSolver`, one line to build the `optional_requirements` and a second line to add the appropriate `optional_requirements` to the lists of covered requirements for each action.
+
+# @VizGhar’s Translation
+
+@VizGhar did a different translation. To see it, visit his GitHub.
