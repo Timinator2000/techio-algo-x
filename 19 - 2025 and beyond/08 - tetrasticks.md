@@ -29,13 +29,13 @@ Each edge of the grid is important. In the next diagram, I have placed a orange 
 The interior intersections of the grid are also important in that no two tetrasticks can cross each other at these locations. In the following diagram, I have added blue dots on all interior intersections, each of which could be an integral part of a proper solution.
 
 <BR><BR>
-![Tetrasticks Edges and Intersections](Tetrasticks3-GridEdgesAndInternalIntersections.png)
+![Tetrasticks Edges and Intersections](Tetrasticks3-GridEdgesIntersections.png)
 <BR>
 
 The exterior intersections of the grid and the cells themselves are never important to a tetrasticks solution. In the next diagram, I have covered each cell and each exterior intersection with a grey dot.
 
 <BR><BR>
-![Tetrasticks Edges, Cells and Intersections ](Tetrasticks4-AllEdgesCellsIntersections.png)
+![Tetrasticks Edges, Cells and Intersections ](Tetrasticks4-11x11.png)
 <BR>
 
 This 11x11 matrix provides the __resolution__ necessary to capture all the interesting features of a tetrasticks puzzle. The edges of the cells are no longer important. The edges and every edge intersection of the original puzzle are now represented by cells.
