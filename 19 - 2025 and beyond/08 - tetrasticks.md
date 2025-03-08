@@ -53,3 +53,5 @@ In the following diagram, I have put an `F` in the upper left corner, a `T`in th
 <BR><BR>
 ![Tetrasticks Translation with Placed Pieces](Tetrasticks6-PlacedPieces.png)
 <BR>
+
+Final part...
