@@ -62,8 +62,6 @@ The grid translation has taken shape, but you still need to translate the tetras
 
 I began working on this puzzle before finishing polyominoes which allowed me to put some thought into writing code that could be used by both puzzles. Other than my translation code, I only had to add two lines of code to my `PolyominoesSolver`, one line to build the `optional_requirements` and a second line to add the appropriate `optional_requirements` to the list of covered requirements for each action.
 
-# @VizGhar’s Translation
+# Translations in General
 
-@VizGhar did a different translation. To see it, visit his GitHub
-
-NEED to FINISH
+Just like one language can be translated to many other languages, the translation I cover above is not the only way to translate tetrasticks (or any other puzzle) to something more familiar. The important part of a translation is that it simplifies your task. For me, working with the horizontal edges and the vertical edges felt a bit overwhelming. Once I went down the translation path, I was able to build on top of the polyominoes concepts with which I had already become comfortable.
