@@ -50,7 +50,7 @@ In the next diagram, I have replaced each dot with a cell in a 2-dimensional gri
 
 Each cell with an `X` has 4 empty neighbors, the cell’s original 4 edges that need to be covered by a tetrastick. With this new resolution, the puzzle transforms into finding a way to exactly cover the white cells, but what do the translated tetrasticks look like now?
 
-In this last diagram, I have put an `F` in the upper left corner, a `T`in the upper right corner, a `U` in the bottom left corner and a `P` in the bottom right corner. Each tetrastick is now a group of cells in the translated grid.
+In this final diagram, I have put an `F` in the upper left corner, a `T`in the upper right corner, a `U` in the bottom left corner and a `P` in the bottom right corner. Each tetrastick is now a group of cells in the translated grid.
 
 <BR><BR>
 ![Tetrasticks Translation with Placed Pieces](Tetrasticks6-PlacedPieces.png)
