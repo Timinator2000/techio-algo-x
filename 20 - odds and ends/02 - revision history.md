@@ -8,4 +8,4 @@
 | February 21, 2025 | [Nonogram Inversor](nonogram-inversor) added. |
 | February 23, 2025 | [Periodic Table Spelling](periodic-table-spelling) added. |
 | March 6, 2025 | [Polyominoes](polyominoes) added. |
-| TBD | [Tetrasticks](tetrasticks) added. |
+| March 10, 2025 | [Tetrasticks](tetrasticks) added. |
