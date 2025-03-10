@@ -22,7 +22,7 @@ Tetrasticks are made of connected edges of a grid. Polyominoes are made of conne
 ![Tetrasticks Grid](Tetrasticks1-Grid.png)
 <BR>
 
-Each edge of the grid is important. In the next diagram, I have placed a orange dot on every edge, overlapping the 6x5 grid of horizontal edges and the 5x6 grid of vertical edges.
+Each edge of the grid is important. In the next diagram, I have placed an orange dot on every edge, overlapping the 6x5 grid of horizontal edges and the 5x6 grid of vertical edges.
 
 <BR><BR>
 ![Tetrasticks Grid Edges](Tetrasticks2-GridEdges.png)
