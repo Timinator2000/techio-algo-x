@@ -244,14 +244,18 @@ plan:
         statement: 19 - 2025 and beyond/07 - polyominoes.md
       - title: Tetrasticks
         statement: 19 - 2025 and beyond/08 - tetrasticks.md
+  - title: Solver Translations
+    plan:
+      - title: Ruby
+        statement: 20 - solver translations/01 - ruby.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
-        statement: 20 - odds and ends/01 - solving with logic only.md
+        statement: 21 - odds and ends/01 - solving with logic only.md
       - title: Revision History
-        statement: 20 - odds and ends/02 - revision history.md
+        statement: 21 - odds and ends/02 - revision history.md
       - title: Afterword
-        statement: 20 - odds and ends/03 - afterword.md
+        statement: 21 - odds and ends/03 - afterword.md
 projects:
   python:
     root: /python-project
