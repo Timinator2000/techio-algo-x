@@ -42,7 +42,7 @@ The cells themselves are not important to a tetrasticks solution, but adding a d
 
 This 11x11 matrix provides the __resolution__ necessary to capture all the interesting features of a tetrasticks puzzle. Cell edges are no longer important. The edges and every edge intersection of the original puzzle are now represented by cells.
 
-In the next diagram, I have replaced each dot with a cell in a 2-dimmensional grid. Each white cell is an edge from the original puzzle. Each grey cell is either an edge intersection from the original puzzle or one of the cells in the original puzzle. For clarity, I have added a white `X` to the 25 cells that made up the original 5x5 tetrasticks puzzle.
+In the next diagram, I have replaced each dot with a cell in a 2-dimensional grid. Each white cell is an edge from the original puzzle. Each grey cell is either an edge intersection from the original puzzle or one of the cells in the original puzzle. For clarity, I have added a white `X` to the 25 cells that made up the original 5x5 tetrasticks puzzle.
 
 <BR><BR>
 ![Tetrasticks Full Translation ](Tetrasticks5-FullTranslation.png)
@@ -58,9 +58,9 @@ In this last diagram, I have put an `F` in the upper left corner, a `T`in the up
 
 # Final Steps
 
-The grid translation has taken shape, but you still need to translate the tetrasticks. During the puzzle creation process, @VizGhar use the words _bounding box_, referring to the smallest rectangle that completely contains each tetrastick. Translating each bounding box is the key to properly translating each tetrastick to an equivalent polyominoe. Of course, you also need to create a way to identify the tetrastick joints that could be problematic.
+The grid translation has taken shape, but you still need to translate the tetrasticks. In the problem statement, @VizGhar uses the words _bounding box_, referring to the smallest rectangle that completely contains each tetrastick. Translating each bounding box is the key to properly translating each tetrastick to an equivalent polyomino. Of course, you also need to create a way to identify the tetrastick joints that could be problematic.
 
-I began working on this puzzle before finishing polyominoes which allowed me to put some thought into writing code that could be used by both puzzles. Other than my translation code, I only had to add two lines of code to my `PolyominoesSolver`, one line to build the `optional_requirements` and a second line to add the appropriate `optional_requirements` to the list of covered requirements for each action.
+I began working on this puzzle before finishing polyominoes which allowed me to put some thought into writing code that could be used by both puzzles. Other than my translation code, I only had to add two lines of code to my `PolyominoesSolver`, one line to build the `optional_requirements` and a second line to add the appropriate `optional_requirements` to each action's covered requirements.
 
 # Translations in General
 
