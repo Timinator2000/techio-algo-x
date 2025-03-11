@@ -2,7 +2,7 @@
 
 __Translation Author:__ [@Rafarafa](https://www.codingame.com/profile/68977779383d7e4ea558c7a5446487f40556084)
 
-Ruby is a high-level, dynamically typed programming language known for its readability and ease of use. Ruby shares many similarities with Python, such as automatic memory management and object-oriented principles. @Rafarafa has provided a word for word translation, even preserving the comments found in my Python code. Using the Ruby solver below is extremely similar to the Python examples provided in the playground.
+Ruby is a high-level, dynamically typed programming language known for its readability and ease of use. Ruby shares many similarities with Python, such as automatic memory management and object-oriented principles. @Rafarafa has provided a word for word translation, even preserving the comments found in the provided Python code. Using the Ruby solver below is extremely similar to the Python examples provided in the playground.
 
 # Key Difference
 
