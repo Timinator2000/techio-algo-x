@@ -12,7 +12,7 @@ Be sure to scan through @Rafarafa's other comments for information regarding oth
 
 # Example - 9x9 Sudoku
 
-```
+```ruby
 class SudokuSolver < AlgorithmXSolver
   
   def initialize(grid, values)
