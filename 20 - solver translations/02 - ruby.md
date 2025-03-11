@@ -44,8 +44,8 @@ end
 # The comments have been preserved verbatim, except for the necessary
 # changes to match ruby's conventions (__init__ > initialize etc.)
 
-#################################################
-#################################################
+################################################
+################################################
 
 require 'set'
 
