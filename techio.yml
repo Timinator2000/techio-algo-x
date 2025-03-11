@@ -244,12 +244,12 @@ plan:
         statement: 19 - 2025 and beyond/07 - polyominoes.md
       - title: Tetrasticks
         statement: 19 - 2025 and beyond/08 - tetrasticks.md
-  # - title: Solver Translations
-  #   plan:
-  #     - title: Overview
-  #       statement: 20 - solver translations/01 - overview.md
-  #     - title: Ruby
-  #       statement: 20 - solver translations/02 - ruby.md
+  - title: Solver Translations
+    plan:
+      - title: Overview
+        statement: 20 - solver translations/01 - overview.md
+      - title: Ruby
+        statement: 20 - solver translations/02 - ruby.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
