@@ -1,8 +1,38 @@
 # Ruby
 
+__Author:__ [@Rafarafa](https://www.codingame.com/profile/68977779383d7e4ea558c7a5446487f40556084)
+
+Ruby is a high-level, dynamically typed programming language known for its readability and ease of use. Ruby shares many similarities with Python, such as automatic memory management and object-oriented principles. @Rafarafa has attempted a word for word translation, even preserving the comments found in my Python code. Using the Ruby solver below is extremely similar to the Python examples provided in the playground.
+
+# Key Difference
+
+My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of tuples. Because Ruby does not have tuples, you will use arrays for requirements and actions. These arrays will be used as keys in a `hash`, so take appropriate care to ensure the array elements never change. 
 
 
+# Example - Sudoku
 
+```
+class SudokuSolver < AlgorithmXSolver
+  
+  def initialize(grid, values)
+
+    # Build requirements and actions.
+    
+    super(requirements, actions)
+  end
+end
+
+n = 9
+grid = n.times.map { gets.chomp.split("") }
+solver = SudokuSolver.new(grid, [*"1"..n.to_s].take(n).join)
+solution = solver.solve.take(1).first
+
+solution.each do | _, row, col, val|
+  grid[row][col] = val
+end
+```
+
+# The Solver Code
 
 ```ruby
 # Last edit: 2025-01-15 by @Rafarafa
