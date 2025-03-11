@@ -79,6 +79,10 @@ I wholeheartedly believe that working through this playground and the accompanyi
 
 * Cursory understanding of backtracking. To complete this playground, it is more important that you understand the general concept of backtracking than it is you be able to code a backtracking algorithm.
 
+# Language Translations
+
+The CodinGame community is wide and diverse. Although much of this playground has been written for the Python programmer, it did not take long for language translations of the provided [`AlgorithmXSolver`](the-algorithmxsolver) to appear. Be sure to visit the [translations section](overview) to see if a translation to your preferred language already exists.
+
 # Future Updates
 
 If this is not your first time visiting this playground, be sure to click [here](revision-history) to see if any major updates (e.g. new puzzle) have been made since your last visit.
