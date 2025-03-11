@@ -6,7 +6,7 @@ Ruby is a high-level, dynamically typed programming language known for its reada
 
 # Key Difference
 
-My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of tuples. Because Ruby does not have tuples, you will use arrays for requirements and actions. These arrays will be used as keys in a `hash`, so take appropriate care to ensure the array elements never change.
+My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s. Because Ruby does not have `tuple`s, you will use `array`s for requirements and actions. These `array`s will be used as keys in a `hash`, so take appropriate care to ensure the `array` elements never change.
 
 Be sure to scan through @Rafarafa's other comments for information regarding other minor differences.
 
