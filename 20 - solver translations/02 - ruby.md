@@ -1,15 +1,16 @@
 # Ruby
 
-__Author:__ [@Rafarafa](https://www.codingame.com/profile/68977779383d7e4ea558c7a5446487f40556084)
+__Translation Author:__ [@Rafarafa](https://www.codingame.com/profile/68977779383d7e4ea558c7a5446487f40556084)
 
-Ruby is a high-level, dynamically typed programming language known for its readability and ease of use. Ruby shares many similarities with Python, such as automatic memory management and object-oriented principles. @Rafarafa has attempted a word for word translation, even preserving the comments found in my Python code. Using the Ruby solver below is extremely similar to the Python examples provided in the playground.
+Ruby is a high-level, dynamically typed programming language known for its readability and ease of use. Ruby shares many similarities with Python, such as automatic memory management and object-oriented principles. @Rafarafa has provided a word for word translation, even preserving the comments found in my Python code. Using the Ruby solver below is extremely similar to the Python examples provided in the playground.
 
 # Key Difference
 
-My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of tuples. Because Ruby does not have tuples, you will use arrays for requirements and actions. These arrays will be used as keys in a `hash`, so take appropriate care to ensure the array elements never change. 
+My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of tuples. Because Ruby does not have tuples, you will use arrays for requirements and actions. These arrays will be used as keys in a `hash`, so take appropriate care to ensure the array elements never change.
 
+Be sure to scan through @Rafarafa's other comments for information regarding other minor differences.
 
-# Example - Sudoku
+# Example - 9x9 Sudoku
 
 ```
 class SudokuSolver < AlgorithmXSolver
