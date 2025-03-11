@@ -13,3 +13,5 @@ _If you run into any issues with any of these translations, post a note in the [
 Click the links below for each translation. If you do not see your preferred language, please consider writing a translation and allowing me to share it here with the community.
 
 [Ruby](ruby)
+
+Kotlin - Coming Soon
