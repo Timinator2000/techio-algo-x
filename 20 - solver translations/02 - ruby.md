@@ -85,7 +85,6 @@ class DLXCell
   end
 
   def remove_x
-    # warn "called"
     @prev_x.next_x = @next_x
     @next_x.prev_x = @prev_x
   end
@@ -182,11 +181,11 @@ end
 class AlgorithmXSolver
   attr_accessor :solution, :solution_count, :history, :solution_is_valid
 
-  # R - a list of requirements. The initialize() method converts R to a Hash, but R must
+  # R - a list of requirements. The initialize() method converts R to a hash, but R must
   #     originally be passed in as a simple list of requirements. Each requirement is a list
   #     of values that uniquely identify that requirement from all other requirements.
   #
-  # A - must be passed in as a dictionary - keys are actions, values are lists of covered requirements
+  # A - must be passed in as a hash - keys are actions, values are lists of covered requirements
   #
   # O - list of optional requirements. They can be covered, but they never cause failure.
   #     Optional requirements are important because if they get covered, no other action can
@@ -262,7 +261,7 @@ class AlgorithmXSolver
     #
     # Since this last one will still explore after finding the first solution.
     # Note that this can cause "stack level too deep (SystemStackError)" on
-    # very demanding (25x25 Sudoku) puzzles.
+    # very demanding puzzles such as 25x25 Sudoku.
     Enumerator.new { |yielder| solve_go(yielder) }
   end
 
