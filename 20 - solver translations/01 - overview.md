@@ -6,7 +6,7 @@ On the following pages are various language translations of the provided [`Algor
 
 For each translation, either the author or I have completed several puzzles using the translation and feel confident in the functionality. I spent two years working with and refining my Python solver. Obviously, we can’t do that with each translation. However, I will make this pseudo guarantee:
 
-_If you run into any issues with any of these translations, post a note in the [CodinGame Forum]( https://www.codingame.com/forum) and I feel confident the CodinGame community will do their best to get you the help you need._
+_If you run into any issues with any of these translations, post a note in the [CodinGame Forum](https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871/14) and I feel confident the CodinGame community will do their best to get you the help you need._
 
 # Translation Inventory
 
