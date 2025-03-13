@@ -6,7 +6,7 @@ I have learned a ton these past several years looking at other CodinGamers' solu
 
 Here's the best news of all. You are welcome to study DLX and implement it yourself, but you don't need to do that to solve all the puzzles on @5DN1L's list. I'm going to give you my `AlgorithmXSolver`. Would it be beneficial to study DLX and implement it yourself? Absolutely! However, this playground is not about coding up DLX. This playground is about building models that Algorithm X can easily digest and solve. In the big (theoretical) picture of life, DLX only needs to be implemented one time, while the number of problems that might need to be modeled and solved is endless.
 
-__Reminder: All detailed examples in this playground are coded in Python. Feel free to check the [translations section](overview) for other language options!__
+__Reminder: All detailed examples in this playground are coded in Python. Make sure to check the [translations section](overview) for other language options!__
 
 # Using the `AlgorithmXSolver` Class
 
