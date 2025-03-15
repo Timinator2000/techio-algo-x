@@ -240,10 +240,12 @@ plan:
         statement: 19 - 2025 and beyond/05 - nonograms with algorithm x.md
       - title: Periodic Table Spelling
         statement: 19 - 2025 and beyond/06 - periodic table spelling.md
+      - title: Kids Blocks
+        statement: 19 - 2025 and beyond/07 - kids blocks.md
       - title: Polyominoes
-        statement: 19 - 2025 and beyond/07 - polyominoes.md
+        statement: 19 - 2025 and beyond/08 - polyominoes.md
       - title: Tetrasticks
-        statement: 19 - 2025 and beyond/08 - tetrasticks.md
+        statement: 19 - 2025 and beyond/09 - tetrasticks.md
   - title: Solver Translations
     plan:
       - title: Overview
