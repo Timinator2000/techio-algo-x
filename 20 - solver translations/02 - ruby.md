@@ -181,13 +181,13 @@ end
 class AlgorithmXSolver
   attr_accessor :solution, :solution_count, :history, :solution_is_valid
 
-  # R - a list of requirements. The initialize() method converts R to a hash, but R must
-  #     originally be passed in as a simple list of requirements. Each requirement is a list
+  # R - an array of requirements. The initialize() method converts R to a hash, but R must
+  #     originally be passed in as a simple array of requirements. Each requirement is an array
   #     of values that uniquely identify that requirement from all other requirements.
   #
-  # A - must be passed in as a hash - keys are actions, values are lists of covered requirements
+  # A - must be passed in as a hash - keys are actions, values are arrays of covered requirements
   #
-  # O - list of optional requirements. They can be covered, but they never cause failure.
+  # O - array of optional requirements. They can be covered, but they never cause failure.
   #     Optional requirements are important because if they get covered, no other action can
   #     also cover that same requirement. Also referred to as "at-most-one-time constraints".
   #
@@ -196,7 +196,7 @@ class AlgorithmXSolver
     @R = requirements + optional
     @O = optional.to_set
 
-    # The list of actions (rows) that produce the current path through the matrix.
+    # The array of actions (rows) that produce the current path through the matrix.
     @solution = []
     @solution_count = 0
 
@@ -301,7 +301,7 @@ class AlgorithmXSolver
       return
     end
 
-    # Build a list of all actions (rows) that cover the chosen requirement (column).
+    # Build an array of all actions (rows) that cover the chosen requirement (column).
     actions = []
     node = best_column.next_y
     while node != best_column
@@ -385,7 +385,7 @@ class AlgorithmXSolver
 
   # The following method can be overridden by a subclass to add logic to perform more detailed solution
   # checking if invalid paths are possible through the matrix. Some problems have requirements that
-  # cannot be captured in the basic requirements list passed into the initialize() method. For instance,
+  # cannot be captured in the basic requirements array passed into the initialize() method. For instance,
   # a solution might only be valid if it fits certain parameters that can only be checked at intermediate
   # steps. In a case like that, this method can be overridden to add the functionality necessary to
   # check the solution.
