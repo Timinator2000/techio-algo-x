@@ -9,5 +9,5 @@
 | February 23, 2025 | [Periodic Table Spelling](periodic-table-spelling) added. |
 | March 6, 2025 | [Polyominoes](polyominoes) added. |
 | March 10, 2025 | [Tetrasticks](tetrasticks) added. |
-| TBD | `AlgorithmXSolver`: [Ruby](ruby) translation added.<BR><BR>[Kids Blocks](kids-blocks) added. |
+| TBD | `AlgorithmXSolver`: [Ruby](ruby) translation added. |
 | TBD | [Kids Blocks](kids-blocks) added. |
