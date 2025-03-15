@@ -226,6 +226,14 @@ plan:
         statement: 18 - your turn/03 - harmless rooks cont.md
       - title: Assorted Rectangular Pieces
         statement: 18 - your turn/04 - assorted rectangular pieces.md
+  - title: Final Exam
+    plan:
+      - title: Explanation
+        statement: 22 - final exam/01 - explanation.md
+      - title: Periodic Table Spelling
+        statement: 19 - final exam/02 - periodic table spelling.md
+      - title: Kids Blocks
+        statement: 19 - final exam/03 - kids blocks.md
   - title: 2025 and Beyond
     plan:
       - title: Strategy Going Forward
@@ -238,14 +246,10 @@ plan:
         statement: 19 - 2025 and beyond/04 - nonogram inversor.md
       - title: Nonograms as an Exact Cover
         statement: 19 - 2025 and beyond/05 - nonograms with algorithm x.md
-      - title: Periodic Table Spelling
-        statement: 19 - 2025 and beyond/06 - periodic table spelling.md
-      - title: Kids Blocks
-        statement: 19 - 2025 and beyond/07 - kids blocks.md
       - title: Polyominoes
-        statement: 19 - 2025 and beyond/08 - polyominoes.md
+        statement: 19 - 2025 and beyond/06 - polyominoes.md
       - title: Tetrasticks
-        statement: 19 - 2025 and beyond/09 - tetrasticks.md
+        statement: 19 - 2025 and beyond/07 - tetrasticks.md
   - title: Solver Translations
     plan:
       - title: Overview
