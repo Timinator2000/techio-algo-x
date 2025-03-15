@@ -11,3 +11,4 @@
 | March 10, 2025 | [Tetrasticks](tetrasticks) added. |
 | TBD | `AlgorithmXSolver` ➡️ [Ruby](ruby) translation added. |
 | TBD | [Kids Blocks](kids-blocks) added. |
+| TBD | `AlgorithmXSolver` ➡️ Kotlin - COMING SOON translation added. |
