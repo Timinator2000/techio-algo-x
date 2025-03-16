@@ -15,7 +15,8 @@ Be sure to scan through @Rafarafa's other comments for information regarding oth
 # Example - 9x9 Sudoku
 
 ```kotlin
-class SudokuSolver(grid: List<CharArray>, values: String) : DLXSolver<Requirement, Action>(buildRequirements(grid, values), buildActions(grid, values)) {
+class SudokuSolver(grid: List<CharArray>, values: String) :
+            DLXSolver<Requirement, Action>(buildRequirements(grid, values), buildActions(grid, values)) {
 
     companion object {
 
