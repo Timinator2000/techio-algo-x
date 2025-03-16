@@ -44,7 +44,7 @@ class SudokuSolver(grid: List<CharArray>, values: String) :
 
         // Using the Actions in the solution, build a grid and print the solved Sudoku.
 
-        return true    # Return true to stop looking for more solutions.
+        return true    // Return true to stop looking for more solutions.
     }
 }
 
