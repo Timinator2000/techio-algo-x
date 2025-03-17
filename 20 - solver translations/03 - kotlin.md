@@ -17,6 +17,8 @@ sealed interface Requirement {
     data class RowCovered(val row: Int, val value: Char) : Requirement
     data class ColumnCovered(val col: Int, val value: Char) : Requirement
 }
+
+data class Action(val row: Int, val col: Int, val value: Char)
 ```
 
 # Solver Construction and Initialization
