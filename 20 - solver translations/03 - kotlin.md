@@ -33,7 +33,7 @@ Using my Python solver, the following process has been followed:
 1. Override the constructor to build requirements and actions.
 1. Prior to exiting the subclass constructor, call the superclass constructor passing the newly built requirements and actions.
 
-In Kotlin, your solver subclass cannot override the inherited constructor. Requirements and actions must be built __before__ initializing your solver. In the following 9x9 Sudoku example, I have added a function called `createSolver` (per @VizGhar's instructions), which builds the requirements and actions before creating an instance of `SudokuSolver`.
+In Kotlin, your solver subclass cannot override the inherited constructor to build requirements and actions before passing them to the inherited constructor. Requirements and actions must be built __before__ initializing your subclass solver. In the following 9x9 Sudoku example, I have added a function called `createSolver` (per @VizGhar's instructions), which builds the requirements and actions before creating an instance of `SudokuSolver`.
 
 # Example - 9x9 Sudoku
 
