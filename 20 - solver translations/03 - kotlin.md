@@ -65,7 +65,7 @@ fun createSolver(grid: List<CharArray>, values: String): SudokuSolver {
 
 
 fun main() {
-    createSolver(List(9) { readln().toCharArray() }, ALL_VALUES).solve()
+    createSolver(List(9) { readln().toCharArray() }, "123456789").solve()
 }
 ```
 
