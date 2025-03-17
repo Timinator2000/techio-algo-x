@@ -18,13 +18,14 @@ sealed interface Requirement {
     data class ColumnCovered(val col: Int, val value: Char) : Requirement
 }
 ```
-data class Action(val row: Int, val col: Int, val value: Char)
 
+# Solver Construction and Initialization
 
+Different...
 
 # Example - 9x9 Sudoku
 
-The following code outline follows @VizGhar's instructions for a 9x9 Sudoku:
+Something here...
 
 ```kotlin
 class SudokuSolver(requirements: List<Requirement>, actions: Map<Action, List<Requirement>>) : 
