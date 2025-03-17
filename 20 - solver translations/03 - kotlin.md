@@ -15,30 +15,18 @@ Be sure to scan through @Rafarafa's other comments for information regarding oth
 # Example - 9x9 Sudoku
 
 ```kotlin
-class SudokuSolver(grid: List<CharArray>, values: String) :
-            DLXSolver<Requirement, Action>(buildRequirements(grid, values), buildActions(grid, values)) {
+sealed interface Requirement {
+    data class CellCovered(val row: Int, val col: Int) : Requirement
+    data class BoxCovered(val box: Int, val value: Char) : Requirement
+    data class RowCovered(val row: Int, val value: Char) : Requirement
+    data class ColumnCovered(val col: Int, val value: Char) : Requirement
+}
 
-    companion object {
+data class Action(val row: Int, val col: Int, val value: Char)
 
-        fun buildRequirements(grid: List<CharArray>, values: String): List<Requirement> {
 
-            val requirements = mutableListOf<Requirement>()
-
-            // build the requirements
-
-            return requirements
-        }
-
-        fun buildActions(grid: List<CharArray>, values: String): Map<Action, List<Requirement>> {
-
-            val actions = mutableMapOf<Action, List<Requirement>>()
-
-            // build the actions Map
-
-            return actions
-
-        }
-    }
+class SudokuSolver(requirements: List<Requirement>, actions: Map<Action, List<Requirement>>) : 
+            DLXSolver<Requirement, Action>(requirements, actions) {
 
     override fun processSolution(solution: List<Action>): Boolean {
 
@@ -49,9 +37,22 @@ class SudokuSolver(grid: List<CharArray>, values: String) :
 }
 
 
-fun main(args : Array<String>) {
-    val solver = SudokuSolver(List(9) { readln().toCharArray() }, ALL_VALUES)
-    solver.solve()
+fun createSolver(grid: List<CharArray>, values: String): SudokuSolver {
+
+    val requirements = mutableListOf<Requirement>()
+
+    // Build the requirements.
+
+    val actions = mutableMapOf<Action, List<Requirement>>()
+
+    // Build the actions.
+
+    return SudokuSolver(requirements, actions)
+}
+
+
+fun main() {
+    createSolver(List(9) { readln().toCharArray() }, ALL_VALUES).solve()
 }
 ```
 
