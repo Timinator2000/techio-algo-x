@@ -71,4 +71,4 @@ fun main() {
 
 # The Solver Code
 
-For even more details, code examples and most importantly, the Kotlin `DLXSolver` code, please visit [@VizGhar's GitHub page](https://github.com/VizGhar/Kotlin-DLX/tree/main).
+For even more details, code examples and most importantly, the Kotlin `DLXSolver` code, please visit [@VizGhar's GitHub repository](https://github.com/VizGhar/Kotlin-DLX/tree/main).
