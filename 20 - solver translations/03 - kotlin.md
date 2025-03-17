@@ -8,7 +8,7 @@ Ruby is a high-level, dynamically typed programming language known for its reada
 
 # Requirements and Actions
 
-Instead of `tuple`s for requirements and actions, @VizGhar uses data classes, a similar, but more powerful container for data elements. Consider the 4 types of requirements for Sudoku. Each cell must be covered with a number, each number must appear in each row, each number must appear in each column and each number must appear in each box. @VizGhar creates 4 separate data classes, each of which inherits from a generic `Requirement`.
+Instead of `tuple`s for requirements and actions, @VizGhar uses `data class`es, a similar, but more powerful container for data elements. Consider the 4 types of requirements for Sudoku. Each cell must be covered with a number, each number must appear in each row, each number must appear in each column and each number must appear in each box. @VizGhar creates 4 separate data classes, each of which inherits from a generic `Requirement`.
 
 In my Python, each of my `tuple`s begins with a string that identifies one of the 4 requirement types. In @VizGhar’s Kotlin, the class identifies one of the 4 requirement types and the strings become unnecessary.
 
