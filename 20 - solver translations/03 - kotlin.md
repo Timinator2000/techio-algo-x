@@ -6,13 +6,9 @@ Ruby is a high-level, dynamically typed programming language known for its reada
 
 @Rafarafa has provided a word for word translation, even preserving the comments found in the provided Python code. Using the Ruby solver below is extremely similar to the Python examples found in the playground.
 
-# Key Difference
+# Requirements and Actions
 
-My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s. Because Ruby does not have `tuple`s, you will use `array`s for requirements and actions. These `array`s will be used as keys in a `hash`, so take appropriate care to ensure the `array` elements never change.
-
-Be sure to scan through @Rafarafa's other comments for information regarding other minor differences.
-
-# Example - 9x9 Sudoku
+My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s. 
 
 ```kotlin
 sealed interface Requirement {
@@ -21,10 +17,16 @@ sealed interface Requirement {
     data class RowCovered(val row: Int, val value: Char) : Requirement
     data class ColumnCovered(val col: Int, val value: Char) : Requirement
 }
-
+```
 data class Action(val row: Int, val col: Int, val value: Char)
 
 
+
+# Example - 9x9 Sudoku
+
+The following code outline follows @VizGhar's instructions for a 9x9 Sudoku:
+
+```kotlin
 class SudokuSolver(requirements: List<Requirement>, actions: Map<Action, List<Requirement>>) : 
             DLXSolver<Requirement, Action>(requirements, actions) {
 
