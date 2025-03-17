@@ -2,9 +2,9 @@
 
 __Translation Author:__ [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993)
 
-Ruby is a high-level, dynamically typed programming language known for its readability and ease of use. Ruby shares many similarities with Python, such as automatic memory management and object-oriented principles.
+Kotlin is a modern, statically typed programming language designed for conciseness, safety, and interoperability with Java. Kotlin has become the preferred language for Android app development.
 
-@Rafarafa has provided a word for word translation, even preserving the comments found in the provided Python code. Using the Ruby solver below is extremely similar to the Python examples found in the playground.
+@VizGhar has provided the following Kotlin translation which very closely mirrors the Python `AlgorithmXSolver` possible to keep the following, even preserving the comments found in the provided Python code. Using the Ruby solver below is extremely similar to the Python examples found in the playground.
 
 # Requirements and Actions
 
