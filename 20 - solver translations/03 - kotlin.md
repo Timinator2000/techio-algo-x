@@ -4,7 +4,7 @@ __Translation Author:__ [@VizGhar](https://www.codingame.com/profile/c152bee9fe8
 
 Kotlin is a modern, statically typed programming language designed for conciseness, safety, and interoperability with Java. Kotlin has become the preferred language for Android app development.
 
-@VizGhar has provided the following Kotlin translation which very closely mirrors the Python `AlgorithmXSolver` possible to keep the following, even preserving the comments found in the provided Python code. Using the Ruby solver below is extremely similar to the Python examples found in the playground.
+@VizGhar provides a tutorial and examples on his [GitHub](https://github.com/VizGhar/Kotlin-DLX/tree/main) page, but I want to cover 2 things here that differ from my Python `AlgorithmXSolver`. The first is a simple switch from `tuple`s to `data class`es, an idea I wish I had come up 2 years ago. The second is a difference in code structure due to a minor difference between Python and Kotlin.
 
 # Requirements and Actions
 
