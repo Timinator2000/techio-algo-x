@@ -27,7 +27,7 @@ data class Action(val row: Int, val col: Int, val value: Char)
 
 # Solver Construction and Initialization
 
-Using my Python solver, the following process has been followed:
+Using my Python solver, the [following process](your-solver-subclass) has been suggested as standard practice:
 
 1. Create a subclass that inherits from `AlgorithmXSolver`.
 1. Override the constructor to build requirements and actions.
