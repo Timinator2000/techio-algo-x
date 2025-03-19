@@ -14,4 +14,4 @@ We were all little architects once, stacking blocks into wobbly towers, only to 
 
 This puzzle is a wonderful opportunity to practice your Algorithm X skills. Although the matrix setup is not difficult, you will need a bit more than just the basics, especially to avoid timing out on the more challenging test cases. With proper optimization, all test cases and validators can be solved in no more than ~5% of the time limit (Python).
 
-This puzzle is also a reminder that Algorithm X is not always the entire solution. Sometimes, Algorithm X is just a piece of the overall soltuion, even for a puzzle of fairly moderate difficulty.
+This puzzle is also a reminder that Algorithm X is not always the entire solution. Sometimes, Algorithm X is just a piece of the overall solution, even for a puzzle of fairly moderate difficulty.
