@@ -10,6 +10,5 @@
 | March 6, 2025 | [Polyominoes](polyominoes) added. |
 | March 10, 2025 | [Tetrasticks](tetrasticks) added. |
 | TBD | [Kids Blocks](kids-blocks) added. |
-| TBD | [Depot Organization](depot-organization) added. |
 | TBD | `AlgorithmXSolver` ➡️ [Ruby](ruby) translation added. |
 | TBD | `AlgorithmXSolver` ➡️ [Kotlin](kotlin) translation added. |
