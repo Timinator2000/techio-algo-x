@@ -234,8 +234,8 @@ plan:
         statement: 22 - final exam/02 - periodic table spelling.md
       - title: Kids Blocks
         statement: 22 - final exam/03 - kids blocks.md
-      # - title: Depot Organization
-      #   statement: 22 - final exam/04 - depot organization.md
+      - title: Depot Organization
+        statement: 22 - final exam/04 - depot organization.md
   - title: 2025 and Beyond
     plan:
       - title: Strategy Going Forward
@@ -252,6 +252,8 @@ plan:
         statement: 19 - 2025 and beyond/06 - polyominoes.md
       - title: Tetrasticks
         statement: 19 - 2025 and beyond/07 - tetrasticks.md
+      - title: Haunted Manor
+        statement: 19 - 2025 and beyond/08 - haunted manor.md
   - title: Solver Translations
     plan:
       - title: Overview
