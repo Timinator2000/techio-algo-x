@@ -12,5 +12,4 @@ __Algorithm X Complexity:__ Literally, a Zombie Apocalypse
 
 Even in a world overrun by the undead, there’s still room for small moments of warmth —  quiet laughter over a meager meal, the comforting weight of a weapon held steady, the unspoken promise between survivors. In the midst of chaos, resilience isn’t just about fighting to stay alive, but finding reasons to keep going.
 
-This puzzle will test your resilience!
-
+This puzzle will test your resilience! Before jumping into the code, I highly recommend playing the online version, [Undead from Simon Tatham’s Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/undead.html).
