@@ -1,4 +1,4 @@
-# Depot Organization
+# Depot Organization 
 
 __Puzzle:__ [Depot Organization](https://www.codingame.com/training/medium/depot-organization)
 
