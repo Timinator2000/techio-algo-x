@@ -6,7 +6,7 @@ __Author:__ [@CG-jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ Literally, a Zombie Apocalypse
+__Algorithm X Complexity:__ More Challenging than Surviving a [Svengoolie](https://www.metv.com/svengoolie/) Movie Marathon
 
 # Strategy
 
