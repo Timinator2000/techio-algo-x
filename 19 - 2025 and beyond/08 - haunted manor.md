@@ -34,5 +34,7 @@ Our class diagram tells a different story now. Each `Cell` has a relationship wi
 
 Consider what is possible with this new class diagram. I can try putting a Vampire in an empty `Cell`. For each `Visual` associated with that `Cell`, I need to know if that `Visual` exists due to normal line of sight or reflected line of sight. If the `reflected` attribute is `True`, the Vampire does not count as being seen in the `Sightline` because Vampires do not have reflections. However, if the `reflected` attribute is `False`, the Vampire does count as being seen the `Sightline`.
 
+For this puzzle, having a third class to act as a _junction_ is critical. The `reflected` attribute does not belong in the `Cell` class, nor does it belong in a `Sightline` class. The `reflected` attribute only makes sense when it describes a single instance of `Cell` showing up in a `Sightline`.
+
 # Object Modeling Gurus
 
