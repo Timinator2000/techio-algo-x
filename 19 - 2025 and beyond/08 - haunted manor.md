@@ -38,5 +38,16 @@ Consider what is possible with this new model. I can try putting a Vampire in an
 
 For this puzzle, having a third class to act as a _junction_ is powerful. The `reflection` attribute does not belong in the `Cell` class, nor does it belong in a `Sightline` class. The `reflection` attribute only makes sense when it describes a single instance of `Cell` showing up in a `Sightline`.
 
-# Object Modeling Gurus
+# Your Path to Success
+
+With a strong object model, you are ready to construct your Algorithm X matrix. At this point, Haunted Manor and High-Rise Buildings feel a bit more different than similar. Instead, I suggest you revisit your matrix setup for [There is No Spook – Episode 2](there-is-no-spoon---episode-2) where many of the same concepts can be found.
+
+Getting your matrix set up properly is challenging, but Algorithm X will find solutions to all test cases, except the 7x7 manors, very quickly. To solve the 7x7 manors requires some problem-space reduction and that is a wonderful challenge on its own. I needed to really think through sequences of events similar to what I discussed for [There is No Spook – Episode 2](there-is-no-spoon---episode-2-revisited).
+
+# I Ain’t Afraid of No Ghosts
+
+
+
+https://www.youtube.com/watch?v=Fe93CLbHjxQ
+
 
