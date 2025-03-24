@@ -52,7 +52,9 @@ Getting your matrix set up properly is challenging, but Algorithm X will find so
 
 # I Ain’t Afraid of No Ghosts
 
-I love everything about this puzzle. Creating an abstract object model is challenging. The problem-space reduction is challenging. Creating a solid Algorithm X setup is challenging. I’m no fan of scary movies, but some of us grew up with various television shows about ghosts and goblins and hopefully this puzzle brings back fond memories. If you get stuck, you can always reference this original 1984 tutorial:
+I love everything about this puzzle. Creating an abstract object model is challenging. The problem-space reduction is challenging. Creating a solid Algorithm X setup is challenging. If you enjoy a challenge, this puzzle is for you!
+
+I’m no fan of scary movies, but some of us grew up with various television shows about ghosts and goblins and hopefully this puzzle brings back fond memories. If you get stuck solving this puzzle, you can always reference this original 1984 tutorial:
 
 <BR><BR>
 
