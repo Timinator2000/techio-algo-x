@@ -16,7 +16,7 @@ This puzzle will test your resilience! Before jumping into the code, I highly re
 
 # Object Model
 
-A powerful object model can get you started in a good direction, and I invite you to compare this puzzle’s “grid” to the grid found in [High-Rise Buildings](high-rise-buildings). In the latter, I proposed that each `CityView` has a relationship with `N` `Building`s and each `Building` has a relationship with 4 `CityView`s. More generically, the relationship could have been identified as a many-to-many relationship. Each `CityView` groups together many `Building`s and each `Building` is part of many `CityView`s.
+A powerful object model can get you started in a good direction, and I invite you to compare this puzzle’s grid to the grid found in [High-Rise Buildings](high-rise-buildings). In the latter, I proposed that each `CityView` has a relationship with `N` `Building`s and each `Building` has a relationship with 4 `CityView`s. More generically, the relationship could have been identified as a many-to-many relationship. Each `CityView` groups together many `Building`s and each `Building` is part of many `CityView`s.
 
 The same model appears to work for Haunted Manor. Let’s call the groups `Sightline`s and say that each `Sightline` groups together many `Cell`s, while each `Cell` can be a member of many `Sightline`s. Just as was done in High-Rise Buildings, it is tempting to create the following object model.
 
