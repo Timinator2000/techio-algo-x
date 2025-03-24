@@ -12,11 +12,11 @@ __Algorithm X Complexity:__ More Confusing than a [Svengoolie](https://www.metv.
 
 Even in a world overrun by the undead, there’s still room for small moments of warmth —  quiet laughter over a meager meal, the comforting weight of a weapon held steady, the unspoken promise between survivors. In the midst of chaos, resilience isn’t just about fighting to stay alive, but finding reasons to keep going.
 
-This puzzle will test your resilience! Before jumping into the code, I highly recommend playing the online version, [Undead from Simon Tatham’s Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/undead.html).
+This puzzle will test your resilience! Before hitting the keyboard, I highly recommend playing the online version, [Undead from Simon Tatham’s Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/undead.html).
 
 # Object Model
 
-A powerful object model can get you started in a good direction, and I invite you to compare this puzzle’s grid to the grid found in [High-Rise Buildings](high-rise-buildings). In the latter, I proposed that each `CityView` has a relationship with `N` `Building`s and each `Building` has a relationship with 4 `CityView`s. More generically, the relationship could have been identified as a many-to-many relationship. Each `CityView` groups together many `Building`s and each `Building` is part of many `CityView`s.
+A powerful object model can get you started in a good direction, and I invite you to compare this puzzle’s grid to the grid found in [High-Rise Buildings](high-rise-buildings). In the latter, I proposed that each `CityView` has a relationship with `N` `Building`s and each `Building` has a relationship with 4 `CityView`s. More generically, the relationship could have been characterized as a many-to-many relationship. Each `CityView` groups together many `Building`s and each `Building` is part of many `CityView`s.
 
 The same model appears to work for Haunted Manor. Let’s call the groups `Sightline`s and say that each `Sightline` groups together many `Cell`s, while each `Cell` can be a member of many `Sightline`s. Just as was done in High-Rise Buildings, it is tempting to create the following object model.
 
@@ -52,7 +52,7 @@ Getting your matrix set up properly is challenging, but Algorithm X will find so
 
 # I Ain’t Afraid of No Ghosts
 
-I love everything about this puzzle! Creating an abstract object model is challenging. Creating a solid Algorithm X setup is challenging. I’m no fan of scary movies, but many of us grew up with various television shows about ghosts and goblins and hopefully this puzzle brings back fond memories. If you get stuck, you can always reference this original 1984 tutorial:
+I love everything about this puzzle. Creating an abstract object model is challenging. The problem-space reduction is challenging. Creating a solid Algorithm X setup is challenging. I’m no fan of scary movies, but some of us grew up with various television shows about ghosts and goblins and hopefully this puzzle brings back fond memories. If you get stuck, you can always reference this original 1984 tutorial:
 
 <BR><BR>
 
