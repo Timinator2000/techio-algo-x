@@ -32,7 +32,7 @@ Anytime we encounter a many-to-many relationship, it can be beneficial to step b
 
 In coding, we can often move forward without this third class, but not always. Adding this _junction_ class makes sense when each instance has its own interesting attributes. Each `Visual` represents an instance of one `Cell` showing up in one `Sightline`. Are there any important attributes associated with an instance of one `Cell` in a particular`Sightline`? Yes, there is!
 
-For each `Visual`, it is important to know if that `Visual` exists due to normal line of sight or due to reflected line of sight. The concept of a normal line of sight `Visual` vs. a reflection only exists inside the relationship between one particular `Cell` and one particular `Sightline`. In the following diagram, I have added a single Boolean attribute called `reflection`.
+For each `Visual`, it is important to know if that `Visual` exists due to normal line of sight or due to reflected line of sight. The concept of a normal, line-of-sight `Visual` vs. a reflection only exists inside the relationship between one particular `Cell` and one particular `Sightline`. In the following diagram, I have added a single Boolean attribute called `reflection`.
 
 <BR><BR>
 ![Haunted Manor Final](HauntedManor3.png)
