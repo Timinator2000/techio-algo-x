@@ -54,6 +54,8 @@ Getting your matrix set up properly is challenging, but Algorithm X will find so
 
 I love everything about this puzzle! Creating an abstract object model is challenging. Creating a solid Algorithm X setup is challenging. I’m no fan of scary movies, but many of us grew up with various television shows about ghosts and goblins and hopefully this puzzle brings back fond memories. If you get stuck, you can always reference this original 1984 tutorial:
 
+<BR><BR>
+
 https://www.youtube.com/watch?v=Fe93CLbHjxQ
 
 
