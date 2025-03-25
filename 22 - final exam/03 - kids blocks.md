@@ -8,7 +8,7 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ A Perfect Exam Exercise
 
-# Strategy
+# Overview
 
 We were all little architects once, stacking blocks into wobbly towers, only to knock them down with giggles and start again. In those tiny moments, we built more than castles — we built wonder, creativity, and the joy of endless possibilities.
 
