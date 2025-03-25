@@ -8,7 +8,7 @@ __Published Difficulty:__ Easy
 
 __Algorithm X Complexity:__ A Benchmarking Opportunity
 
-# Strategy
+# Overview
 
 It is not often an opportunity comes along to test your skills on an exact-cover puzzle classified as “easy”. If you have completed a reasonable portion of this playground, you should be able to fly through this puzzle. I suggest you take this opportunity to test your knowledge and benchmark your learning. Use the following questions to reflect on your results:
 
