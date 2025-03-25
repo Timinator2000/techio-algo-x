@@ -4,7 +4,7 @@ __Puzzle:__ [Haunted Manor](https://www.codingame.com/training/hard/haunted-mano
 
 __Author:__ [@CG-jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)
 
-[［@CG］jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)
+[\[@CG\]jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)
 
 
 __Published Difficulty:__ Hard
