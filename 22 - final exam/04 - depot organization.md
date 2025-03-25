@@ -8,7 +8,7 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Straightforward
 
-# Strategy
+# Overview
 
 This puzzle has only 7 tiles that need to be arranged on 7 locations on the gameboard. At this point in your journey, that description should set off your exact cover alarm bells! This couldn’t be more straightforward, could it? Conceptually, that is true, but a couple of quirks make this puzzle a very enjoyable challenge.
 
