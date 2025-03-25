@@ -14,9 +14,9 @@ This puzzle has only 7 tiles that need to be arranged on 7 locations on the game
 
 Working with hexagons brings a little complexity to this otherwise reasonable puzzle. For more practice with hexagons, check out the following (not exact cover) challenges on [CodinGame](https://www.codingame.com/home):
 
-[Hexagonal Maze]( https://www.codingame.com/training/medium/hexagonal-maze) by [Remi.](https://www.codingame.com/profile/6337619f5905111901909c0bdfdb053c4031434)
+[Hexagonal Maze]( https://www.codingame.com/training/medium/hexagonal-maze) by [@Remi.](https://www.codingame.com/profile/6337619f5905111901909c0bdfdb053c4031434)
 
-[Hexagonal Maze – part 2](https://www.codingame.com/training/hard/hexagonal-maze---part2) by [Remi.](https://www.codingame.com/profile/6337619f5905111901909c0bdfdb053c4031434)
+[Hexagonal Maze – part 2](https://www.codingame.com/training/hard/hexagonal-maze---part2) by [@Remi.](https://www.codingame.com/profile/6337619f5905111901909c0bdfdb053c4031434)
 
 [Coders of the Caribbean](https://www.codingame.com/multiplayer/bot-programming/coders-of-the-caribbean) – Bot Programming
 
