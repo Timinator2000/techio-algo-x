@@ -12,5 +12,5 @@
 | March 19, 2025 | [Kids Blocks](kids-blocks) added. |
 | March 19, 2025 | `AlgorithmXSolver` ➡️ [Ruby](ruby) translation added. |
 | March 19, 2025 | `AlgorithmXSolver` ➡️ [Kotlin](kotlin) translation added. |
-| TBD | [Depot Organization](depot-organization) added. |
-| TBD | [Haunted Manor](haunted-manor) added. |
+| March 25, 2025 | [Depot Organization](depot-organization) added. |
+| March 25, 2025 | [Haunted Manor](haunted-manor) added. |
