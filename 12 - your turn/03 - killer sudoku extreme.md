@@ -26,5 +26,5 @@ A `SudokuGroup` could be a row, a column or a box. All `SudokuGroup`s behave ide
 <summary>Spoiler Alert: Creating Even More Groups for Killer Sudoku</summary>
 <br>
   
-A Cage is a group of cells that must add up a certain amount. There are other groups of cells that also must add to a certain amount. For instance, all rows, all columns and all boxes add up to 45 since they each must contain the numbers 1 to 9. That is not all that interesting, nor helpful. However, there are more interesting groups of cells that must add up to certain amounts. Can you find those groups?
+A Cage is a group of cells that must add up to a certain amount. There are other groups of cells that also must add to a certain amount. For instance, all rows, all columns and all boxes add up to 45 since they each must contain the numbers 1 to 9. That is not all that interesting, nor helpful. However, there are more interesting groups of cells that must add up to certain amounts. Can you find those groups?
 </details>
