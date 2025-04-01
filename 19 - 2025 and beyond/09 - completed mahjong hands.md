@@ -10,3 +10,8 @@ __Algorithm X Complexity:__ Do Not Be Scared by the "Very Hard" Published Diffic
 
 # Overview
 
+Mahjong is a strategic tile-based game that originated in China, played with 144 tiles featuring Chinese characters and symbols. It requires skill, memory, and calculation as players form specific tile combinations to win.
+
+In this puzzle, @Unihedron presents three winning configurations. Your task is to determine whether your hand, plus a newly drawn tile, forms a valid winning combination. While two configurations are relatively simple to check, the third poses a greater challenge—one that may benefit from a well-designed algorithm to simplify implementation. 😉
+
+Labeled as "very hard," this puzzle might seem daunting at first. However, the skills you have honed in this playground should make solving it far more approachable than it appears.
