@@ -6,7 +6,7 @@ __Author:__ [@Unihedron](https://www.codingame.com/profile/1d1729a2d8c008c6cf728
 
 __Published Difficulty:__ Very Hard
 
-__Algorithm X Complexity:__ Do Not Be Scared by the "Very Hard" Published Difficulty
+__Algorithm X Complexity:__ Do Not Let the "Very Hard" Label Frighten You
 
 # Overview
 
