@@ -14,3 +14,4 @@
 | March 19, 2025 | `AlgorithmXSolver` ➡️ [Kotlin](kotlin) translation added. |
 | March 25, 2025 | [Depot Organization](depot-organization) added. |
 | March 25, 2025 | [Haunted Manor](haunted-manor) added. |
+| TBD | [Completed Mahjong Hands](completed-mahjong-hands) added. |
