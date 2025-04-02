@@ -15,3 +15,4 @@
 | March 25, 2025 | [Depot Organization](depot-organization) added. |
 | March 25, 2025 | [Haunted Manor](haunted-manor) added. |
 | April 2, 2025 | [Completed Mahjong Hands](completed-mahjong-hands) added. |
+| TBD | [Crossword](crossword) added. |
