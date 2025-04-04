@@ -8,17 +8,19 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Uniquess Provides a Challenge
 
-# Overview
+# Strategy
 
 <BR><BR>
 ![Crossword](Crossword1.png)
 <BR>
 
+# Enforcing Sameness with Coloring
 
 <BR><BR>
 ![Crossword (Coloring)](Crossword2.png)
 <BR>
 
+# Enforcing Sameness with Mutual Exclusivity
 
 <BR><BR>
 ![Crossword (Mutual Exclusivity](Crossword3.png)
