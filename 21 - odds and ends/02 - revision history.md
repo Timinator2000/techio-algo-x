@@ -16,3 +16,4 @@
 | March 25, 2025 | [Haunted Manor](haunted-manor) added. |
 | April 2, 2025 | [Completed Mahjong Hands](completed-mahjong-hands) added. |
 | TBD | [Crossword](crossword) added. |
+| TBD | [Fix the spaces](fix-the-spaces) added. |
