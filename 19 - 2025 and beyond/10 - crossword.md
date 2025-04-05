@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Uniquess Provides a Challenge
 
 # Strategy
 
-Given two horizontal words and two vertical words, this puzzle challenges us to determine whether a valid crossword puzzle can be constructed such that all four words intersect pairwise. In the diagram below, the words have been omitted, but it's easy to imagine how a properly constructed grid might appear.
+Given two horizontal words and two vertical words, this puzzle challenges us to determine whether a valid crossword puzzle can be constructed such that all four words intersect pairwise. In the diagram below, each word's letters have been omitted, but it is easy to imagine how a properly constructed grid might appear.
 
 <BR><BR>
 ![Crossword](Crossword1.png)
