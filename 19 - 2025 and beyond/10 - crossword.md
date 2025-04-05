@@ -8,7 +8,7 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Uniqueness Provides a Challenge
 
-# Strategy
+# Overview
 
 Given two horizontal words and two vertical words, this puzzle challenges us to determine whether a valid crossword puzzle can be constructed such that all four words intersect pairwise. In the diagram below, each word's letters have been omitted, but it is easy to imagine how a properly constructed grid might appear.
 
