@@ -50,7 +50,7 @@ Hopefully, you see the sameness that must be enforced. Let’s explore how that 
 
 In the diagram below, each corner is labeled with a unique integer ID, and two key dimensions are highlighted: the __box width__ and __box height__. Each action specifies letters that occupy two corners, and those corners, in turn, define either the width or the height of the box.
 
-Although only six requirements need to be colored, maintaining consistency across those colors is what guarantees a valid solution.
+Although only six requirements need to be colored, maintaining consistency across those colors is what guarantees valid solutions.
 
 <BR><BR>
 ![Crossword (Coloring)](Crossword3.png)
