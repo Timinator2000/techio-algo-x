@@ -260,7 +260,7 @@ plan:
         statement: 19 - 2025 and beyond/10 - crossword.md
   - title: Solver Translations
     plan:
-      - title: Overview
+      - title: Translations Overview
         statement: 20 - solver translations/01 - overview.md
       - title: Ruby
         statement: 20 - solver translations/02 - ruby.md
