@@ -16,7 +16,7 @@ Given two horizontal words and two vertical words, this puzzle challenges us to 
 ![Crossword](Crossword1.png)
 <BR>
 
-To make things slightly more challenging, the author adds an extra twist: we are required to print the crossword grid only when there is exactly one valid solution. Whether or not you use Algorithm X, constructing the grid is no easy feat—even when you already know where the four words must go!
+To make things slightly more challenging, the author adds an extra twist: we are required to print the solved crossword grid when there is exactly one valid solution. Whether or not you use Algorithm X, constructing the grid is no easy feat — even when you already know where the four words must go!
 
 I found it particularly interesting to frame this puzzle as an exact cover problem. This unique perspective opens the door to some elegant strategies, which I’ll explore in more detail below. But before diving into the details, I strongly encourage you to try solving the puzzle on your own. There are several compelling ways to approach it using the exact cover technique, and I believe you'll find the experience both rewarding and enjoyable.
 
