@@ -14,15 +14,21 @@ __Algorithm X Complexity:__ Uniquess Provides a Challenge
 ![Crossword](Crossword1.png)
 <BR>
 
+
+<BR><BR>
+![Crossword - Box](Crossword2.png)
+<BR>
+
+
 # Enforcing Sameness with Coloring
 
 <BR><BR>
-![Crossword (Coloring)](Crossword2.png)
+![Crossword (Coloring)](Crossword3.png)
 <BR>
 
 # Enforcing Sameness with Mutual Exclusivity
 
 <BR><BR>
-![Crossword (Mutual Exclusivity](Crossword3.png)
+![Crossword (Mutual Exclusivity](Crossword4.png)
 <BR>
 
