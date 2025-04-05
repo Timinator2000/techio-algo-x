@@ -24,10 +24,27 @@ I found it particularly interesting to frame this puzzle as an exact cover probl
 
 # Important Details
 
+The first thing to notice about this puzzle is that all valid solutions form a __"box"__, as illustrated in the diagram below. Each box can be as small as 3×3, or as large as `min(h1 length, h2 length) × min(v1 length, v2 length)`. Regardless of its size, the box always plays a central role.
+
 <BR><BR>
 ![Crossword - Box](Crossword2.png)
 <BR>
 
+From the perspective of tiles on a gameboard, each solution consists of just four actions: placing one word across the top, a second across the bottom, a third down the left side, and a fourth down the right. Simple, right? But is it enough to just match four words to four sides? No, it is not.
+
+Although the exact size of the box is not known upfront, placing a word on the gameboard must also specify which letters of the word go on the corners of the box. The box is part of the gameboard, but its size is determined by how words are placed—specifically, which letters are used at the corners.
+
+In every exact cover problem we have seen so far, a solution was built from a list of actions. To build a solution for this puzzle, each action must now include four key pieces of information: the word being placed, the side it is being placed on, and the indexes of the two letters that land on the box’s corners. An action might look like this:
+
+`('place word', word, side, i, j)`
+
+With this richer action format, valid solutions can be built from just 4 actions. Care must be taken to ensure:
+
+* The same letter appears at each corner where sides intersect.
+
+* Because the box is always a rectangle, the words on opposite sides must have the same distance between their respective corner letters (i.e., the same difference between i and j).
+
+Hopefully, you see the sameness that must be enforced. Let’s explore how that plays out — using coloring versus mutual exclusivity.
 
 # Enforcing Sameness with Coloring
 
