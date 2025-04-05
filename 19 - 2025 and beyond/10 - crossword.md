@@ -41,8 +41,7 @@ In every exact cover problem we have seen so far, a solution was built from a li
 With this richer action format, valid solutions can be built from just 4 actions. Care must be taken to ensure:
 
 * The same letter appears at each corner where sides intersect.
-
-* Because the box is always a rectangle, the words on opposite sides must have the same distance between their respective corner letters (i.e., the same difference between i and j).
+* Because the box is always a rectangle, the words on opposite sides must have the same distance between their respective corner letters (i.e., the same difference between `i` and `j`).
 
 Hopefully, you see the sameness that must be enforced. Let’s explore how that plays out — using coloring versus mutual exclusivity.
 
@@ -60,8 +59,16 @@ Each of these six requirements is colored exactly twice, creating a structure th
 
 # Enforcing Sameness with Mutual Exclusivity
 
+Whenever possible, I prefer mutual exclusivity over coloring. Mutual exclusivity is a natural fit within Algorithm X, while coloring is a custom adaptation that adds useful power — but at a cost.
+
+In the next diagram, I’ve split each corner into two types of coverage: vertical and horizontal. I’ve also labeled the lengths of all four sides of the box. Because each corner must be covered consistently, a set of `me_requirements` can be created to enforce that consistency. For example, corner `1` being covered `horizontally` with an `s` is mutually exclusive with the same corner being covered `vertically` with a `g`.
+
+This technique also applies to the box sides. For instance, the `Top` having a length of `3` is mutually exclusive with the `Bottom` having a length of `4`.
+
 <BR><BR>
 ![Crossword (Mutual Exclusivity](Crossword4.png)
 <BR>
+
+There is a fair amount of optimization that can be done when identifying requirements for mutual exclusivity. Only certain letters are valid for each corner in each direction, and only certain lengths are legitimate for each side. Keeping your list of `me_requirements` as small and focused as possible is crucial if you want to maximize speed and efficiency.
 
 </details>
