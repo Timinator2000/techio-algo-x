@@ -59,7 +59,7 @@ Each of these six requirements is colored exactly twice, creating a structure th
 
 # Enforcing Sameness with Mutual Exclusivity
 
-Whenever possible, I prefer mutual exclusivity over coloring. Mutual exclusivity is a natural fit within Algorithm X, while coloring is a custom adaptation that adds useful power — but at a cost.
+Whenever possible, I prefer mutual exclusivity over coloring. Mutual exclusivity is a natural fit within Algorithm X, while my coloring approach is a custom adaptation that adds useful power — but at a cost.
 
 In the next diagram, I’ve split each corner into two types of coverage: vertical and horizontal. I’ve also labeled the lengths of all four sides of the box. Because each corner must be covered consistently, a set of `me_requirements` can be created to enforce that consistency. For example, corner `1` being covered `horizontally` with an `s` is mutually exclusive with the same corner being covered `vertically` with a `g`.
 
