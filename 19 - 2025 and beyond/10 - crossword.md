@@ -55,7 +55,7 @@ Although only six requirements need to be colored, [maintaining consistency acro
 ![Crossword (Coloring)](Crossword3.png)
 <BR>
 
-Each of these six requirements is colored exactly twice, creating a structure that is highly conducive to usuing mutual exclusivity.
+Each of these six requirements is colored exactly twice, creating a structure that is highly conducive to using mutual exclusivity.
 
 # Enforcing Sameness with Mutual Exclusivity
 
