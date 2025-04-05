@@ -1,4 +1,4 @@
-# Crossword
+# Crossword 
 
 __Puzzle:__ [Crossword](https://www.codingame.com/training/medium/crossword)
 
