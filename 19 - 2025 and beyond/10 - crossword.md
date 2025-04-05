@@ -43,13 +43,13 @@ With this richer action format, valid solutions can be built from just 4 actions
 * The same letter appears at each corner where sides intersect.
 * Because the box is always a rectangle, the words on opposite sides must have the same distance between their respective corner letters (i.e., the same difference between `i` and `j`).
 
-Hopefully, you see the sameness that must be enforced. Let’s explore how that plays out — using coloring versus mutual exclusivity.
+Hopefully, you see the sameness that must be enforced. Let’s explore how that plays out — using [coloring](what-is-coloring) versus [mutual exclusivity](mutual-exclusivity).
 
 # Enforcing Sameness with Coloring
 
 In the diagram below, each corner is labeled with a unique integer ID, and two key dimensions are highlighted: the __box width__ and __box height__. Each action specifies letters that occupy two corners, and those corners, in turn, define either the width or the height of the box.
 
-Although only six requirements need to be colored, maintaining consistency across those colors is what guarantees valid solutions.
+Although only six requirements need to be colored, [maintaining consistency across those colors](what-is-coloring) is what guarantees valid solutions.
 
 <BR><BR>
 ![Crossword (Coloring)](Crossword3.png)
@@ -59,7 +59,7 @@ Each of these six requirements is colored exactly twice, creating a structure th
 
 # Enforcing Sameness with Mutual Exclusivity
 
-Whenever possible, I prefer mutual exclusivity over coloring. Mutual exclusivity is a natural fit within Algorithm X, while my coloring approach is a custom adaptation that adds useful power — but at a cost.
+Whenever possible, I prefer [mutual exclusivity](mutual-exclusivity) over [coloring](what-is-coloring). Mutual exclusivity is a natural fit within Algorithm X, while my coloring approach is a custom adaptation that adds useful power — but at a cost.
 
 In the next diagram, I’ve split each corner into two types of coverage: vertical and horizontal. I’ve also labeled the lengths of all four sides of the box. Because each corner must be covered consistently, a set of `me_requirements` can be created to enforce that consistency. For example, corner `1` being covered `horizontally` with an `s` is mutually exclusive with the same corner being covered `vertically` with a `g`.
 
