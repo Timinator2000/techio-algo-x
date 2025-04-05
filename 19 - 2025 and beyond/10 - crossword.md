@@ -6,7 +6,7 @@ __Author:__ [@Humanosaure](https://www.codingame.com/profile/5bbc0f4b299d3bb2841
 
 __Published Difficulty:__ Medium
 
-__Algorithm X Complexity:__ Uniquess Provides a Challenge
+__Algorithm X Complexity:__ Uniqueness Provides a Challenge
 
 # Strategy
 
