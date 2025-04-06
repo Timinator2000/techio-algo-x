@@ -87,7 +87,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 
 # Language Translations
 
-The CodinGame community is wide and diverse. Although much of this playground has been written for the Python programmer, it did not take long for language translations of the provided [`AlgorithmXSolver`](the-algorithmxsolver) to appear. Be sure to visit the [translations section](overview) to see if a translation to your preferred language already exists.
+The CodinGame community is wide and diverse. Although much of this playground has been written for the Python programmer, it did not take long for language translations of the provided [`AlgorithmXSolver`](the-algorithmxsolver) to appear. Be sure to visit the [translations section](translations-overview) to see if a translation to your preferred language already exists.
 
 # Future Updates
 
