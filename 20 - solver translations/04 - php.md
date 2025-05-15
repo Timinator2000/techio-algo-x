@@ -62,10 +62,10 @@ To use @TBali’s PHP solver, you must first create subclasses for your problem-
 
 In Sudoku, there are four fundamental types of requirements:
 
-1. Every cell must contain exactly one number.
-1. Each number must appear exactly once in every row.
-1. Each number must appear exactly once in every column.
-1. Each number must appear exactly once in every 3×3 box.
+1. Every cell must contain exactly one value.
+1. Each value must appear exactly once in every row.
+1. Each value must appear exactly once in every column.
+1. Each value must appear exactly once in every 3×3 box.
 
 To represent these constraints, I define four separate classes — each corresponding to one of the above requirements — all inheriting from a generic `Requirement` base class.
 
