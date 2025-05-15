@@ -8,6 +8,8 @@ To address this, @TBali defines classes for both requirements and actions. Each 
 
 # Abstract Requirements and Actions
 
+The next code snippet shows the abstract classes for requirements and actions provided with the PHP `AlgorithmXSolver`. Each problem-specific implementation must define subclasses that extend these two classes.
+
 ```php
 // --------------------------------------------------------------------
 /**
@@ -56,6 +58,8 @@ abstract class Action
 
 # Problem-Specific Requirements and Actions
 
+When using @TBali’s PHP solver, you must first create subclasses for your problem-specific requirements and actions.  These subclasses must assign a string value to the inherited `hash` attribute. Consider 9x9 Sudoku, where there are four types of requirements:
+
 In Sudoku, there are four fundamental types of requirements:
 
 1. Every cell must contain exactly one number.
@@ -67,7 +71,92 @@ To represent these constraints, I define four separate classes — each correspo
 
 Each subclass assigns a string to the inherited `hash` attribute. This string format is intentionally designed to resemble the tuple representations used in my Python-based implementation, preserving clarity and structure.
 
+```php
+class CellCovered extends Requirement
+{
+    /** @var int */
+    public $row;
+    /** @var int */
+    public $col;
 
+    public function __construct(int $row, int $col)
+    {
+        $this->row = $row;
+        $this->col = $col;
+        $this->hash = "cell covered $row $col";
+    }
+}
+
+
+class ValueInBox extends Requirement
+{
+    /** @var int */
+    public $box;
+    /** @var string */
+    public $val;
+
+    public function __construct(int $box, string $val)
+    {
+        $this->box = $box;
+        $this->val = $val;
+        $this->hash = "value in box $box $val";
+    }
+}
+
+
+class ValueInRow extends Requirement
+{
+    /** @var int */
+    public $row;
+    /** @var string */
+    public $val;
+
+    public function __construct(int $row, string $val)
+    {
+        $this->row = $row;
+        $this->val = $val;
+        $this->hash ="value in row $row $val";
+    }
+}
+
+
+class ValueInCol extends Requirement
+{
+    /** @var int */
+    public $col;
+    /** @var string */
+    public $val;
+
+    public function __construct(int $col, string $val)
+    {
+        $this->col = $col;
+        $this->val = $val;
+        $this->hash = "value in col $col $val";
+    }
+}
+```
+
+Next, a problem-specific class must be declared that extends the abstract `Action` class.
+
+```php
+class PlaceValue extends Action
+{
+    /** @var int */
+    public $row;
+    /** @var int */
+    public $col;
+    /** @var string */
+    public $val;
+
+    public function __construct(int $row, int $col, string $val)
+    {
+        $this->row = $row;
+        $this->col = $col;
+        $this->val = $val;
+        $this->hash = "place value $row $col $val";
+    }
+}
+```
 
 
 # Key Difference
