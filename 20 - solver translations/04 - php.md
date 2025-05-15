@@ -195,7 +195,7 @@ foreach ($solver->solve() as $solution) {
 
 # Mutual Exclusivity
 
-My Python-based implementation uses `tuple`s to create requirements for [mutual exclusivity](mutual-exclusivity). The PHP `AlgorithmXSolver` code comes with a `MERequirement` class that takes 2 strings, each string uniquely identifying one of the mutually exclusive items. The following code implements the `me_requirement`s for loud instruments as seen in [Mrs. Knuth Part II](your-solver-subclass-2):
+My Python-based implementation uses `tuple`s to create requirements for [mutual exclusivity](mutual-exclusivity). The PHP `AlgorithmXSolver` code comes with an `MERequirement` class that takes 2 strings, each string uniquely identifying one of the mutually exclusive items. The following code implements the `me_requirement`s for loud instruments as seen in [Mrs. Knuth Part II](your-solver-subclass-2):
 
 ```php
     $me_requirements = [New MERequirement("loud instrument F 8", "loud instrument F 9"), 
