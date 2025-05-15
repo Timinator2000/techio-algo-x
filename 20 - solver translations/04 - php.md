@@ -61,8 +61,6 @@ abstract class Action
 
 To use @TBali’s PHP solver, you must first create subclasses for your problem-specific requirements and actions.  These subclasses must assign a string value to the inherited `hash` attribute. Consider 9x9 Sudoku, where there are four types of requirements:
 
-In Sudoku, there are four fundamental types of requirements:
-
 1. Every cell must contain exactly one value.
 1. Each value must appear exactly once in every row.
 1. Each value must appear exactly once in every column.
