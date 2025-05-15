@@ -30,6 +30,7 @@ abstract class Requirement
     }
 }
 
+
 // --------------------------------------------------------------------
 /**
  * A single action to be used in the solver.
@@ -175,6 +176,7 @@ class SudokuSolver extends AlgorithmXSolver {
         parent::__construct($requirements, $actions);
    }
 }
+
 
 $solver = new SudokuSolver($sudoku, '123456789');
 
