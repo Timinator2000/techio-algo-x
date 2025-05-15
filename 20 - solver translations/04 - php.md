@@ -6,10 +6,63 @@ PHP is a high-level, interpreted language, mainly used for web development. It's
 
 # Key Difference
 
-My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s, especially as keys in dictionaries. Because PHP does not support `tuples`, @TBali's translation makes extensive use of
-Be sure to scan through @Rafarafa's other comments for information regarding other minor differences.
+My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s, especially as keys in dictionaries. Because PHP does not support `tuple`s, @TBali's translation uses strings as unique identifiers for requirements and actions. These strings are encapsulated inside `class`es used to represent requirements and actions. $TBali provides abstract `Requirement` and `Action` classes which are the superclasses of any problem-specific requirements and actions you declare. In the code below, notice that all `Requirement`s and all `Action`s have a `hash` attribute. Subclasses must assign a unique `string` value to this attribute.
 
-# Example - 9x9 Sudoku
+abstract class __Requirement__
+
+```php
+// --------------------------------------------------------------------
+/**
+ * A single requirement to be used in the solver.
+ *
+ * Actual puzzle requirement class shall extend this and set its `hash` property in its constructor.
+ */
+abstract class Requirement
+{
+    /**
+     * @var string
+     */
+    protected $hash;
+
+    public function hash(): string
+    {
+        return $this->hash;
+    }
+}
+```
+
+abstract class __Action__
+
+```php
+// --------------------------------------------------------------------
+/**
+ * A single action to be used in the solver.
+ *
+ * Actual puzzle requirement class shall extend this and set its `hash` property in its constructor.
+ * Before passing list of actions to the solver, the `reqs` property must be filled with list of requirements.
+ */
+abstract class Action
+{
+    /** @var string */
+    protected $hash;
+
+    /**
+     * The list of requirements that this action covers.
+     *
+     * @var array<int, Requirement>
+     */
+    public $reqs = [];
+
+    public function hash(): string
+    {
+        return $this->hash;
+    }
+}
+```
+
+# Example - 9x9 Sudoku - Requirements
+
+@TBali provides an abstract `Requirement` class. Each problem-specific type of requirement should 
 
 ```ruby
 class SudokuSolver < AlgorithmXSolver
