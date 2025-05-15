@@ -195,9 +195,43 @@ foreach ($solver->solve() as $solution) {
 
 # Mutual Exclusivity
 
+My Python-based implementation uses `tuple`s to create requirements for [mutual exclusivity](mutual-exclusivity). The PHP `AlgorithmXSolver` code comes with a `MERequirement` class that takes 2 strings, each string uniquely identifying one of the mutually exclusive items. The following code implements the `me_requirement`s for loud instruments as seen in [Mrs. Knuth Part II](your-solver-subclass-2):
+
+```php
+    $me_requirements = [New MERequirement("loud instrument F 8", "loud instrument F 9"), 
+                        New MERequirement("loud instrument F 9", "loud instrument F 10"),
+                        New MERequirement("loud instrument F 10", "loud instrument F 11")];
+```
+
+Of course, you will be using loops in your solution and your ultimate code will look more similar to:
+
+```php
+    $me_requirements[] = New MERequirement("loud instrument $day_1 $hour_1", "loud instrument $day_2 $hour_2"); 
+```
+
+The `MERequirement` class includes a `contains(string $me_item)` method to make searching for covered requirements easy when identifying requirements covered by an action:
+
+```php
+    if (in_array($student->instrument, LOUD_INSTRUMENTS)) {
+        $me_item = "loud instrument $day $hour";
+        foreach ($me_requirements as $me) {
+            if ($me->contains($me_item)) {
+                $action->reqs[] = $me;
+            }
+        }
+    }
+```
 
 # Multiplicity
 
+The Python `AlgorithmXSolver` uses memory to avoid redundant searches by adding `tuple`s of data to the solver's memory. In the PHP solver, the same functionality exists, but a `string` of data must be passed to the `remember` method instead of a `tuple`. Implementing the [Mrs. Knuth Part III example] discussed in the Python section looks like this:
+
+'''php
+    protected function process_row_selection(Action $row): void
+    {
+        $this->remember("$row->name $row->day $row->hour");
+    }
+```
 
 # The Solver Code
 
