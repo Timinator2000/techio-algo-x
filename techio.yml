@@ -268,6 +268,8 @@ plan:
         statement: 20 - solver translations/02 - ruby.md
       - title: Kotlin
         statement: 20 - solver translations/03 - kotlin.md
+      - title: PHP
+        statement: 20 - solver translations/04 - php.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
