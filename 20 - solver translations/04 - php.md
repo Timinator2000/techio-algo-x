@@ -4,6 +4,19 @@ __Translation Author:__ [@TBali](https://www.codingame.com/profile/08e6e13d9f7ca
 
 PHP is a high-level, interpreted language, mainly used for web development. It's deep integration with HTML makes it a go-to choice for server-side scripting.
 
+PHP does not provide support for `tuple`s, which are used extensively in my Python `AlgorithmXSolver`, especially as keys in dictionaries. Instead of `tuple`s, `string`s are used as unique identifiers for requirement and actionsand action. Consider 9x9 Sudoku.
+
+# Requirements and Actions
+
+Instead of [`tuple`s for requirements and actions](sudoku-solver), @VizGhar uses `data class`es, a similar, but more powerful container for data elements. Consider the 4 types of requirements for Sudoku. Each cell must be covered with a number, each number must appear in each row, each number must appear in each column and each number must appear in each box. @VizGhar creates 4 separate data classes, each of which inherits from a generic `Requirement`.
+
+In my Python, each of my `tuple`s begins with a string that identifies one of the 4 requirement types. In @VizGhar’s Kotlin, the class identifies one of the 4 requirement types and the strings become unnecessary.
+
+Before building your solver subclass, you need to define classes for your requirements and actions. In the following code snippet, I have defined the 4 types of requirements and the 1 action type found in Sudoku.
+
+
+
+
 # Key Difference
 
 My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s, especially as keys in dictionaries. Because PHP does not support `tuple`s, @TBali's translation uses strings as unique identifiers for requirements and actions. These strings are encapsulated inside `class`es used to represent requirements and actions. $TBali provides abstract `Requirement` and `Action` classes which are the superclasses of any problem-specific requirements and actions you declare. In the code below, notice that all `Requirement`s and all `Action`s have a `hash` attribute. Subclasses must assign a unique `string` value to this attribute.
