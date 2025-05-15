@@ -6,19 +6,7 @@ PHP is a high-level, interpreted language primarily used for web development. It
 
 To address this, @TBali defines classes for both requirements and actions. Each instance of these classes includes a unique string stored in a `hash` attribute. In the PHP implementation of `AlgorithmXSolver`, these unique strings are used in place of Python's `tuple`s. This approach results in a smooth and intuitive user experience that closely mirrors the original Python logic.
 
-To demonstrate, consider 9x9 Sudoku...
-
-# Requirements and Actions
-
-
-
-
-
-# Key Difference
-
-My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s, especially as keys in dictionaries. Because PHP does not support `tuple`s, @TBali's translation uses strings as unique identifiers for requirements and actions. These strings are encapsulated inside `class`es used to represent requirements and actions. $TBali provides abstract `Requirement` and `Action` classes which are the superclasses of any problem-specific requirements and actions you declare. In the code below, notice that all `Requirement`s and all `Action`s have a `hash` attribute. Subclasses must assign a unique `string` value to this attribute.
-
-abstract class __Requirement__
+# Abstract Requirements and Actions
 
 ```php
 // --------------------------------------------------------------------
@@ -39,11 +27,7 @@ abstract class Requirement
         return $this->hash;
     }
 }
-```
 
-abstract class __Action__
-
-```php
 // --------------------------------------------------------------------
 /**
  * A single action to be used in the solver.
@@ -69,6 +53,29 @@ abstract class Action
     }
 }
 ```
+
+# Problem-Specific Requirements and Actions
+
+In Sudoku, there are four fundamental types of requirements:
+
+1. Every cell must contain exactly one number.
+1. Each number must appear exactly once in every row.
+1. Each number must appear exactly once in every column.
+1. Each number must appear exactly once in every 3×3 box.
+
+To represent these constraints, I define four separate classes — each corresponding to one of the above requirements — all inheriting from a generic `Requirement` base class.
+
+Each subclass assigns a string to the inherited `hash` attribute. This string format is intentionally designed to resemble the tuple representations used in my Python-based implementation, preserving clarity and structure.
+
+
+
+
+# Key Difference
+
+My Python [`AlgorithmXSolver`](the-algorithmxsolver) makes extensive use of `tuple`s, especially as keys in dictionaries. Because PHP does not support `tuple`s, @TBali's translation uses strings as unique identifiers for requirements and actions. These strings are encapsulated inside `class`es used to represent requirements and actions. $TBali provides abstract `Requirement` and `Action` classes which are the superclasses of any problem-specific requirements and actions you declare. In the code below, notice that all `Requirement`s and all `Action`s have a `hash` attribute. Subclasses must assign a unique `string` value to this attribute.
+
+abstract class __Requirement__
+
 
 # Example - 9x9 Sudoku - Requirements
 
