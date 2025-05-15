@@ -2,17 +2,14 @@
 
 __Translation Author:__ [@TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)
 
-PHP is a high-level, interpreted language, mainly used for web development. It's deep integration with HTML makes it a go-to choice for server-side scripting.
+PHP is a high-level, interpreted language primarily used for web development. Its deep integration with HTML makes it a popular choice for server-side scripting. While PHP supports many modern programming constructs, it lacks native support for tuples — structures that are frequently used in my Python-based `AlgorithmXSolver`, particularly as dictionary keys.
 
-PHP does not provide support for `tuple`s, which are used extensively in my Python `AlgorithmXSolver`, especially as keys in dictionaries. Instead of `tuple`s, `string`s are used as unique identifiers for requirement and actionsand action. Consider 9x9 Sudoku.
+To address this, @TBali defines classes for both requirements and actions. Each instance of these classes includes a unique string stored in a `hash` attribute. In the PHP implementation of `AlgorithmXSolver`, these unique strings are used in place of Python's `tuple`s. This approach results in a smooth and intuitive user experience that closely mirrors the original Python logic.
+
+To demonstrate, consider 9x9 Sudoku...
 
 # Requirements and Actions
 
-Instead of [`tuple`s for requirements and actions](sudoku-solver), @VizGhar uses `data class`es, a similar, but more powerful container for data elements. Consider the 4 types of requirements for Sudoku. Each cell must be covered with a number, each number must appear in each row, each number must appear in each column and each number must appear in each box. @VizGhar creates 4 separate data classes, each of which inherits from a generic `Requirement`.
-
-In my Python, each of my `tuple`s begins with a string that identifies one of the 4 requirement types. In @VizGhar’s Kotlin, the class identifies one of the 4 requirement types and the strings become unnecessary.
-
-Before building your solver subclass, you need to define classes for your requirements and actions. In the following code snippet, I have defined the 4 types of requirements and the 1 action type found in Sudoku.
 
 
 
