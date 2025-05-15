@@ -58,7 +58,7 @@ abstract class Action
 
 # Problem-Specific Requirements and Actions
 
-When using @TBali’s PHP solver, you must first create subclasses for your problem-specific requirements and actions.  These subclasses must assign a string value to the inherited `hash` attribute. Consider 9x9 Sudoku, where there are four types of requirements:
+To use @TBali’s PHP solver, you must first create subclasses for your problem-specific requirements and actions.  These subclasses must assign a string value to the inherited `hash` attribute. Consider 9x9 Sudoku, where there are four types of requirements:
 
 In Sudoku, there are four fundamental types of requirements:
 
