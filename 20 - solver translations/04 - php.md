@@ -226,7 +226,7 @@ The `MERequirement` class includes a `contains(string $me_item)` method to make 
 
 # Multiplicity
 
-The Python `AlgorithmXSolver` uses memory to avoid redundant searches by adding `tuple`s of data to the solver's memory. In the PHP solver, the same functionality exists, but a `string` of data must be passed to the `remember` method instead of a `tuple`. Implementing the [Mrs. Knuth Part III](adding-memory-to-algorithm-x) example discussed in the Python section looks like this:
+The Python `AlgorithmXSolver` uses memory to avoid redundant searches by adding `tuple`s of data to the solver's memory. In the PHP solver, the same functionality exists, but a `string` of data must be passed to the `remember()` method instead of a `tuple`. Implementing the [Mrs. Knuth Part III](adding-memory-to-algorithm-x) example discussed in the Python section looks like this:
 
 ```php
     protected function process_row_selection(Action $row): void
