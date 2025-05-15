@@ -2,7 +2,7 @@
 
 __Translation Author:__ [@TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)
 
-PHP is a high-level, interpreted language primarily used for web development. Its deep integration with HTML makes it a popular choice for server-side scripting. While PHP supports many modern programming constructs, it lacks native support for tuples — structures that are frequently used in my Python-based `AlgorithmXSolver`, particularly as dictionary keys.
+PHP is a high-level, interpreted language primarily used for web development. Its deep integration with HTML makes it a popular choice for server-side scripting. While PHP supports many modern programming constructs, it lacks native support for `tuple`s — structures that are frequently used in my Python-based `AlgorithmXSolver`, particularly as dictionary keys.
 
 To address this, @TBali defines classes for both requirements and actions. Each instance of these classes includes a unique string stored in a `hash` attribute. In the PHP implementation of `AlgorithmXSolver`, these unique strings are used in place of Python's `tuple`s. This approach results in a smooth and intuitive user experience that closely mirrors the original Python logic.
 
