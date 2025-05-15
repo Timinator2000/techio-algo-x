@@ -68,7 +68,7 @@ To use @TBali’s PHP solver, you must first create subclasses for your problem-
 
 To represent these constraints, I define four separate classes — each corresponding to one of the above requirements — all inheriting from a generic `Requirement` base class.
 
-Each subclass assigns a string to the inherited `hash` attribute. This string format is intentionally designed to resemble the tuple representations used in my Python-based implementation, preserving clarity and structure.
+Each subclass assigns a string to the inherited `hash` attribute. The string format is intentionally designed to resemble the tuple representations used in my Python-based implementation, preserving clarity and structure.
 
 ```php
 class CellCovered extends Requirement
