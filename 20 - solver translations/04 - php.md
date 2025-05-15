@@ -206,7 +206,7 @@ My Python-based implementation uses `tuple`s to create requirements for [mutual 
 Of course, you will be using loops in your solution and your ultimate code will look more similar to:
 
 ```php
-    $me_requirements[] = New MERequirement("loud instrument $day_1 $hour_1", "loud instrument $day_2 $hour_2"); 
+    $me_requirements[] = New MERequirement("loud instrument $day $hour_1", "loud instrument $day $hour_2"); 
 ```
 
 The `MERequirement` class includes a `contains(string $me_item)` method to make searching for covered requirements easy when identifying requirements covered by an action:
