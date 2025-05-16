@@ -66,7 +66,7 @@ To use @TBali’s PHP solver, you must first create subclasses for your problem-
 1. Each value must appear exactly once in every column.
 1. Each value must appear exactly once in every 3×3 box.
 
-To represent these constraints, I define four separate classes — each corresponding to one of the above requirements — all inheriting from a generic `Requirement` base class.
+To represent these constraints, I define four separate classes — each corresponding to one of the above requirements — all inheriting from the generic `Requirement` base class.
 
 Each subclass assigns a string to the inherited `hash` attribute. The string format is intentionally designed to resemble the tuple representations used in my Python-based implementation, preserving clarity and structure.
 
