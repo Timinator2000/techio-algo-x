@@ -2,6 +2,7 @@
 
 |Date|Details|
 |:--------:|:----------------|
+| May 16, 2025 | `AlgorithmXSolver` ➡️ [PHP](php) translation added. |
 | April 5, 2025 | [Crossword](crossword) added. |
 | April 5, 2025 | [Fix the Spaces](fix-the-spaces) added. |
 | April 2, 2025 | [Completed Mahjong Hands](completed-mahjong-hands) added. |
