@@ -508,7 +508,7 @@ class AlgorithmXSolver
     protected $solution = [];
 
     /** @var int */
-    protected $solution_count = 0;
+    public $solution_count = 0;
 
     /**
      * A history can be added to a subclass to allow Algorithm X to handle "multiplicity".
