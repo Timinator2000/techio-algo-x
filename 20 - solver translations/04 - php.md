@@ -66,7 +66,7 @@ To use @TBali’s PHP solver, you must first create subclasses for your problem-
 1. Each value must appear exactly once in every column.
 1. Each value must appear exactly once in every 3×3 box.
 
-To represent these constraints, I define four separate classes — each corresponding to one of the above requirements — all inheriting from the generic `Requirement` base class.
+To represent these constraints, I define four separate subclasses — each corresponding to one of the above requirements — all inheriting from the generic `Requirement` base class.
 
 Each subclass assigns a string to the inherited `hash` attribute. The string format is intentionally designed to resemble the tuple representations used in my Python-based implementation, preserving clarity and structure.
 
@@ -83,22 +83,6 @@ class CellCovered extends Requirement
         $this->row = $row;
         $this->col = $col;
         $this->hash = "cell covered $row $col";
-    }
-}
-
-
-class ValueInBox extends Requirement
-{
-    /** @var int */
-    public $box;
-    /** @var string */
-    public $val;
-
-    public function __construct(int $box, string $val)
-    {
-        $this->box = $box;
-        $this->val = $val;
-        $this->hash = "value in box $box $val";
     }
 }
 
@@ -133,9 +117,24 @@ class ValueInCol extends Requirement
         $this->hash = "value in col $col $val";
     }
 }
+
+class ValueInBox extends Requirement
+{
+    /** @var int */
+    public $box;
+    /** @var string */
+    public $val;
+
+    public function __construct(int $box, string $val)
+    {
+        $this->box = $box;
+        $this->val = $val;
+        $this->hash = "value in box $box $val";
+    }
+}
 ```
 
-Next, a problem-specific class must be declared that extends the abstract `Action` class.
+Next, a problem-specific subclass must be declared that extends the abstract `Action` class.
 
 ```php
 class PlaceValue extends Action
@@ -238,7 +237,7 @@ The Python `AlgorithmXSolver` uses memory to avoid redundant searches by adding 
 ```php
 // --------------------------------------------------------------------
 /**
- * Last edit: 2025-??-?? by @TBali
+ * Last edit: 2025-05-15 by @TBali
  *
  * Port to PHP of @Timinator's python implementation:
  * @see https://www.codingame.com/playgrounds/156252/algorithm-x/the-algorithmxsolver
@@ -249,7 +248,7 @@ The Python `AlgorithmXSolver` uses memory to avoid redundant searches by adding 
 // --------------------------------------------------------------------
 /**
  * A single cell in the matrix for a DLX-based Algorithm X solver.
- * Based on a Python code made by Timinator, which was in turn based on a code by Robostac.
+ * Based on a Python code made by @Timinator, which was in turn based on a code by @RoboStac.
  */
 class DLXCell
 {
