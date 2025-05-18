@@ -54,8 +54,8 @@ require 'set'
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX-Based Algorithm X Solver Last Revised 01 December 2024)
 #
-#  For a detailed explanation and tutorial, please see my Algorithm X
-#  playground on Tech.io by following the link in my CodinGame profile:
+#  For a detailed explanation and tutorial, please see the Algorithm X
+#  playground on Tech.io by following the link in @Timinator's CodinGame profile:
 #
 #  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
 #
@@ -354,7 +354,7 @@ class AlgorithmXSolver
   # In cases of multiplicity, this method can be used to ask Algorithm X to remember that
   # it has already tried certain things. For instance, if Emma wants two music lessons per
   # week, trying to put her first lesson on Monday at 8am is no different than trying to put
-  # her second lesson on Monday at 8am. See my Algorithm X Playground for more details,
+  # her second lesson on Monday at 8am. See the Algorithm X Playground for more details,
   # specifically Mrs. Knuth - Part III.
   def _remember(item_to_remember)
     if @history.last.include?(item_to_remember)
