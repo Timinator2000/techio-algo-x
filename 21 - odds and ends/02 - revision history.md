@@ -2,6 +2,7 @@
 
 |Date|Details|
 |:--------:|:----------------|
+| TBD | [Connect the Colours](connect-the-colours) added. |
 | May 17, 2025 | `AlgorithmXSolver` ➡️ [PHP](php) translation added. |
 | April 5, 2025 | [Crossword](crossword) added. |
 | April 5, 2025 | [Fix the Spaces](fix-the-spaces) added. |
