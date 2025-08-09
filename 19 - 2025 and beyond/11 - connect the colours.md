@@ -12,17 +12,17 @@ __Algorithm X Complexity:__ Textbook Algorithm X
 
 
 <BR><BR>
-![Connect the Colours 2x2](ConnectColorsPaths2x2.png)
+![Connect the Colours 2x2](ConnectColoursPaths2x2.png)
 <BR>
 
 
 # Important Details
 
 <BR><BR>
-![Connect the Colours 3x3 (1 of 2)](ConnectColorsPaths1.png)
+![Connect the Colours 3x3 (1 of 2)](ConnectColoursPaths1.png)
 <BR>
 
 <BR><BR>
-![Connect the Colours 3x3 (2 of 2)](ConnectColorsPaths2.png)
+![Connect the Colours 3x3 (2 of 2)](ConnectColoursPaths2.png)
 <BR>
 
