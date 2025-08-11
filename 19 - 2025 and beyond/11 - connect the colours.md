@@ -26,8 +26,15 @@ __Algorithm X Complexity:__ Textbook Algorithm X, Difficult Optimization
 ![Connect the Colours 3x3 (2 of 2)](ConnectColoursPaths2.png)
 <BR>
 
-# Hardcore Number Theory
+# Just Can't Get Enough
+
+
+
+In 1981, the legendary 
 
 <BR><BR>
 ![The On-Line Encyclopedia of Integer Sequences](OEISBanner.jpg)
 <BR>
+
+
+https://www.youtube.com/watch?v=5WHcjGFihck
