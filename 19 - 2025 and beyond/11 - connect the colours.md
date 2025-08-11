@@ -1,4 +1,4 @@
-# Connect the Colors
+# Connect the Colours
 
 __Puzzle:__ Connect the Colours - Coming Soon
 
@@ -26,3 +26,8 @@ __Algorithm X Complexity:__ Textbook Algorithm X
 ![Connect the Colours 3x3 (2 of 2)](ConnectColoursPaths2.png)
 <BR>
 
+# Hardcore Number Theory
+
+<BR><BR>
+![The On-Line Encyclopedia of Integer Sequences](OEISBanner.jpg)
+<BR>
