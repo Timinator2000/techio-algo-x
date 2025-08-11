@@ -55,6 +55,7 @@ Seventeen years earlier, in 1964 — long before synthesizers were filling dance
 |13|64,528,039,343,270,018,963,357,185,158,482,118|
 |14|69,450,664,761,521,361,664,274,701,548,907,358,996,488|
 
+Do you need more? Click [here](https://oeis.org/A007764/b007764.txt) to the full list for `n=1` t `n=27`.
 
 # h/t Depeche Mode
 
