@@ -6,7 +6,7 @@ __Author:__ [@Harry.B.](https://www.codingame.com/profile/d926a93cb394ded661b204
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ Textbook Algorithm X
+__Algorithm X Complexity:__ Textbook Algorithm X, Difficult Optimization
 
 # Overview
 
