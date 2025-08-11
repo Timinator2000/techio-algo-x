@@ -34,7 +34,7 @@ In 1981, pioneering English electronic band Depeche Mode released their debut al
 ![The On-Line Encyclopedia of Integer Sequences](OEISBanner.jpg)
 <BR>
 
-Seventeen years earlier, in 1964—long before synthesizers were filling dance floors—mathematician Neil J. A. Sloane began compiling collections of these sequences. His work eventually grew into two printed books (1973 and 1995) and later evolved into an email service and, in 1996, a public website. Today, the [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/wiki/Main_Page) is home to 386,574 sequences as of August 2025 — more than enough to ensure that even a synth-pop mathematician just can’t get enough.
+Seventeen years earlier, in 1964—long before synthesizers were filling dance floors—mathematician Neil J. A. Sloane began compiling collections of these integer sequences. His work eventually grew into two printed books (1973 and 1995) and later evolved into an email service and, in 1996, a public website. Today, the [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/wiki/Main_Page) is home to 386,574 sequences as of August 2025 — more than enough to ensure that even a synth-pop mathematician just can’t get enough.
 
 # 
 
