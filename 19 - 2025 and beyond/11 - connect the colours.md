@@ -39,7 +39,7 @@ Seventeen years earlier, in 1964 — long before synthesizers were filling dance
 [Number of nonintersecting (or self-avoiding) rook paths joining opposite corners of an n X n grid.](https://oeis.org/A007764)
 
 |n|Number of Rook Paths|
-|:---:|:---:|
+|:---:|:---|
 |1|1|
 |2|2|
 |3|12|
