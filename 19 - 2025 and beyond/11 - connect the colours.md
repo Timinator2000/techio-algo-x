@@ -62,7 +62,7 @@ In 1981, pioneering English electronic band Depeche Mode released their debut al
 
 Seventeen years earlier, in 1964 — long before synthesizers were filling dance floors — mathematician Neil J. A. Sloane began compiling collections of these integer sequences. His work eventually grew into two printed books (1973 and 1995) and later evolved into an email service and, in 1996, a public website. Today, the Online Encyclopedia of Integer Sequences ([OEIS](https://oeis.org/wiki/Main_Page)) is home to 386,574 sequences (as of August 2025) — more than enough to ensure that even a synth-pop mathematician just can’t get enough.
 
-[Topic A007764](https://oeis.org/A007764) on the OEIS has all the information you need if you'd like to search for the next number in the sequence. The topic was originally authored by David Radcliffe and Donald Knuth. In the next table, I have included the number of rook paths for `n=1` to `n=14`.
+[Topic A007764](https://oeis.org/A007764) on the OEIS has all the information you need if you'd like to search for the next number in the sequence of non-intersecting rook paths. The topic was originally authored by David Radcliffe and Donald Knuth. In the next table, I have included the number of rook paths for `n=1` to `n=14`.
 
 |n|Number of Rook Paths|
 |:---:|:---|
