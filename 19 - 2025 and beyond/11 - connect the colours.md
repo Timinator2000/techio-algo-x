@@ -91,7 +91,7 @@ This leaves me with two research questions on my to-do list:
 
 1. How do I calculate something that big?
 
-2. How do I prove to my friends my calculation is accurate!
+2. How do I prove to my friends my calculation is accurate? 🤓
 
 # h/t Depeche Mode
 
