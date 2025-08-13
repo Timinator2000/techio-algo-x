@@ -20,7 +20,7 @@ Let’s dive into what fuels the "volcanic eruption" of paths in this challenge.
 ![Connect the Colours 2x2](ConnectColoursPaths2x2.png)
 <BR>
 
-Consider a simple 2x2 grid with one pair of endpoints, from the bottom-left corner to the top-right corner. There are exactly two distinct paths connecting these points. These are known as **nonintersecting (self-avoiding) rook paths**, adhering to two key rules:
+Consider a simple 2x2 grid with one pair of endpoints, the bottom-left corner and the top-right corner. There are exactly two distinct paths connecting these points. These are known as __nonintersecting (self-avoiding) rook paths__, adhering to two key rules:
 
 1. A path cannot intersect itself.
 
