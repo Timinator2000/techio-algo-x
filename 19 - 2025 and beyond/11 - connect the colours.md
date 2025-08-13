@@ -50,7 +50,7 @@ This number may seem manageable, but the complexity escalates quickly with large
 
 * 7x7: 575,780,564 paths
 
-Computing the paths for a 7x7 grid took my laptop over an hour, revealing the sheer scale of this problem. My initial approach was naïve, and the complexity of this challenge opened my eyes to the depth of research on self-avoiding paths. My research eventually led me to the Online Encyclopedia of Integer Sequences ([OEIS](https://oeis.org/wiki/Main_Page)), where I found data up to `n==27` and also...the fingerprints of none other than, Donald Knuth.
+Computing the paths for a 7x7 grid took my laptop over an hour, revealing the sheer scale of this problem. My approach was naïve, and the complexity of this challenge opened my eyes to the depth of research on self-avoiding paths. I eventually stumbled upon the Online Encyclopedia of Integer Sequences ([OEIS](https://oeis.org/wiki/Main_Page)), where I found data up to `n==27` and I also found...the fingerprints of, none other than, Donald Knuth.
 
 # Just Can't Get Enough
 
@@ -62,8 +62,7 @@ In 1981, pioneering English electronic band Depeche Mode released their debut al
 
 Seventeen years earlier, in 1964 — long before synthesizers were filling dance floors — mathematician Neil J. A. Sloane began compiling collections of these integer sequences. His work eventually grew into two printed books (1973 and 1995) and later evolved into an email service and, in 1996, a public website. Today, the Online Encyclopedia of Integer Sequences ([OEIS](https://oeis.org/wiki/Main_Page)) is home to 386,574 sequences (as of August 2025) — more than enough to ensure that even a synth-pop mathematician just can’t get enough.
 
-
-[Number of nonintersecting (or self-avoiding) rook paths joining opposite corners of an n X n grid.](https://oeis.org/A007764)
+[Topic A007764](https://oeis.org/A007764) on the OEIS has all the information you need if you'd like to search for the next number in the sequence. The topic was originally authored by David Radcliffe and Donald Knuth. In the next table, I have included the number of rook paths for `n=1` to `n=14`.
 
 |n|Number of Rook Paths|
 |:---:|:---|
@@ -83,6 +82,16 @@ Seventeen years earlier, in 1964 — long before synthesizers were filling dance
 |14|69,450,664,761,521,361,664,274,701,548,907,358,996,488|
 
 Do you need more? Click [here](https://oeis.org/A007764/b007764.txt) to see the full list for `n=1` to `n=27`.
+
+# Now That's Big
+
+The number of rook paths for `n=27` contains 164 digits! The science news website, Live Science, estimates there are [10^{82}$ atoms in the observable universe](https://www.livescience.com/how-many-atoms-in-universe.html). To get to 10^{64}$, __we have to give every one of those atoms its own full universe!__
+
+This leaves me with two research questions on my to-do list:
+
+1. How do I calculate something that big?
+
+2. How do I prove to my friends that my calculation is accurate!
 
 # h/t Depeche Mode
 
