@@ -44,7 +44,7 @@ Seventeen years earlier, in 1964 — long before synthesizers were filling dance
 |2|2|
 |3|12|
 |4|184|
-|5|8512|
+|5|8,512|
 |6|1,262,816|
 |7|575,780,564|
 |8|789,360,053,252|
