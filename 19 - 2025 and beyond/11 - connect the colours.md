@@ -85,7 +85,7 @@ Do you need more? Click [here](https://oeis.org/A007764/b007764.txt) to see the 
 
 # Now That's Big
 
-The number of rook paths for `n=27` contains 164 digits! The science news website, Live Science, estimates there are [10^{82}$ atoms in the observable universe](https://www.livescience.com/how-many-atoms-in-universe.html). To get to 10^{64}$, __we have to give every one of those atoms its own full universe!__
+The number of rook paths for `n=27` contains 164 digits! The science news website, Live Science, estimates there are [$10^{82}$ atoms in the observable universe](https://www.livescience.com/how-many-atoms-in-universe.html). To get to $10^{64}$, __we have to give every one of those atoms its own full universe!__
 
 This leaves me with two research questions on my to-do list:
 
