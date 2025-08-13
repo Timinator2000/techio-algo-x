@@ -89,9 +89,9 @@ The number of rook paths for `n=27` contains 164 digits! The science news websit
 
 This leaves me with two research questions on my to-do list:
 
-1. How do I calculate something that big?
+1. How do I calculate something that big? 🤯
 
-2. How do I prove to my friends my calculation is accurate? 🤓
+2. How do I prove to my friends my calculation is accurate? 😎
 
 # h/t Depeche Mode
 
