@@ -50,7 +50,7 @@ This number may seem manageable, but the complexity escalates quickly with large
 
 * 7x7: 575,780,564 paths
 
-Computing the paths for a 7x7 grid took my laptop over an hour, revealing the sheer scale of this problem. My approach was naïve, and the complexity of this challenge opened my eyes to the depth of research on self-avoiding paths. I eventually stumbled upon the Online Encyclopedia of Integer Sequences ([OEIS](https://oeis.org/wiki/Main_Page)), where I found data up to `n==27` and I also found...the fingerprints of, none other than, Donald Knuth.
+Computing the paths for a 7x7 grid took my laptop over an hour, revealing the sheer scale of this problem. My approach was naïve, and the complexity of this challenge opened my eyes to the depth of research on self-avoiding paths. I eventually stumbled upon the Online Encyclopedia of Integer Sequences ([OEIS](https://oeis.org/wiki/Main_Page)), where I found data up to `n=27` and I also found...the fingerprints of, none other than, Donald Knuth.
 
 # Just Can't Get Enough
 
