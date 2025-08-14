@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Textbook Algorithm X, Challenging Optimization
 
 # Overview
 
-This puzzle, crafted by @Harry.B., is a stellar, visual exact-cover problem using the CodinGame SDK. It earns two thumbs up for its engaging design! To succeed, you’ll need sharp grid-navigation skills to generate all possible paths between pairs of same-colored endpoints. Once you’ve mastered path generation, Algorithm X can efficiently find solutions for many test cases. However, completing all test cases demands careful optimization due to the explosive growth of possible paths.
+This puzzle, crafted by @Harry.B., is a stellar, visual exact-cover problem using the CodinGame SDK. It earns two thumbs up for its engaging design! To succeed, you’ll need sharp grid-navigation skills to generate possible paths between pairs of same-colored endpoints. Once you’ve mastered path generation, Algorithm X can efficiently find solutions for many test cases. However, completing all test cases demands careful optimization due to the explosive growth of possible paths.
 
 Let’s dive into what fuels the "volcanic eruption" of paths in this challenge.
 
