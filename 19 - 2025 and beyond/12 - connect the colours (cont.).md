@@ -1,8 +1,6 @@
 # Connect the Colours (cont.)
 
-__Puzzle:__ Connect the Colours - Coming Soon
-
-__Author:__ [@Harry.B.](https://www.codingame.com/profile/d926a93cb394ded661b204822965c5fa7122915)
+On the previous page...
 
 # Strategy
 
