@@ -12,4 +12,4 @@ __Algorithm X Complexity:__ Textbook Algorithm X
 
 This puzzle, crafted by @Harry.B., is a stellar, visual exact-cover problem using the CodinGame SDK. It earns two thumbs up for its engaging design! To succeed, you’ll need sharp grid-navigation skills to generate possible paths between pairs of same-colored endpoints. Once you’ve mastered path generation, Algorithm X will efficiently find solutions for all test cases.
 
-Keep your code tight as things will get a lot tougher on Part 2!
+Keep your code tight as things will get a lot tougher in Part 2!
