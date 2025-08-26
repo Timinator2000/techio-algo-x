@@ -1,4 +1,4 @@
-# Connect the Colours Part 2 (cont.)
+# Connect the Colours - Part 2 (cont.)
 
 On the previous page...
 

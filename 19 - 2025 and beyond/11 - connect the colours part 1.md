@@ -1,4 +1,4 @@
-# Connect the Colours
+# Connect the Colours - Part 1
 
 __Puzzle:__ Connect the Colours Part 1 - Coming Soon
 
