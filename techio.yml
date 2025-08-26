@@ -261,9 +261,11 @@ plan:
       - title: Crossword
         statement: 19 - 2025 and beyond/10 - crossword.md
       - title: Connect the Colours
-        statement: 19 - 2025 and beyond/11 - connect the colours.md
+        statement: 19 - 2025 and beyond/11 - connect the colours part 1.md
+      - title: Connect the Colours
+        statement: 19 - 2025 and beyond/12 - connect the colours part 2.md
       - title: Connect the Colours (cont.)
-        statement: 19 - 2025 and beyond/12 - connect the colours (cont.).md
+        statement: 19 - 2025 and beyond/13 - connect the colours part 2 (cont.).md
   - title: Solver Translations
     plan:
       - title: Translations Overview

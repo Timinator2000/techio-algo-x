@@ -1,6 +1,6 @@
 # Connect the Colours
 
-__Puzzle:__ Connect the Colours - Coming Soon
+__Puzzle:__ Connect the Colours Part 2 - Coming Soon
 
 __Author:__ [@Harry.B.](https://www.codingame.com/profile/d926a93cb394ded661b204822965c5fa7122915)
 
@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Textbook Algorithm X, Challenging Optimization
 
 # Overview
 
-This puzzle, crafted by @Harry.B., is a stellar, visual exact-cover problem using the CodinGame SDK. It earns two thumbs up for its engaging design! To succeed, you’ll need sharp grid-navigation skills to generate possible paths between pairs of same-colored endpoints. Once you’ve mastered path generation, Algorithm X can efficiently find solutions for many test cases. However, completing all test cases demands careful optimization due to the explosive growth of possible paths.
+This 2nd puzzle in @Harry.B.'s Connect the Colours series is a beast! As the test cases get tougher, the space between endpoints grows, allowing for many possible paths. Completing all test cases demands careful optimization due to the explosive growth of possible paths.
 
 On the next page, I'll share some ideas for optimizing your search for possible paths between endpoints. Before I do that, let’s dive into what fuels the "volcanic eruption" of paths in this challenge.
 
