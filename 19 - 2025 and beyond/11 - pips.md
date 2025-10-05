@@ -14,7 +14,7 @@ In August 2025, the *New York Times* launched a [daily logic game called **Pips*
 
 The overall difficulty of this challenge falls on the easier end of “medium.” Some light optimization will be required for the hardest test cases. Pips offers an excellent opportunity to sharpen both your **Algorithm X** techniques and your **object-oriented analysis and design** skills.
 
-Cells on the game board are **grouped together by rules**, similar to puzzles like [High Rise Buildings](high-rise-buildings), [Killer Sudoku](killer-sudoku-solver), and [Kakuro Solver](kakuro-solver), where groups of cells must collectively satisfy specific constraints. Pips has five different rule types, but each behaves similarly at an abstract level:
+Cells on the game board are **grouped together by rules**, similar to puzzles like [High Rise Buildings](high-rise-buildings), [Killer Sudoku Solver](killer-sudoku-solver), and [Kakuro Solver](kakuro-solver), where groups of cells must collectively satisfy specific constraints. Pips has five different rule types, but each behaves similarly at an abstract level:
 
 * A rule may **narrow the set of possible values** for its member cells based on logical deductions.
 
