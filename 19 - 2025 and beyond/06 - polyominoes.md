@@ -8,6 +8,8 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Textbook Exact Cover
 
+# Replay
+
 <iframe 
   src="https://www.codingame.com/replay/857826472" 
   width="800" 
