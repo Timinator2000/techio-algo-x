@@ -8,8 +8,6 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Textbook Exact Cover
 
-# GIF
-
 ![Polyominoes](Polyominoes.gif)
 
 # Strategy

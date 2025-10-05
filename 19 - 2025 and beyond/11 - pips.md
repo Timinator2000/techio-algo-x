@@ -1,4 +1,4 @@
-# Polyominoes
+# Pips
 
 __Puzzle:__ [Pips](https://www.codingame.com/training/medium/pips)
 
