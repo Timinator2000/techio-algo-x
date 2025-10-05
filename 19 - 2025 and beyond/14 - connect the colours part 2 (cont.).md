@@ -8,6 +8,9 @@ Alright, Tim — let’s unpack this carefully, because there’s a subtle but i
 
 We’ll compare them along **how Python computes the hash**, **memory use**, **speed**, and **collision likelihood**.
 
+
+
+
 ---
 
 ## **1. What’s Being Hashed**
