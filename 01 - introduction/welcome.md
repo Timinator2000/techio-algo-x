@@ -68,6 +68,11 @@ __Great Candidates for Algorithm X:__
 <BR>[Completed Mahjong Hands](completed-mahjong-hands) (+50 XP)
 <BR>[Crossword](crossword) (+50 XP)
 <BR>[Pips](pips) (+50 XP)
+<BR>**Coming Soon** Connect the Colours - Part I (+50 XP)
+<BR>**Coming Soon** Connect the Colours - Part II (+50 XP)
+<BR>**Coming Soon** Battleship Solitaire (+50 XP)
+<BR>**Coming Soon** Magnets (+50 XP)
+
 
 # My Promise to You
 
@@ -77,7 +82,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to __2850 [CodinGame](https://www.codingame.com) XP!__
+* You will earn up to __3050 [CodinGame](https://www.codingame.com) XP!__
 
 # Prerequisites
 

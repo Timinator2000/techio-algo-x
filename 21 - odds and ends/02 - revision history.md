@@ -2,10 +2,10 @@
 
 |Date|Details|
 |:--------:|:----------------|
-| Coming Soon | Connect the Colours - Part I |
-| Coming Soon | Connect the Colours - Part II |
-| Coming Soon | Battleship Solitaire |
-| Coming Soon | Magnets |
+| **Coming Soon** | Connect the Colours - Part I |
+| **Coming Soon** | Connect the Colours - Part II |
+| **Coming Soon** | Battleship Solitaire |
+| **Coming Soon** | Magnets |
 | October 5, 2025 | [Pips](pips) added. |
 | May 17, 2025 | `AlgorithmXSolver` ➡️ [PHP](php) translation added. |
 | April 5, 2025 | [Crossword](crossword) added. |
