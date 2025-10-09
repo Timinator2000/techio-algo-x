@@ -39,7 +39,7 @@ __Great Candidates for Algorithm X:__
 <BR>[Finish the Eight Queens](finish-the-eight-queens) (+50 XP)
 <BR>[Optimized Coloring](optimized-coloring) (+50 XP)
 <BR>[Einstein’s Riddle Solver](einsteins-riddle-solver) (+50 XP)
-<BR>[🎮 Winamax](winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
+<BR>[Winamax](winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
 <BR>[Three Little Piggies](three-little-piggies) (+50 XP)
 <BR>[Breaking Bifid](breaking-bifid) (+50 XP)
 <BR>[Futoshiki Solver](futoshiki-solver) (+50 XP)
@@ -67,7 +67,7 @@ __Great Candidates for Algorithm X:__
 <BR>[Haunted Manor](haunted-manor) (+50 XP)
 <BR>[Completed Mahjong Hands](completed-mahjong-hands) (+50 XP)
 <BR>[Crossword](crossword) (+50 XP)
-<BR>[Pips](pips) (+50 XP)
+<BR>[🎮 Pips](pips) (+50 XP)
 <BR>**Coming Soon** 🎮 Connect the Colours - Part I (+50 XP)
 <BR>**Coming Soon** 🎮 Connect the Colours - Part II (+50 XP)
 <BR>**Coming Soon** 🎮 Battleship Solitaire (+50 XP)
