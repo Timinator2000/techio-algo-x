@@ -39,14 +39,14 @@ __Great Candidates for Algorithm X:__
 <BR>[Finish the Eight Queens](finish-the-eight-queens) (+50 XP)
 <BR>[Optimized Coloring](optimized-coloring) (+50 XP)
 <BR>[Einstein’s Riddle Solver](einsteins-riddle-solver) (+50 XP)
-<BR>[Winamax](winamax-sponsored-contest) (+250 XP) 🚀🚀🚀🎮
+<BR>[🎮 Winamax](winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
 <BR>[Three Little Piggies](three-little-piggies) (+50 XP)
 <BR>[Breaking Bifid](breaking-bifid) (+50 XP)
 <BR>[Futoshiki Solver](futoshiki-solver) (+50 XP)
 <BR>[Suguru Solver](suguru-solver) (+50 XP)
 <BR>[Dumbbells Solver](dumbbells-solver) (+50 XP)
 <BR>[Hitori Solver](hitori-solver) (+50 XP)
-<BR>[There Is No Spoon – Episode 2](there-is-no-spoon---episode-2) (+250 XP) 🚀🚀🚀🎮
+<BR>[🎮 There Is No Spoon – Episode 2](there-is-no-spoon---episode-2) (+250 XP) 🚀🚀🚀
 <BR>[Takuzu Solver](takuzu-solver) (+50 XP)
 <BR>[High-Rise Buildings](high-rise-buildings) (+50 XP)
 <BR>[Killer Sudoku Solver](killer-sudoku-solver) (+50 XP)
@@ -62,16 +62,16 @@ __Great Candidates for Algorithm X:__
 <BR>[Who Dunnit?](who-dunnit) (+50 XP)
 <BR>[Picture Puzzle](picture-puzzle) (+50 XP)
 <BR>[Nonogram Inversor](nonogram-inversor) (+50 XP)
-<BR>[Polyominoes](polyominoes) (+50 XP) 🎮
-<BR>[Tetrasticks](tetrasticks) (+50 XP) 🎮
+<BR>[🎮 Polyominoes](polyominoes) (+50 XP) 🎮
+<BR>[🎮 Tetrasticks](tetrasticks) (+50 XP) 🎮
 <BR>[Haunted Manor](haunted-manor) (+50 XP)
 <BR>[Completed Mahjong Hands](completed-mahjong-hands) (+50 XP)
 <BR>[Crossword](crossword) (+50 XP)
 <BR>[Pips](pips) (+50 XP) 🎮
-<BR>**Coming Soon** Connect the Colours - Part I (+50 XP) 🎮
-<BR>**Coming Soon** Connect the Colours - Part II (+50 XP) 🎮
-<BR>**Coming Soon** Battleship Solitaire (+50 XP) 🎮
-<BR>**Coming Soon** Magnets (+50 XP) 🎮
+<BR>**Coming Soon** 🎮 Connect the Colours - Part I (+50 XP) 🎮
+<BR>**Coming Soon** 🎮 Connect the Colours - Part II (+50 XP) 🎮
+<BR>**Coming Soon** 🎮 Battleship Solitaire (+50 XP) 🎮
+<BR>**Coming Soon** 🎮 Magnets (+50 XP) 🎮
 
 🎮 = Solo Game with special visual effects.
 
