@@ -2,11 +2,11 @@
 
 |Date|Details|
 |:--------:|:----------------|
-| **Coming Soon** | Connect the Colours - Part I |
-| **Coming Soon** | Connect the Colours - Part II |
-| **Coming Soon** | Battleship Solitaire |
-| **Coming Soon** | Magnets |
-| October 5, 2025 | [Pips](pips) added. |
+| **Coming Soon** | 🎮 Connect the Colours - Part I |
+| **Coming Soon** | 🎮 Connect the Colours - Part II |
+| **Coming Soon** | 🎮 Battleship Solitaire |
+| **Coming Soon** | 🎮 Magnets |
+| October 5, 2025 | [🎮 Pips](pips) added. |
 | May 17, 2025 | `AlgorithmXSolver` ➡️ [PHP](php) translation added. |
 | April 5, 2025 | [Crossword](crossword) added. |
 | April 5, 2025 | [Fix the Spaces](fix-the-spaces) added. |
@@ -16,8 +16,8 @@
 | March 19, 2025 | `AlgorithmXSolver` ➡️ [Kotlin](kotlin) translation added. |
 | March 19, 2025 | `AlgorithmXSolver` ➡️ [Ruby](ruby) translation added. |
 | March 19, 2025 | [Kids Blocks](kids-blocks) added. |
-| March 10, 2025 | [Tetrasticks](tetrasticks) added. |
-| March 6, 2025 | [Polyominoes](polyominoes) added. |
+| March 10, 2025 | [🎮 Tetrasticks](tetrasticks) added. |
+| March 6, 2025 | [🎮 Polyominoes](polyominoes) added. |
 | February 23, 2025 | [Periodic Table Spelling](periodic-table-spelling) added. |
 | February 21, 2025 | [Nonogram Inversor](nonogram-inversor) added. |
 | February 21, 2025 | [Networking](reducing-sets-of-events) puzzle added to practice reducing sets of events. |

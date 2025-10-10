@@ -73,7 +73,7 @@ __Great Candidates for Algorithm X:__
 <BR>**Coming Soon** 🎮 Battleship Solitaire (+50 XP)
 <BR>**Coming Soon** 🎮 Magnets (+50 XP)
 
-🎮 = Solo Game with special visual effects.  
+🎮 = Solo Game with special visual effects that nicely demonstrate the exact cover.
 
 # My Promise to You
 
