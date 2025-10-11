@@ -1,10 +1,10 @@
 # Battleship Solitaire
 
-__Puzzle:__ [Pips](https://www.codingame.com/training/medium/battleship-solitaire)
+__Puzzle:__ [Battleship Solitaire](https://www.codingame.com/contribute/community)
 
 __Author:__ [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993)
 
-__Published Difficulty:__ Medium
+__Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ 
 

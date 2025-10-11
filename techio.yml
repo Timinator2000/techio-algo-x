@@ -262,16 +262,16 @@ plan:
         statement: 19 - 2025 and beyond/10 - crossword.md
       - title: Pips
         statement: 19 - 2025 and beyond/11 - pips.md
-      # - title: Connect the Colours - Part 1
-      #   statement: 19 - 2025 and beyond/12 - connect the colours part 1.md
-      # - title: Connect the Colours - Part 2
-      #   statement: 19 - 2025 and beyond/13 - connect the colours part 2.md
-      # - title: Connect the Colours - Part 2 (cont.)
-      #   statement: 19 - 2025 and beyond/14 - connect the colours part 2 (cont.).md
-      # - title: Battleship Solitaire
-      #   statement: 19 - 2025 and beyond/15 - battleship solitaire.md
-      # - title: Magnets
-      #   statement: 19 - 2025 and beyond/16 - magnets.md
+      - title: Connect the Colours - Part 1
+        statement: 19 - 2025 and beyond/12 - connect the colours part 1.md
+      - title: Connect the Colours - Part 2
+        statement: 19 - 2025 and beyond/13 - connect the colours part 2.md
+      - title: Connect the Colours - Part 2 (cont.)
+        statement: 19 - 2025 and beyond/14 - connect the colours part 2 (cont.).md
+      - title: Battleship Solitaire
+        statement: 19 - 2025 and beyond/15 - battleship solitaire.md
+      - title: Magnets
+        statement: 19 - 2025 and beyond/16 - magnets.md
   - title: Solver Translations
     plan:
       - title: Translations Overview

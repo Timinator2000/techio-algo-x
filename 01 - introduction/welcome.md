@@ -68,10 +68,10 @@ __Great Candidates for Algorithm X:__
 <BR>[Completed Mahjong Hands](completed-mahjong-hands) (+50 XP)
 <BR>[Crossword](crossword) (+50 XP)
 <BR>[🎮 Pips](pips) (+50 XP)
-<BR>**Coming Soon** 🎮 Connect the Colours - Part I (+50 XP)
-<BR>**Coming Soon** 🎮 Connect the Colours - Part II (+50 XP)
-<BR>**Coming Soon** 🎮 Battleship Solitaire (+50 XP)
-<BR>**Coming Soon** 🎮 Magnets (+50 XP)
+<BR>**Coming Soon** [🎮 Connect the Colours - Part I](connect-the-colours---part-1) (+50 XP)
+<BR>**Coming Soon** [🎮 Connect the Colours - Part II](connect-the-colours---part-2) (+50 XP)
+<BR>**Coming Soon** [🎮 Battleship Solitaire](battleship-solitaire) (+50 XP)
+<BR>**Coming Soon** [🎮 Magnets](magnets) (+50 XP)
 
 🎮 = Solo Game with special visual effects that nicely demonstrate the exact cover.
 
