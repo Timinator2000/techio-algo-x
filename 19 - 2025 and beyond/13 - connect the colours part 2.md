@@ -1,6 +1,6 @@
 # Connect the Colours - Part 2
 
-__Puzzle:__ [Connect the Colours Part 2 - COMING SOON](https://www.codingame.com/contribute/community)
+__Puzzle:__ [Connect the Colours Part 2 - COMING SOON](https://www.codingame.com/contribute/community?type=puzzle)
 
 __Author:__ [@Harry.B.](https://www.codingame.com/profile/d926a93cb394ded661b204822965c5fa7122915)
 
