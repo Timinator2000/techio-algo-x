@@ -8,5 +8,9 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ 
 
+<BR>
+
+![Magnets](Magnets.png)
+
 # Strategy
 

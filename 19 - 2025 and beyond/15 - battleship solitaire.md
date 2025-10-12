@@ -8,6 +8,8 @@ __Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ 
 
+<BR>
+
 ![Battleship Solitaire](BattleshipSolitaire.png)
 
 # Strateg
