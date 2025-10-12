@@ -8,6 +8,10 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Textbook _Generalized_ Exact Cover
 
+<BR>
+
+![TetraSticks](TetraSticks.png)
+
 # Strategy
 
 In the previous [polyominoes](polyominoes) discussion, I mentioned Donald Knuth’s Dancing Links paper on [arXiv.org]( https://arxiv.org/abs/cs/0011047). In that paper, Knuth also covers tetrasticks and I highly recommend studying his approach. Tetrasticks exist on the edges of cells and distinguishing horizontal edges from vertical edges requires great attention to detail, especially when considering various rotations of the game pieces.

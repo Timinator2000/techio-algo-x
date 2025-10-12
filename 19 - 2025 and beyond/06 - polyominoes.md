@@ -8,6 +8,10 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Textbook Exact Cover
 
+<BR>
+
+![Polyominoes](Polyominoes.png)
+
 # Strategy
 
 Donald Knuth covers Algorithm X and Dancing Links in _The Art of Computer Programming, Volume 4B Combinatorial Algorithms, Part 2_. The PDF I purchased from [informIT](https://www.informit.com/promotions/art-of-computer-programming-books-and-ebooks-140521) is __734 pages__! In November, 2000, Knuth published a 26 page PDF titled _Dancing Links_ on [arXiv.org](https://arxiv.org/abs/cs/0011047) where it can be downloaded for free.
