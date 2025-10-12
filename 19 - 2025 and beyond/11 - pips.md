@@ -8,6 +8,10 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Nice Exact Cover / Object-Oriented Design Opportunity
 
+<BR>
+
+![Pips](Pips.png)
+
 # Strategy
 
 In August 2025, the *New York Times* launched a [daily logic game called **Pips**](https://www.nytimes.com/games/pips), where players place dominoes onto a grid to satisfy a set of logical conditions defined across different regions. Less than a month later, [@VizGhar](https://www.codingame.com/profile/c152bee9fe8dc90ac4f6b84505b59ebb9086993) used the [CodinGame SDK](https://www.codingame.com/playgrounds/25775/codingame-sdk-documentation/introduction) to turn Pips into a solo-game coding challenge — your task is to write a program that can solve any Pips puzzle automatically.
