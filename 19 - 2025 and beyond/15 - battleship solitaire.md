@@ -24,7 +24,7 @@ Having completed a good number of exact cover problems, I didn’t expect this p
 
 The test case progression for this puzzle is extremely well done, letting you build your Algorithm X requirements and actions step by step. With a solid DLX setup, you’ll solve many test cases cleanly, and a small bit of logic based on the initial gameboard hints will take you close to the finish line.
 
-Solving these Battleship Solitaire grids *without* backtracking is a wonderful experience in itself. To explore strategies for introducing more hints or logical deductions before searching with Algorithm X, consider playing a [few games by hand](https://lukerissacher.com/battleships).
+Solving these Battleship Solitaire grids *without* backtracking is a wonderful experience in itself. To explore strategies for introducing more hints or logical deductions before searching with Algorithm X, consider [playing a few games by hand](https://lukerissacher.com/battleships).
 
 # Solving Logic Puzzle Logically 💯
 
