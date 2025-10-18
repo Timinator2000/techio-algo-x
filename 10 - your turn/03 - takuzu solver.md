@@ -99,7 +99,6 @@ The first two bullet points are the guidance you need to logically fill in more 
 
 <BR>
 
-# Solving Logic Puzzles Logically
+# Solving Logic Puzzles Logically 💯
 
-Many __Takuzu__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
-
+I have solved all __Takuzu__ test cases and validators without any backtracking. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
