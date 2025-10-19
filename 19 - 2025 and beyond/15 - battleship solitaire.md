@@ -28,4 +28,4 @@ Solving these Battleship Solitaire grids *without* backtracking is a wonderful e
 
 # Solving Logic Puzzle Logically 💯
 
-I have solved all Battleship Solitaire test cases and validators without a single step of backtracking. It’s not an easy row to hoe, but if you enjoy a pure logic challenge, this one delivers. Click [here](solving-with-logic-only) to see my ongoing progress toward solving as many logic puzzles as possible — strictly with reasoning, no guessing, and no backtracking.
+All Battleship Solitaire test cases and validators can be solved without making any guesses. It’s not an easy row to hoe, but if you enjoy a pure logic challenge, this one delivers. Click [here](solving-with-logic-only) to see my ongoing progress toward solving as many logic puzzles as possible — strictly with reasoning, no guessing, and no backtracking.

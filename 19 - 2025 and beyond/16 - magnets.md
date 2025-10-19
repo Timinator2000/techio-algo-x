@@ -14,3 +14,11 @@ __Algorithm X Complexity:__
 
 # Strategy
 
+
+
+
+# Solving Logic Puzzles Logically 💯
+
+All __Magnets__ test cases and validators can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
+
+
