@@ -2,6 +2,7 @@
 
 |Date|Details|
 |:--------:|:----------------|
+| **Coming Soon** | We have moved. |
 | **Coming Soon** | 🎮 [Connect the Colours - Part 1](connect-the-colours---part-1) |
 | **Coming Soon** | 🎮 [Connect the Colours - Part 2](connect-the-colours---part-2) |
 | **Coming Soon** | 🎮 [Battleship Solitaire](battleship-solitaire) |
